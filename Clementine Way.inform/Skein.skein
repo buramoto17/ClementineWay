@@ -1,0 +1,152 @@
+<?xml version="1.0"?>
+<Skein rootNode="node-0x7d32b0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Zoom</generator>
+  <activeNode nodeId="node-0xcf951a0" />
+  <item nodeId="node-0x7d32b0">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+Clemintine Way
+An Interactive Fiction by Brent Uramoto
+Release 1 / Serial number 141014 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+
+My Kitchen
+This is where I cook my meals everyday. It is a medium sized room with standard kitchen appliances. The oven is in the far corner of the room, and the stove is to your right, and a smoke vent is above it. The refrigerator is on the right wall. There is a marble table in the middle of the room. The kitchen is lit by while fourecent lights and a window that looks out into the yard.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="39">NO</temporary>
+    <children>
+      <child nodeId="node-0xaccd4e0" />
+      <child nodeId="node-0x7fed890" />
+      <child nodeId="node-0xcfb7dc0" />
+    </children>
+  </item>
+  <item nodeId="node-0xcfb7dc0">
+    <command xml:space="preserve">x oven</command>
+    <result xml:space="preserve">(Oven)
+A standard eletric oven. It is fairly new, I only bought it six months ago. The oven controls is a simple knob that has different temeratures on it. 300, 350 and 400. 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0xb79d420" />
+      <child nodeId="node-0xacd26c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xacd26c0">
+    <command xml:space="preserve">turn oven controls to 300</command>
+    <result xml:space="preserve">The oven is starting to get warm.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="12">YES</temporary>
+    <children>
+      <child nodeId="node-0xb7a0ae0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb7a0ae0">
+    <command xml:space="preserve">x oven</command>
+    <result xml:space="preserve">(Oven)
+A standard eletric oven. It is fairly new, I only bought it six months ago. The oven controls is a simple knob that has different temeratures on it. 300, 350 and 400. 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="11">YES</temporary>
+  </item>
+  <item nodeId="node-0xb79d420">
+    <command xml:space="preserve">turn controls to 300</command>
+    <result xml:space="preserve">The oven starts to get warm, and after a few minutes, the temperature skyrockets to 300ºF.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0xcfbb8f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xcfbb8f0">
+    <command xml:space="preserve">x oven</command>
+    <result xml:space="preserve">(Oven)
+A standard eletric oven. It is fairly new, I only bought it six months ago. The oven controls is a simple knob that has different temeratures on it. 300, 350 and 400. Now the oven is at a hot 300ºF.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0xe9daf70" />
+    </children>
+  </item>
+  <item nodeId="node-0xe9daf70">
+    <command xml:space="preserve">turn controls to 400</command>
+    <result xml:space="preserve">The oven temperature soars until it reaches 400ºF. Even standing a few feet away from it, you can feel the heat bouncing off your face.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0xac3ad50" />
+    </children>
+  </item>
+  <item nodeId="node-0xac3ad50">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0xcf6d8b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xcf6d8b0">
+    <command xml:space="preserve">turn oven controls to 400</command>
+    <result xml:space="preserve">The oven temperature soars until it reaches 400ºF. Even standing a few feet away from it, you can feel the heat bouncing off your face.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0xcf951a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xcf951a0">
+    <command xml:space="preserve">x oven</command>
+    <result xml:space="preserve">(Oven)
+A standard eletric oven. It is fairly new, I only bought it six months ago. The oven controls is a simple knob that has different temeratures on it. 300, 350 and 400.  Now the oven is at a searing 400ºF
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="38">YES</temporary>
+  </item>
+  <item nodeId="node-0x7fed890">
+    <command xml:space="preserve">turn oven controls to 200</command>
+    <result xml:space="preserve">The oven is starting to get warm.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2">YES</temporary>
+  </item>
+  <item nodeId="node-0xaccd4e0">
+    <command xml:space="preserve">take oven controls</command>
+    <result xml:space="preserve">That seems to be a part of Oven.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1">YES</temporary>
+  </item>
+</Skein>
