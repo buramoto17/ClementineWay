@@ -1,140 +1,33 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x48b560" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x1f4bc0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x90f3c30" />
-  <item nodeId="node-0x48b560">
+  <activeNode nodeId="node-0x1f4bc0" />
+  <item nodeId="node-0x1f4bc0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
 
-Clemintine Way
+Clementine Way
 An Interactive Fiction by Brent Uramoto
-Release 1 / Serial number 141016 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 141020 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
 
 My Kitchen
-This is where I cook my meals everyday. It is a medium sized room with standard kitchen appliances. The oven is in the far corner of the room, and the stove is to your right, and a smoke vent is above it. The refrigerator is on the right wall. There is a marble table in the middle of the room. My recipe locker is next to the refridgerator. The kitchen is lit by while fourecent lights and a window that looks out into the yard.
+This is where I cook my meals. It is a medium sized room with an oven and a refrigerator. The oven is in the far corner of the room, The refrigerator is on the right wall. There is a marble table in the middle of the room. My recipe locker is next to the refrigerator. The kitchen is lit by while florescent lights and a window that looks out into the yard. The Dining Room is to the west, the Bed Room is to the south, the Living room is to the east.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="47">NO</temporary>
     <children>
-      <child nodeId="node-0x1f37d0" />
-      <child nodeId="node-0x6f62e10" />
-      <child nodeId="node-0x4034a0" />
-      <child nodeId="node-0x403430" />
-      <child nodeId="node-0x6f423d0" />
-      <child nodeId="node-0x48b5b0" />
+      <child nodeId="node-0x1f49d0" />
+      <child nodeId="node-0x124620" />
+      <child nodeId="node-0x124a70" />
+      <child nodeId="node-0x124a20" />
+      <child nodeId="node-0x124ac0" />
+      <child nodeId="node-0x124c60" />
     </children>
   </item>
-  <item nodeId="node-0x48b5b0">
-    <command xml:space="preserve">x oven</command>
-    <result xml:space="preserve">(Oven)
-A standard eletric oven. It is fairly new, I only bought it six months ago. The oven controls is a simple knob that has different temeratures on it. 300, 350 and 400. 
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="39">YES</temporary>
-    <children>
-      <child nodeId="node-0x48b6a0" />
-      <child nodeId="node-0x48b600" />
-    </children>
-  </item>
-  <item nodeId="node-0x48b600">
-    <command xml:space="preserve">turn oven controls to 300</command>
-    <result xml:space="preserve">The oven is starting to get warm.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="12">YES</temporary>
-    <children>
-      <child nodeId="node-0x48b650" />
-    </children>
-  </item>
-  <item nodeId="node-0x48b650">
-    <command xml:space="preserve">x oven</command>
-    <result xml:space="preserve">(Oven)
-A standard eletric oven. It is fairly new, I only bought it six months ago. The oven controls is a simple knob that has different temeratures on it. 300, 350 and 400. 
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="11">YES</temporary>
-  </item>
-  <item nodeId="node-0x48b6a0">
-    <command xml:space="preserve">turn controls to 300</command>
-    <result xml:space="preserve">The oven starts to get warm, and after a few minutes, the temperature skyrockets to 300ºF.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="39">YES</temporary>
-    <children>
-      <child nodeId="node-0x48b710" />
-    </children>
-  </item>
-  <item nodeId="node-0x48b710">
-    <command xml:space="preserve">x oven</command>
-    <result xml:space="preserve">(Oven)
-A standard eletric oven. It is fairly new, I only bought it six months ago. The oven controls is a simple knob that has different temeratures on it. 300, 350 and 400. Now the oven is at a hot 300ºF.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="39">YES</temporary>
-    <children>
-      <child nodeId="node-0x48b780" />
-    </children>
-  </item>
-  <item nodeId="node-0x48b780">
-    <command xml:space="preserve">turn controls to 400</command>
-    <result xml:space="preserve">The oven temperature soars until it reaches 400ºF. Even standing a few feet away from it, you can feel the heat bouncing off your face.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="39">YES</temporary>
-    <children>
-      <child nodeId="node-0x403340" />
-    </children>
-  </item>
-  <item nodeId="node-0x403340">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="39">YES</temporary>
-    <children>
-      <child nodeId="node-0x403390" />
-    </children>
-  </item>
-  <item nodeId="node-0x403390">
-    <command xml:space="preserve">turn oven controls to 400</command>
-    <result xml:space="preserve">The oven temperature soars until it reaches 400ºF. Even standing a few feet away from it, you can feel the heat bouncing off your face.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="39">YES</temporary>
-    <children>
-      <child nodeId="node-0x4033e0" />
-    </children>
-  </item>
-  <item nodeId="node-0x4033e0">
-    <command xml:space="preserve">x oven</command>
-    <result xml:space="preserve">(Oven)
-A standard eletric oven. It is fairly new, I only bought it six months ago. The oven controls is a simple knob that has different temeratures on it. 300, 350 and 400.  Now the oven is at a searing 400ºF
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="38">YES</temporary>
-  </item>
-  <item nodeId="node-0x6f423d0">
+  <item nodeId="node-0x124c60">
     <command xml:space="preserve">x recipe locker</command>
     <result xml:space="preserve">I only understood you as far as wanting to examine Recipe storage.
 
@@ -143,10 +36,10 @@ A standard eletric oven. It is fairly new, I only bought it six months ago. The 
     <changed>YES</changed>
     <temporary score="11">YES</temporary>
     <children>
-      <child nodeId="node-0x8f894c0" />
+      <child nodeId="node-0x124bf0" />
     </children>
   </item>
-  <item nodeId="node-0x8f894c0">
+  <item nodeId="node-0x124bf0">
     <command xml:space="preserve">x recipe storage</command>
     <result xml:space="preserve">It is a white wood locker that I keep my recipes in. It is closed.
 
@@ -155,7 +48,7 @@ A standard eletric oven. It is fairly new, I only bought it six months ago. The 
     <changed>YES</changed>
     <temporary score="10">YES</temporary>
   </item>
-  <item nodeId="node-0x403430">
+  <item nodeId="node-0x124ac0">
     <command xml:space="preserve">turn oven controls to 200</command>
     <result xml:space="preserve">The oven is starting to get warm.
 
@@ -164,16 +57,7 @@ A standard eletric oven. It is fairly new, I only bought it six months ago. The 
     <changed>YES</changed>
     <temporary score="2">YES</temporary>
   </item>
-  <item nodeId="node-0x4034a0">
-    <command xml:space="preserve">take oven controls</command>
-    <result xml:space="preserve">That seems to be a part of Oven.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1">YES</temporary>
-  </item>
-  <item nodeId="node-0x6f62e10">
+  <item nodeId="node-0x124a20">
     <command xml:space="preserve">hello</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -182,10 +66,10 @@ A standard eletric oven. It is fairly new, I only bought it six months ago. The 
     <changed>YES</changed>
     <temporary score="9">YES</temporary>
     <children>
-      <child nodeId="node-0x2061d0" />
+      <child nodeId="node-0x1249d0" />
     </children>
   </item>
-  <item nodeId="node-0x2061d0">
+  <item nodeId="node-0x1249d0">
     <command xml:space="preserve">x me</command>
     <result xml:space="preserve">As good-looking as ever.
 
@@ -194,10 +78,10 @@ A standard eletric oven. It is fairly new, I only bought it six months ago. The 
     <changed>YES</changed>
     <temporary score="9">YES</temporary>
     <children>
-      <child nodeId="node-0x6fc3bf0" />
+      <child nodeId="node-0x124980" />
     </children>
   </item>
-  <item nodeId="node-0x6fc3bf0">
+  <item nodeId="node-0x124980">
     <command xml:space="preserve">xme</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -206,10 +90,10 @@ A standard eletric oven. It is fairly new, I only bought it six months ago. The 
     <changed>YES</changed>
     <temporary score="9">YES</temporary>
     <children>
-      <child nodeId="node-0x202f50" />
+      <child nodeId="node-0x124910" />
     </children>
   </item>
-  <item nodeId="node-0x202f50">
+  <item nodeId="node-0x124910">
     <command xml:space="preserve">x me</command>
     <result xml:space="preserve">As good-looking as ever.
 
@@ -218,10 +102,10 @@ A standard eletric oven. It is fairly new, I only bought it six months ago. The 
     <changed>YES</changed>
     <temporary score="9">YES</temporary>
     <children>
-      <child nodeId="node-0x6f60550" />
+      <child nodeId="node-0x1248a0" />
     </children>
   </item>
-  <item nodeId="node-0x6f60550">
+  <item nodeId="node-0x1248a0">
     <command xml:space="preserve">x me</command>
     <result xml:space="preserve">As good-looking as ever.
 
@@ -230,10 +114,10 @@ A standard eletric oven. It is fairly new, I only bought it six months ago. The 
     <changed>YES</changed>
     <temporary score="9">YES</temporary>
     <children>
-      <child nodeId="node-0x6ff2fe0" />
+      <child nodeId="node-0x124830" />
     </children>
   </item>
-  <item nodeId="node-0x6ff2fe0">
+  <item nodeId="node-0x124830">
     <command xml:space="preserve">yes</command>
     <result xml:space="preserve">That was a rhetorical question.
 
@@ -242,10 +126,10 @@ A standard eletric oven. It is fairly new, I only bought it six months ago. The 
     <changed>YES</changed>
     <temporary score="9">YES</temporary>
     <children>
-      <child nodeId="node-0x6f5d800" />
+      <child nodeId="node-0x124b70" />
     </children>
   </item>
-  <item nodeId="node-0x6f5d800">
+  <item nodeId="node-0x124b70">
     <command xml:space="preserve">are you there?</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -254,10 +138,10 @@ A standard eletric oven. It is fairly new, I only bought it six months ago. The 
     <changed>YES</changed>
     <temporary score="9">YES</temporary>
     <children>
-      <child nodeId="node-0x6f56cc0" />
+      <child nodeId="node-0x124b10" />
     </children>
   </item>
-  <item nodeId="node-0x6f56cc0">
+  <item nodeId="node-0x124b10">
     <command xml:space="preserve">no</command>
     <result xml:space="preserve">That was a rhetorical question.
 
@@ -266,7 +150,16 @@ A standard eletric oven. It is fairly new, I only bought it six months ago. The 
     <changed>YES</changed>
     <temporary score="8">YES</temporary>
   </item>
-  <item nodeId="node-0x1f37d0">
+  <item nodeId="node-0x124a70">
+    <command xml:space="preserve">take oven controls</command>
+    <result xml:space="preserve">That seems to be a part of Oven.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1">YES</temporary>
+  </item>
+  <item nodeId="node-0x124620">
     <command xml:space="preserve">x recipe storage</command>
     <result xml:space="preserve">It is a white wood locker that I keep my recipes in. It is closed.
 
@@ -275,10 +168,10 @@ A standard eletric oven. It is fairly new, I only bought it six months ago. The 
     <changed>NO</changed>
     <temporary score="47">YES</temporary>
     <children>
-      <child nodeId="node-0x90747b0" />
+      <child nodeId="node-0x1245b0" />
     </children>
   </item>
-  <item nodeId="node-0x90747b0">
+  <item nodeId="node-0x1245b0">
     <command xml:space="preserve">open</command>
     <result xml:space="preserve">(Unlabled can of soup)
 It seems to be locked.
@@ -288,10 +181,10 @@ It seems to be locked.
     <changed>NO</changed>
     <temporary score="47">YES</temporary>
     <children>
-      <child nodeId="node-0x6f09930" />
+      <child nodeId="node-0x124540" />
     </children>
   </item>
-  <item nodeId="node-0x6f09930">
+  <item nodeId="node-0x124540">
     <command xml:space="preserve">open recipe storage</command>
     <result xml:space="preserve">You open Recipe storage, revealing Old recipe.
 
@@ -300,10 +193,10 @@ It seems to be locked.
     <changed>NO</changed>
     <temporary score="47">YES</temporary>
     <children>
-      <child nodeId="node-0x9079b10" />
+      <child nodeId="node-0x1244d0" />
     </children>
   </item>
-  <item nodeId="node-0x9079b10">
+  <item nodeId="node-0x1244d0">
     <command xml:space="preserve">open recipe storage</command>
     <result xml:space="preserve">That&apos;s already open.
 
@@ -312,10 +205,10 @@ It seems to be locked.
     <changed>NO</changed>
     <temporary score="47">YES</temporary>
     <children>
-      <child nodeId="node-0x90983c0" />
+      <child nodeId="node-0x124460" />
     </children>
   </item>
-  <item nodeId="node-0x90983c0">
+  <item nodeId="node-0x124460">
     <command xml:space="preserve">x recipe storage</command>
     <result xml:space="preserve">It is a white wood locker that I keep my recipes in.It is open. There are a bunch of interesting recpies in here, but ther is one that you had intended to make for Jennifer.
 
@@ -326,10 +219,10 @@ In Recipe storage is Old recipe.
     <changed>NO</changed>
     <temporary score="47">YES</temporary>
     <children>
-      <child nodeId="node-0x6f61700" />
+      <child nodeId="node-0x1243f0" />
     </children>
   </item>
-  <item nodeId="node-0x6f61700">
+  <item nodeId="node-0x1243f0">
     <command xml:space="preserve">take old recipe</command>
     <result xml:space="preserve">Taken.
 
@@ -338,10 +231,10 @@ In Recipe storage is Old recipe.
     <changed>NO</changed>
     <temporary score="47">YES</temporary>
     <children>
-      <child nodeId="node-0x4f2d90" />
+      <child nodeId="node-0x124380" />
     </children>
   </item>
-  <item nodeId="node-0x4f2d90">
+  <item nodeId="node-0x124380">
     <command xml:space="preserve">x old recipe</command>
     <result xml:space="preserve">This is a dish that Jennifer and I used to make when we were kids. It is still a good recipe, in fact, I made it a month ago, and it tasted great! But I accidentally ripped the paper when I made it last time. To make matters worse, I&apos;ve completely forgotten how to make it. I can only make out some writing of the scraps. &quot;Soup&quot;...&quot;oven&quot;...&quot;smokey&quot;...&quot;M and Ms&quot;. Not going to be much help, but it&apos;s all I got for now.
 
@@ -350,10 +243,10 @@ In Recipe storage is Old recipe.
     <changed>NO</changed>
     <temporary score="47">YES</temporary>
     <children>
-      <child nodeId="node-0x90f3c30" />
+      <child nodeId="node-0x124310" />
     </children>
   </item>
-  <item nodeId="node-0x90f3c30">
+  <item nodeId="node-0x124310">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">My Kitchen
 This is where I cook my meals everyday. It is a medium sized room with standard kitchen appliances. The oven is in the far corner of the room, and the stove is to your right, and a smoke vent is above it. The refrigerator is on the right wall. There is a marble table in the middle of the room. My recipe locker is next to the refridgerator. The kitchen is lit by while fourecent lights and a window that looks out into the yard.
@@ -362,5 +255,112 @@ This is where I cook my meals everyday. It is a medium sized room with standard 
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="46">YES</temporary>
+  </item>
+  <item nodeId="node-0x1f49d0">
+    <command xml:space="preserve">x oven</command>
+    <result xml:space="preserve">(Oven)
+A standard eletric oven. It is fairly new, I only bought it six months ago. The oven controls is a simple knob that has different temeratures on it. 300, 350 and 400. 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x1f4ca0" />
+      <child nodeId="node-0x1f4a20" />
+    </children>
+  </item>
+  <item nodeId="node-0x1f4a20">
+    <command xml:space="preserve">turn oven controls to 300</command>
+    <result xml:space="preserve">The oven is starting to get warm.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="12">YES</temporary>
+    <children>
+      <child nodeId="node-0x1f4c10" />
+    </children>
+  </item>
+  <item nodeId="node-0x1f4c10">
+    <command xml:space="preserve">x oven</command>
+    <result xml:space="preserve">(Oven)
+A standard eletric oven. It is fairly new, I only bought it six months ago. The oven controls is a simple knob that has different temeratures on it. 300, 350 and 400. 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="11">YES</temporary>
+  </item>
+  <item nodeId="node-0x1f4ca0">
+    <command xml:space="preserve">turn controls to 300</command>
+    <result xml:space="preserve">The oven starts to get warm, and after a few minutes, the temperature skyrockets to 300ºF.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x1f4d10" />
+    </children>
+  </item>
+  <item nodeId="node-0x1f4d10">
+    <command xml:space="preserve">x oven</command>
+    <result xml:space="preserve">(Oven)
+A standard eletric oven. It is fairly new, I only bought it six months ago. The oven controls is a simple knob that has different temeratures on it. 300, 350 and 400. Now the oven is at a hot 300ºF.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x124e20" />
+    </children>
+  </item>
+  <item nodeId="node-0x124e20">
+    <command xml:space="preserve">turn controls to 400</command>
+    <result xml:space="preserve">The oven temperature soars until it reaches 400ºF. Even standing a few feet away from it, you can feel the heat bouncing off your face.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x124d50" />
+    </children>
+  </item>
+  <item nodeId="node-0x124d50">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x124d00" />
+    </children>
+  </item>
+  <item nodeId="node-0x124d00">
+    <command xml:space="preserve">turn oven controls to 400</command>
+    <result xml:space="preserve">The oven temperature soars until it reaches 400ºF. Even standing a few feet away from it, you can feel the heat bouncing off your face.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x124cb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x124cb0">
+    <command xml:space="preserve">x oven</command>
+    <result xml:space="preserve">(Oven)
+A standard eletric oven. It is fairly new, I only bought it six months ago. The oven controls is a simple knob that has different temeratures on it. 300, 350 and 400.  Now the oven is at a searing 400ºF
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="38">YES</temporary>
   </item>
 </Skein>
