@@ -54,23 +54,57 @@ Dining Room is west of the Kitchen. "This is where meals are eaten. It is a smal
 [end of Dining Room]
 
 [Start of Bedroom]
-Bed Room is south of Kitchen. "This is where I sleep every night. My bed is right in front of me, the phone is on the nightstand to the left of the bed, and a desk lamp lights the room. The Kitchen is to the north."
+Bed Room is south of Kitchen. "This is where I sleep every night. My bed is right in front of me, the phone and my address book is on the nightstand to the left of the bed, and a desk lamp lights the room. The Kitchen is to the north."
+
+Phone is a thing in Bed Room. It is undescribed. The description is "A regular house phone. I don't use it that often, maybe four times a week. It has a dial pad to put in numbers."
 [End of Bedroom]
 
 [Start of Living room]
-Living Room is east of Kitchen."This is the living room where I sit on the couch and watch TV. [if Clean is 1] It was a mess, but now it is very organized and clean. [end if] The Street is past the front door to the north."
+Living Room is east of Kitchen."This is the living room where I sit on the couch and watch TV. My adress book is here on the coffee table. [if Clean is 1] It was a mess, but now it is very organized and clean. [end if] The Street is past the front door to the north."
+
+Coffee Table is a supporter in the Living Room. It is fixed in place. The description is "A simple gass coffee table. It always fogs up under anything that has a different temperature than the glass."
+
+Understand "424-8475" or "call 424-8475" or "dial 424-8475" as casting 424-8475.
+
+Casting 424-8475 is an action applying to nothing.
+Instead of casting 424-8475:
+	If player is carrying phone:
+		Say "Hello" [First step in making the call. Need to add conversation here later]
+	
+
+Address Book is a container in Living Room. It is fixed in place. It is undescribed. It is closed and openable. The description is "This is the address book that I keep next to my phone in case I want to call someone."[Open the adress book that has multiple numbers in it. If I have time, I will make calling the other numbers something else.]
+
+[Start phone numbers]
+Jennifer's Number is a thing in Address Book. It is fixed in place. The description is "424-8475".
+Mitch's Number is a thing in Address Book. It is fixed in place. The description is "424-5332".
+Margret's Number is a thing in Address Book. It is fixed in place. The description is "424-9485".
+Steve's Number is a thing in Address Book. It is fixed in place. The description is "424-7778".
+[End phone numbers]
+
 [end of living room]
 
 [Start of Clementine Way]
-Clementine Way is north of Living Room. "This is the street that runs past the front of my house. Good thing the street lights are on, otherwise, it would be pitch black. The sidewalk and asphalt are in good condition. Cool Autumn breezes make you shiver slightly. The Intersection by Jennifer's house is to the east, and my house is to the south."
+Clementine Way is north of Living Room. "This is the street that runs past the front of my house. Good thing the street lights are on, otherwise, it would be pitch black. The sidewalk and asphalt are in good condition. Cool Autumn breezes make you shiver slightly. The Intersection by Jennifer's house is to the east, and my house is to the south."[Need to add more description here]
 [End of Clementine Way]
 
 [Start of Intersection]
-Intersection is east of Clementine Way. "This is a well-lit intersection.  Clementine Way and Walnut street meet here in a T. Only a stop sign controls traffic in the intersection.The cool air feels nice on my face. Jennifer's house is to the south."
+Intersection is east of Clementine Way. "This is a well-lit intersection.  Clementine Way and Walnut street meet here in a T. Only a stop sign controls traffic in the intersection.The cool air feels nice on my face. Jennifer's house is to the south."[Need to add more description here]
 [end of intersection]
 
 [Start of Jennifer's porch]
-Jennifer's porch is south of Intersection. "I am now standing in front of Jennifer's door. She has a white medium-sized house. The porch is made of red plastic. The intersection is to the north, and Jennifer's door is to the south."
+Jennifer's Porch is south of Intersection. "I am now standing in front of Jennifer's door. She has a white medium-sized house. The porch is made of red plastic. The intersection is to the north, and Jennifer's door is to the south."[Need to add more description here]
 [End of Jennifer's porch]
+
+[Start of Jennifer's Door]
+Jennifer's Door is south of Jennifer's Porch and north of Jennifer's Living Room. Jennifer's Door is a door. "It is a wood door painted red. It has a simple brass keyhole and brass knob. The plaque on the door presents the numbers '6512'"[This is supposed to be locked, but I am currently testing if all the rooms are able to be walked through]
+[End of Jennifer's porch]
+
+[Start Jennifer's Living Room]
+Jennifer's Living Room is south of Jennifer's Door. "This is Jennifer's Living Room. I've only been over here once or twice. It is a fairly large room, but it has a cozy feeling to it. Jennifer's Porch is to the north, and Jennifer's Kitchen is to the south."[Need to add more description here]
+[End of Jennifer's Living Room]
+
+[Start Jennifer's kitchen]
+Jennifer's Kitchen is south of Jennifer's Living Room. "This is Jennifer's kitchen. It is smaller than mine, but it has all the appliances. Jennifer's Living Room is to the north."[Need to add more description here]
+[End Jennifer's kitchen]
 
 [task for next time-create stove and refrigerator. If have time, create description for player and rest of rooms for house. Refer to Inspire map for rooms.]
