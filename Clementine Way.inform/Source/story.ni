@@ -3,11 +3,15 @@
 My Kitchen is a room. "This is where I cook my meals. It is a medium sized room with an oven and a refrigerator. The oven is in the far corner of the room, The refrigerator is on the right wall. There is a marble table in the middle of the room. My recipe locker is next to the refrigerator. The kitchen is lit by while florescent lights and a window that looks out into the yard. The Dining Room is to the west, the Bed Room is to the south, the Living room is to the east."
 
 [setting variables]
-Oven Temp is a number that varies. Oven Temp is 0.
-[remember to put a period at the end of statements like these]
+Oven Temp is a number that varies. Oven Temp is 0.[remember to put a period at the end of statements like these]
 Story Line is a number that varies. Story Line is 0.
 Clean is a number that varies. Clean is 0.
+Call is a number that varies. Call is 0.
 [end variables]
+
+[Start NPC Jennifer]
+Jennifer is a woman. She is nowhere.
+[End NPC Jennifer]
 
 [Tells inform to understand the term for turning]
 Understand "turn [something] to [a number]" as turning it to.
@@ -60,22 +64,53 @@ Phone is a thing in Bed Room. It is undescribed. The description is "A regular h
 [End of Bedroom]
 
 [Start of Living room]
-Living Room is east of Kitchen."This is the living room where I sit on the couch and watch TV. My adress book is here on the coffee table. [if Clean is 1] It was a mess, but now it is very organized and clean. [end if] The Street is past the front door to the north."
+Living Room is east of Kitchen."This is the living room where I sit on the couch and watch TV. My address book is here on the coffee table. [if Clean is 1] It was a mess, but now it is very organized and clean. [end if] The Street is past the front door to the north."
 
-Coffee Table is a supporter in the Living Room. It is fixed in place. The description is "A simple gass coffee table. It always fogs up under anything that has a different temperature than the glass."
+Coffee Table is a supporter in the Living Room. It is fixed in place. The description is "A simple glass coffee table. It always fogs up under anything that has a different temperature than the glass."
 
 Understand "424-8475" or "call 424-8475" or "dial 424-8475" as casting 424-8475.
 
-Casting 424-8475 is an action applying to nothing.
+[Casting 424-8475 is an action applying to nothing.
 Instead of casting 424-8475:
 	If player is carrying phone:
-		Say "Hello" [First step in making the call. Need to add conversation here later]
-	
+		Say "The telephone rings ";[First step in making the call. Need to add conversation here later]
+		Now call is 2. [This is just like talking over the phone. I move the NPC (Jennifer) into the bed room and make the player talk to her. Down below, I made an "if" statement saying that if]]
+		
+Casting 424-8475 is an action applying to nothing.
+Instead of casting 424-8475:
+	If casting 424-8475 for the first time:
+		If player is carrying phone:
+			If Story Line is 1:
+				Say "hello";
+				Now call is 2.[This is just to show that player has the phone is is calling right now]
+			
+[Code to end call to Jennifer]
+Understand "hang up" or "end call" as casting end call.
 
-Address Book is a container in Living Room. It is fixed in place. It is undescribed. It is closed and openable. The description is "This is the address book that I keep next to my phone in case I want to call someone."[Open the adress book that has multiple numbers in it. If I have time, I will make calling the other numbers something else.]
+Casting end call is an action applying to nothing.
+Instead of casting end call:
+	Now call is 1;
+	Remove Jennifer from play.
+[Ending the Call]	
+
+
+[This is to prevent player from looking around the room and seeing Jennifer.]
+An every turn rule:
+	If Call is 2:
+		Move Jennifer to the location of the player;
+		[Instead of looking:
+		   Say "asdf".]
+		
+An every turn rule:
+	If player is not carrying phone:
+		Now call is 0.
+	
+Address Book is a container in Living Room. It is fixed in place. It is undescribed. It is closed and openable. The description is "This is the address book that I keep next to my phone in case I want to call someone."[Open the address book that has multiple numbers in it. If I have time, I will make calling the other numbers something else.]
 
 [Start phone numbers]
 Jennifer's Number is a thing in Address Book. It is fixed in place. The description is "424-8475".
+After examining Jennifer's Number for the first time:
+	Increase Story Line by 1.
 Mitch's Number is a thing in Address Book. It is fixed in place. The description is "424-5332".
 Margret's Number is a thing in Address Book. It is fixed in place. The description is "424-9485".
 Steve's Number is a thing in Address Book. It is fixed in place. The description is "424-7778".

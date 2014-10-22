@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x1f4bc0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0xbb82d30" />
+  <activeNode nodeId="node-0x1f4bc0" />
   <item nodeId="node-0x1f4bc0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -9,15 +9,13 @@
 
 Clementine Way
 An Interactive Fiction by Brent Uramoto
-Release 1 / Serial number 141020 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 141021 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
 
-My Kitchen
-This is where I cook my meals. It is a medium sized room with an oven and a refrigerator. The oven is in the far corner of the room, The refrigerator is on the right wall. There is a marble table in the middle of the room. My recipe locker is next to the refrigerator. The kitchen is lit by while florescent lights and a window that looks out into the yard. The Dining Room is to the west, the Bed Room is to the south, the Living room is to the east.
-
+asdf
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="42">NO</temporary>
+    <temporary score="109">NO</temporary>
     <children>
       <child nodeId="node-0x1f49d0" />
       <child nodeId="node-0x124a20" />
@@ -25,6 +23,7 @@ This is where I cook my meals. It is a medium sized room with an oven and a refr
       <child nodeId="node-0x124ac0" />
       <child nodeId="node-0x124c60" />
       <child nodeId="node-0x124620" />
+      <child nodeId="node-0xc02a890" />
       <child nodeId="node-0x99d7d80" />
     </children>
   </item>
@@ -37,8 +36,9 @@ This is where I sleep every night. My bed is right in front of me, the phone and
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="42">YES</temporary>
+    <temporary score="107">YES</temporary>
     <children>
+      <child nodeId="node-0xc09f910" />
       <child nodeId="node-0xc085160" />
     </children>
   </item>
@@ -103,12 +103,110 @@ This is where I sleep every night. My bed is right in front of me, the phone and
   </item>
   <item nodeId="node-0xbb82d30">
     <command xml:space="preserve">take phone</command>
-    <result xml:space="preserve">That&apos;s fixed in place.
+    <result xml:space="preserve">Taken.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="41">YES</temporary>
+  </item>
+  <item nodeId="node-0xc09f910">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xc027450" />
+    </children>
+  </item>
+  <item nodeId="node-0xc027450">
+    <command xml:space="preserve">take phone</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0x1853f020" />
+    </children>
+  </item>
+  <item nodeId="node-0x1853f020">
+    <command xml:space="preserve">424-8475</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xc0f0580" />
+    </children>
+  </item>
+  <item nodeId="node-0xc0f0580">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xd4edbb0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd4edbb0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xbc96df0" />
+    </children>
+  </item>
+  <item nodeId="node-0xbc96df0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+My Kitchen
+This is where I cook my meals. It is a medium sized room with an oven and a refrigerator. The oven is in the far corner of the room, The refrigerator is on the right wall. There is a marble table in the middle of the room. My recipe locker is next to the refrigerator. The kitchen is lit by while florescent lights and a window that looks out into the yard. The Dining Room is to the west, the Bed Room is to the south, the Living room is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0x185c3710" />
+    </children>
+  </item>
+  <item nodeId="node-0x185c3710">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="106">YES</temporary>
+  </item>
+  <item nodeId="node-0xc02a890">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying nothing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x18550e40" />
+    </children>
+  </item>
+  <item nodeId="node-0x18550e40">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="108">YES</temporary>
   </item>
   <item nodeId="node-0x124620">
     <command xml:space="preserve">x recipe storage</command>
