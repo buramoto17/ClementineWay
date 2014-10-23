@@ -51,10 +51,14 @@ Old recipe is a thing in recipe storage. The description is "This is a dish that
 
 Marble table is a supporter in the kitchen. It is undescribed. It is fixed in place. The description is "A black and white marble table. It's been here as long as my house was here."
 
-Unlabeled can of soup is a closed openable container. It is locked. The description is "An unlabeled can of soup. The outside is made of the typical corrugated tin."
+Unlabeled can of soup is a closed openable container. It is locked. The description is "An unlabeled can of soup. The outside is made of the typical shiny corrugated tin."
 
 [Start of Dining Room]
 Dining Room is west of the Kitchen. "This is where meals are eaten. It is a small room consisting of a small wood table, 2 wood chairs, and a utensil cabinet. A glass chandelier casts a warm glow in the room. There is a window that looks out onto Clementine Way. The Kitchen is to the east."
+
+Wood Chairs is scenery in the Dining Room. It is undescribed. The description is "Koa wood chairs that my grandparents gave to me to match the table. They are very expensive."
+
+Dining table is scenery in the Dining Room. It is undescribed. The description is "A koa wood table that my grandparents gave to me to go along with the chairs. It is very heavy and very expensive."
 [end of Dining Room]
 
 [Start of Bedroom]
@@ -81,8 +85,13 @@ Instead of casting 424-8475:
 	If casting 424-8475 for the first time:
 		If player is carrying phone:
 			If Story Line is 1:
-				Say "hello";
-				Now call is 2.[This is just to show that player has the phone is is calling right now]
+				Say "Alright, so I need to ask Jennifer about her plans for tonight. What should I ask about? Dinner? Movies? Shopping? You take a deep breath and dial the number.  After a couple rings, Jennifer's voice comes over the line. 'Hello?'";
+				Now call is 2;[This is just to show that player has the phone is is calling right now]
+				Continue the action.
+				
+Instead of casting 424-8475 more than once:
+	Say "I don't want to annoy Jennifer with multiple calls, better not call her again."
+				
 			
 [Code to end call to Jennifer]
 Understand "hang up" or "end call" as casting end call.
@@ -96,14 +105,49 @@ Instead of casting end call:
 
 [This is to prevent player from looking around the room and seeing Jennifer.]
 An every turn rule:
-	If Call is 2:
-		Move Jennifer to the location of the player;
-		[Instead of looking:
-		   Say "asdf".]
+	If player is carrying phone:
+		If Call is 2:
+			Move Jennifer to the location of the player. Jennifer is undescribed.
 		
 An every turn rule:
 	If player is not carrying phone:
-		Now call is 0.
+		Now call is 0
+		
+[Jennifer Call conversation start]
+Instead of asking Jennifer about "dinner":
+	If Story Line is 1:
+		Say "'Hmm... Sure.' Says Jennifer. 'Oh! Remember that old recipie that we used to make as teens? What was it called? Umm...  Margret's Casserole!' [paragraph break] 'Yes,' you say. 'I think I still have that recipe in my recipe drawer.' [paragraph break] 'Ok, cool' responds Jennifer. I still have a lot of work to do, so could you call me back when you have it ready?' [paragraph break] 'Sure,' you say. 'I'll call you later.'";
+		Increase Story line by 1.
+		
+Instead of asking Jennifer about "a dinner":
+	If Story Line is 1:
+		Say "'Hmm... Sure.' Says Jennifer. 'Oh! Remember that old recipie that we used to make as teens? What was it called? Umm...  Margret's Casserole!' [paragraph break] 'Yes,' you say. 'I think I still have that recipe in my recipe drawer.' [paragraph break] 'Ok, cool' responds Jennifer. I still have a lot of work to do, so could you call me back when you have it ready?' [paragraph break] 'Sure,' you say. 'I'll call you later.'";
+		Increase Story line by 1.
+Instead of asking Jennifer about "a dinner":
+	If Story Line is greater than 1:
+		Say "no".[I am still having trouble making an "else" statement after the "if" statement]
+
+[Jennifer has a table called bottle.
+
+Instead of asking Jennifer about something:
+	let the soure be the bottle of the noun;
+	if topic understood is a topic listed in source:
+		if there is a turn stamp entry:
+			say "[the noun] has already told you that [summary entry].";
+		otherwise:
+			now turn stamp entry is the turn count;
+			say "[reply entry][paragraph break]";
+		otherwise:
+			say "[the noun] stares at you blankly."
+
+Table of bottle
+topic	reply	summary	turn stamp
+"aasvogel"	"'Oh, it's a vulture.'"	"that an aasvogel is a vulture"	a number
+"acaudate"	"She shrugs, mid-pour. 'Means something doesn't have a tail.'"	"that acaudate means 'tailless'"	--
+"absorptiometer"	"'It's a thing that measures the solubility of gases in a liquid,' she explains gently, as to a child."	"that an absorptiometer measures solubility of gasses in a liquid"]
+	
+
+[Jennifer Call conversation end]
 	
 Address Book is a container in Living Room. It is fixed in place. It is undescribed. It is closed and openable. The description is "This is the address book that I keep next to my phone in case I want to call someone."[Open the address book that has multiple numbers in it. If I have time, I will make calling the other numbers something else.]
 
