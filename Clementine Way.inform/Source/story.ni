@@ -40,18 +40,71 @@ Instead of turning oven controls to 400:
 	say "The oven temperature soars until it reaches 400ºF. Even standing a few feet away from it, you can feel the heat bouncing off your face."
 	[setting temperature to 400]
 	
-Instead of taking the oven, say "Why in the world would I need to take the oven. It must weigh a ton! Besides, I need to cook the dish in there, so I shouldn't move it."
+Instead of taking the oven, say "Why in the world would I need to take the oven? It must weigh a ton! Besides, I need to cook the dish in there, so I shouldn't move it."
 	
 [end oven temperature statements]
 [end oven description]
 
-Recipe storage is a closed openable container in the kitchen. It is undescribed. The description is "It is a white wood locker that I keep my recipes in.[if Recipe storage is closed] It is closed.[end if][if Recipe storage is open]It is open. There are a bunch of interesting recipes in here, but there is one that you had intended to make for Jennifer.[end if]"
+[Start recipe storage]
+Recipe storage is a closed openable container in the kitchen. It is undescribed. The description is "It is a white wood locker that I keep my recipes in.[if Recipe storage is closed] It is closed.[end if][if Recipe storage is open]It is open. There are a lot of recipies in here, but nothing of interest at the moment.[end if][If Story Line is 2] There are a bunch of interesting recipes in here, but there is one that you had intended to make for Jennifer. Margret's Casserole Recipe.[end if]"
 
-Old recipe is a thing in recipe storage. The description is "This is a dish that Jennifer and I used to make when we were kids. It is still a good recipe, in fact, I made it a month ago, and it tasted great! But I accidentally ripped the paper when I made it last time. To make matters worse, I've completely forgotten how to make it. I can only make out some writing of the scraps. 'Soup'...'oven'...'smokey'...'M and Ms'. Not going to be much help, but it's all I got for now."
+[Margret's Casserole is a thing in recipe storage. The description is "This is a dish that Jennifer and I used to make when we were kids. It is still a good recipe, in fact, I made it a month ago, and it tasted great! But I accidentally ripped the paper when I made it last time. To make matters worse, I've completely forgotten how to make it. I can only make out some writing of the scraps. 'Soup'...'oven'. Not going to be much help, but it's all I got for now."][This code is for if I have time to make the pleyer find the parts of the recipe]
+
+Margret's Casserole Recipe is a thing inside recipe storage. The description is "This is a dish that Jennifer and I used to make when we were kids. It is still a good recipe, in fact, I made it a month ago, and it tasted great! This is the recipe: [paragraph break] Ingredients: bacon, onions, chicken, alfredo soup. [paragraph break] Directions: turn oven on to 350 ºF. Mix bacon with onion and then mix chicken and alfredo soup. Then, put into oven for an hour."
+
+Understand "Mix [something] with [something]" as mixing it with.
+Mixing it with is an action applying to two things.
+
+Instead of mixing Bacon with Onion:
+	If Story Line is 2:
+		Say "You mix the bacon and onions until it is well spread out.";
+		Remove Onion from play;
+		Remove Bacon from play;
+		Move Chopped Ingredients to the player.
+		
+Instead of mixing Chicken with orange soup:
+	If Story Line is 2:
+		Say "You mix the chicken with the orange-colored soup until the chicken is fully mixed with the soup.";
+		Remove Unlabeled can of soup from play;
+		Remove orange soup from play;
+		Remove Chicken from play;
+		Move Soupy Mixture to player.
+		
+Instead of mixing Soupy Mixture with Chopped Ingredients:
+	If Story Line is 2:
+		Say "You put all the ingredients together and now it is ready to be baked.";
+		Remove Soupy Mixture from play;
+		Remove Chopped ingredients from play;
+		Move Uncooked mixture to player.
+		
+[Instead of putting Uncooked mixture into the oven:
+	If oven temp is 350:
+		Say "good, now we have to wait for an hour."]
+		
+
+[End recipe storage]
+
+Chopped Ingredients is a thing. It is edible. It is nowhere. The description is "Finely mixed Bacon and onions. Looks delicous.".
+
+Soupy Mixture is a thing. It is edible. It is nowhere. The description is "Chicken that is mixed with soup. Looks tasty."
+
+Uncooked Mixture is a thing. It is edible. It is nowhere. The description is "All the ingredients are mixed and ready to be baked."
+
+Pantry is a closed openable container in the kitchen. It is undescribed. The description is "The pantry is where I store all the non-perisable food items.".
+
+Refrigerator is a closed openable container in the kitchen. it is undescribed. The description is "A plain white refrigerator. I use it to store all my perishable food.".
+
+Bacon is a thing in the refrigerator. It is edible. The description is "Mmmmm.... Bacon!".
+
+Chicken is a thing in the refrigerator. it is edible. The description is "Cut up chicken. Perfect for making the casserole.".
+
+Onion is a thing in the pantry. It is edible. The description is "Some onions that had been cut up already. Perfect for the casserole."
 
 Marble table is a supporter in the kitchen. It is undescribed. It is fixed in place. The description is "A black and white marble table. It's been here as long as my house was here."
 
-Unlabeled can of soup is a closed openable container. It is locked. The description is "An unlabeled can of soup. The outside is made of the typical shiny corrugated tin."
+Unlabeled can of soup is a closed openable container in the pantry. The description is "An unlabeled can of soup. The outside is made of the typical shiny corrugated tin. I wonder what's inside it.".
+
+Orange Soup is a thing. It is inside Unlabeled can of soup. It is edible. The description is "An orange-colored soup. I wonder what it tastes like.".
 
 [Start of Dining Room]
 Dining Room is west of the Kitchen. "This is where meals are eaten. It is a small room consisting of a small wood table, 2 wood chairs, and a utensil cabinet. A glass chandelier casts a warm glow in the room. There is a window that looks out onto Clementine Way. The Kitchen is to the east."
@@ -82,15 +135,15 @@ Instead of casting 424-8475:
 		
 Casting 424-8475 is an action applying to nothing.
 Instead of casting 424-8475:
-	If casting 424-8475 for the first time:
-		If player is carrying phone:
-			If Story Line is 1:
-				Say "Alright, so I need to ask Jennifer about her plans for tonight. What should I ask about? Dinner? Movies? Shopping? You take a deep breath and dial the number.  After a couple rings, Jennifer's voice comes over the line. 'Hello?'";
-				Now call is 2;[This is just to show that player has the phone is is calling right now]
-				Continue the action.
+	[If casting 424-8475 for the first time:]
+	If player is carrying phone:
+		If Story Line is 1:
+			Say "Alright, so I need to ask Jennifer about her plans for tonight. What should I ask about? Dinner? Movies? Shopping? You take a deep breath and dial the number.  After a couple rings, Jennifer's voice comes over the line. 'Hello?'";
+			Now call is 2;[This is just to show that player has the phone is is calling right now]
+			[Continue the action.]
 				
-Instead of casting 424-8475 more than once:
-	Say "I don't want to annoy Jennifer with multiple calls, better not call her again."
+[Instead of casting 424-8475 more than once:
+	Say "I don't want to annoy Jennifer with multiple calls, better not call her again."]
 				
 			
 [Code to end call to Jennifer]
@@ -99,7 +152,8 @@ Understand "hang up" or "end call" as casting end call.
 Casting end call is an action applying to nothing.
 Instead of casting end call:
 	Now call is 1;
-	Remove Jennifer from play.
+	Remove Jennifer from play;
+	Say "'Ok, I have to go now.' You say. 'Bye!' You press the end call button and put down the phone gently." 
 [Ending the Call]	
 
 
@@ -114,18 +168,34 @@ An every turn rule:
 		Now call is 0
 		
 [Jennifer Call conversation start]
-Instead of asking Jennifer about "dinner":
+Instead of asking Jennifer about "[dinner]":
 	If Story Line is 1:
 		Say "'Hmm... Sure.' Says Jennifer. 'Oh! Remember that old recipie that we used to make as teens? What was it called? Umm...  Margret's Casserole!' [paragraph break] 'Yes,' you say. 'I think I still have that recipe in my recipe drawer.' [paragraph break] 'Ok, cool' responds Jennifer. I still have a lot of work to do, so could you call me back when you have it ready?' [paragraph break] 'Sure,' you say. 'I'll call you later.'";
-		Increase Story line by 1.
+		Now Story Line is 2;
+	Otherwise:
+		Say "I already asked Jennifer about dinner, and she said yes. No need to ask her again.".
 		
-Instead of asking Jennifer about "a dinner":
+Understand "a dinner", "meal", "dinner", and "a meal" as "[dinner]".
+		
+Understand "plans tonight", "this evening", "later on", "plans", and "activites" as "[tonight]".
+[Code from Inform Handbook]
+
+Instead of asking Jennifer about "[tonight]":
+	If Story Line is 1:
+		Say "Um, I dont think I have any plans for tonight. Why? Do you want to do something?"
+
+[An every turn rule:
+	If Story Line is 3:
+		Say "oh no".]
+		[This is Just code to help me make sure that the story doesn't go farther than I want it to]
+
+[Instead of asking Jennifer about "a dinner":
 	If Story Line is 1:
 		Say "'Hmm... Sure.' Says Jennifer. 'Oh! Remember that old recipie that we used to make as teens? What was it called? Umm...  Margret's Casserole!' [paragraph break] 'Yes,' you say. 'I think I still have that recipe in my recipe drawer.' [paragraph break] 'Ok, cool' responds Jennifer. I still have a lot of work to do, so could you call me back when you have it ready?' [paragraph break] 'Sure,' you say. 'I'll call you later.'";
 		Increase Story line by 1.
 Instead of asking Jennifer about "a dinner":
 	If Story Line is greater than 1:
-		Say "no".[I am still having trouble making an "else" statement after the "if" statement]
+		Say "no".[I am still having trouble making an "else" statement after the "if" statement]]
 
 [Jennifer has a table called bottle.
 
