@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x138d60" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x18070f20" />
+  <activeNode nodeId="node-0x1b99cdd0" />
   <item nodeId="node-0x138d60">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -9,15 +9,12 @@
 
 Clementine Way
 An Interactive Fiction by Brent Uramoto
-Release 1 / Serial number 141023 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
-
-My Kitchen
-This is where I cook my meals. It is a medium sized room with an oven and a refrigerator. The oven is in the far corner of the room, The refrigerator is on the right wall. There is a marble table in the middle of the room. My recipe locker is next to the refrigerator. The kitchen is lit by while florescent lights and a window that looks out into the yard. The Dining Room is to the west, the Bed Room is to the south, the Living room is to the east.
+Release 1 / Serial number 141024 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="921">NO</temporary>
+    <changed>YES</changed>
+    <temporary score="1987">NO</temporary>
     <children>
       <child nodeId="node-0x105fa0" />
       <child nodeId="node-0x106010" />
@@ -40,7 +37,7 @@ This is where meals are eaten. It is a small room consisting of a small wood tab
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0xd8a4610" />
     </children>
@@ -54,7 +51,7 @@ This is where I cook my meals. It is a medium sized room with an oven and a refr
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0x186480" />
     </children>
@@ -70,7 +67,7 @@ You can see Coffee Table here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0xd878c00" />
     </children>
@@ -82,7 +79,7 @@ You can see Coffee Table here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0xd8a4c70" />
     </children>
@@ -94,7 +91,7 @@ You can see Coffee Table here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0xd873780" />
     </children>
@@ -106,7 +103,7 @@ You can see Coffee Table here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0x10c3d0" />
     </children>
@@ -118,7 +115,7 @@ You can see Coffee Table here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0xd8a07f0" />
     </children>
@@ -132,7 +129,7 @@ This is where I cook my meals. It is a medium sized room with an oven and a refr
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0xd866fa0" />
     </children>
@@ -146,7 +143,7 @@ This is where I sleep every night. My bed is right in front of me, the phone and
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0xd885e20" />
     </children>
@@ -158,7 +155,7 @@ This is where I sleep every night. My bed is right in front of me, the phone and
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0x6fced30" />
     </children>
@@ -170,33 +167,27 @@ This is where I sleep every night. My bed is right in front of me, the phone and
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0xd8b2330" />
     </children>
   </item>
   <item nodeId="node-0xd8b2330">
     <command xml:space="preserve">l</command>
-    <result xml:space="preserve">Bed Room
-This is where I sleep every night. My bed is right in front of me, the phone and my address book is on the nightstand to the left of the bed, and a desk lamp lights the room. The Kitchen is to the north.
-
-&gt;</result>
+    <result xml:space="preserve">&gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0x6f33180" />
     </children>
   </item>
   <item nodeId="node-0x6f33180">
     <command xml:space="preserve">l</command>
-    <result xml:space="preserve">Bed Room
-This is where I sleep every night. My bed is right in front of me, the phone and my address book is on the nightstand to the left of the bed, and a desk lamp lights the room. The Kitchen is to the north.
-
-&gt;</result>
+    <result xml:space="preserve">&gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0xd858a40" />
     </children>
@@ -208,7 +199,7 @@ This is where I sleep every night. My bed is right in front of me, the phone and
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0xd843fd0" />
     </children>
@@ -220,7 +211,7 @@ This is where I sleep every night. My bed is right in front of me, the phone and
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0xd8ef610" />
     </children>
@@ -232,7 +223,7 @@ This is where I sleep every night. My bed is right in front of me, the phone and
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0xd8f6e40" />
     </children>
@@ -244,7 +235,7 @@ This is where I sleep every night. My bed is right in front of me, the phone and
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0xd8438d0" />
     </children>
@@ -262,7 +253,7 @@ This is where I sleep every night. My bed is right in front of me, the phone and
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0x7ac8830" />
     </children>
@@ -274,7 +265,7 @@ This is where I sleep every night. My bed is right in front of me, the phone and
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0xd81fde0" />
     </children>
@@ -286,7 +277,7 @@ This is where I sleep every night. My bed is right in front of me, the phone and
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0x1856ad90" />
     </children>
@@ -298,7 +289,7 @@ This is where I sleep every night. My bed is right in front of me, the phone and
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0xdb07a90" />
     </children>
@@ -310,7 +301,7 @@ This is where I sleep every night. My bed is right in front of me, the phone and
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0x13d38f40" />
     </children>
@@ -322,7 +313,7 @@ This is where I sleep every night. My bed is right in front of me, the phone and
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0xd80e980" />
     </children>
@@ -334,7 +325,7 @@ This is where I sleep every night. My bed is right in front of me, the phone and
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0x185b7540" />
     </children>
@@ -348,7 +339,7 @@ This is where I cook my meals. It is a medium sized room with an oven and a refr
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0x169b13e0" />
     </children>
@@ -360,7 +351,7 @@ This is where I cook my meals. It is a medium sized room with an oven and a refr
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0x169ed940" />
     </children>
@@ -372,7 +363,7 @@ This is where I cook my meals. It is a medium sized room with an oven and a refr
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0x13d55a30" />
     </children>
@@ -384,7 +375,7 @@ This is where I cook my meals. It is a medium sized room with an oven and a refr
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0x185664c0" />
     </children>
@@ -396,7 +387,7 @@ This is where I cook my meals. It is a medium sized room with an oven and a refr
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0x13d05750" />
     </children>
@@ -408,7 +399,7 @@ This is where I cook my meals. It is a medium sized room with an oven and a refr
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0x16950e40" />
     </children>
@@ -418,12 +409,11 @@ This is where I cook my meals. It is a medium sized room with an oven and a refr
     <result xml:space="preserve">You are carrying:
   Bacon
   Onion
-  Phone
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0x13df1820" />
     </children>
@@ -435,7 +425,7 @@ This is where I cook my meals. It is a medium sized room with an oven and a refr
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0x6fb7c50" />
     </children>
@@ -447,7 +437,7 @@ This is where I cook my meals. It is a medium sized room with an oven and a refr
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0x16992550" />
     </children>
@@ -456,12 +446,11 @@ This is where I cook my meals. It is a medium sized room with an oven and a refr
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   Chopped Ingredients
-  Phone
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0x169cb690" />
     </children>
@@ -473,7 +462,7 @@ This is where I cook my meals. It is a medium sized room with an oven and a refr
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0x1693fda0" />
     </children>
@@ -485,20 +474,19 @@ This is where I cook my meals. It is a medium sized room with an oven and a refr
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0x169d88a0" />
     </children>
   </item>
   <item nodeId="node-0x169d88a0">
     <command xml:space="preserve">l</command>
-    <result xml:space="preserve">My Kitchen
-This is where I cook my meals. It is a medium sized room with an oven and a refrigerator. The oven is in the far corner of the room, The refrigerator is on the right wall. There is a marble table in the middle of the room. My recipe locker is next to the refrigerator. The kitchen is lit by while florescent lights and a window that looks out into the yard. The Dining Room is to the west, the Bed Room is to the south, the Living room is to the east.
+    <result xml:space="preserve">You put all the ingredients together and now it is ready to be baked.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0x169a3bb0" />
     </children>
@@ -512,7 +500,7 @@ In Pantry is Unlabeled can of soup.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0x10a54ca0" />
     </children>
@@ -524,7 +512,7 @@ In Pantry is Unlabeled can of soup.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0x1699c560" />
     </children>
@@ -536,7 +524,7 @@ In Pantry is Unlabeled can of soup.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0x16990360" />
     </children>
@@ -548,7 +536,7 @@ In Pantry is Unlabeled can of soup.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0x169928a0" />
     </children>
@@ -560,7 +548,7 @@ In Pantry is Unlabeled can of soup.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0x18526590" />
     </children>
@@ -575,7 +563,7 @@ In Unlabeled can of soup is Orange Soup.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0x185ea590" />
     </children>
@@ -587,7 +575,7 @@ In Unlabeled can of soup is Orange Soup.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0x18538a10" />
     </children>
@@ -601,7 +589,7 @@ In Unlabeled can of soup is Orange Soup.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0x1b9745a0" />
     </children>
@@ -613,7 +601,7 @@ In Unlabeled can of soup is Orange Soup.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0x169d0010" />
     </children>
@@ -623,7 +611,7 @@ In Unlabeled can of soup is Orange Soup.
     <result xml:space="preserve">&gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0x16952cd0" />
     </children>
@@ -633,14 +621,13 @@ In Unlabeled can of soup is Orange Soup.
     <result xml:space="preserve">You are carrying:
   Orange Soup
   Unlabeled can of soup (open but empty)
+  Uncooked Mixture
   Chicken
-  Chopped Ingredients
-  Phone
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0x185ba9f0" />
     </children>
@@ -652,7 +639,7 @@ In Unlabeled can of soup is Orange Soup.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0x18512d40" />
     </children>
@@ -661,13 +648,12 @@ In Unlabeled can of soup is Orange Soup.
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   Soupy Mixture
-  Chopped Ingredients
-  Phone
+  Uncooked Mixture
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0x1858f9d0" />
     </children>
@@ -676,13 +662,12 @@ In Unlabeled can of soup is Orange Soup.
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   Soupy Mixture
-  Chopped Ingredients
-  Phone
+  Uncooked Mixture
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0x13d1ab70" />
     </children>
@@ -694,7 +679,7 @@ In Unlabeled can of soup is Orange Soup.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0x13ddef60" />
     </children>
@@ -706,7 +691,7 @@ In Unlabeled can of soup is Orange Soup.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0xdb39030" />
     </children>
@@ -718,7 +703,7 @@ In Unlabeled can of soup is Orange Soup.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0x13d3c0e0" />
     </children>
@@ -730,19 +715,19 @@ In Unlabeled can of soup is Orange Soup.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0x1b960bb0" />
     </children>
   </item>
   <item nodeId="node-0x1b960bb0">
     <command xml:space="preserve">x recipe storage</command>
-    <result xml:space="preserve">It is a white wood locker that I keep my recipes in. It is closed. There are a bunch of interesting recipes in here, but there is one that you had intended to make for Jennifer. Margret&apos;s Casserole Recipe.
+    <result xml:space="preserve">It is a white wood locker that I keep my recipes in. It is closed. There are a bunch of interesting recipes in here, but there is one that you had intended to make for Jennifer. Ole Casserole Recipe.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0x16905820" />
     </children>
@@ -754,7 +739,7 @@ In Unlabeled can of soup is Orange Soup.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0x1691e4b0" />
     </children>
@@ -766,7 +751,7 @@ In Unlabeled can of soup is Orange Soup.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0x10ab47b0" />
     </children>
@@ -775,37 +760,36 @@ In Unlabeled can of soup is Orange Soup.
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   Soupy Mixture
-  Chopped Ingredients
-  Phone
+  Uncooked Mixture
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0x13d00c30" />
     </children>
   </item>
   <item nodeId="node-0x13d00c30">
     <command xml:space="preserve">open recipe storage</command>
-    <result xml:space="preserve">You open Recipe storage, revealing Margret&apos;s Casserole Recipe.
+    <result xml:space="preserve">You open Recipe storage, revealing Old Casserole recipe.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0x13d33360" />
     </children>
   </item>
   <item nodeId="node-0x13d33360">
     <command xml:space="preserve">take Margret&apos;s casserole recipe</command>
-    <result xml:space="preserve">Taken.
+    <result xml:space="preserve">You can&apos;t see any such thing.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0x169e33b0" />
     </children>
@@ -813,25 +797,25 @@ In Unlabeled can of soup is Orange Soup.
   <item nodeId="node-0x169e33b0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
-  Margret&apos;s Casserole Recipe
   Soupy Mixture
-  Chopped Ingredients
-  Phone
+  Uncooked Mixture
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0x169382c0" />
     </children>
   </item>
   <item nodeId="node-0x169382c0">
     <command xml:space="preserve">mix chopped ingredients with soupy mixture</command>
-    <result xml:space="preserve">&gt;</result>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0x169f0b10" />
     </children>
@@ -842,29 +826,305 @@ In Unlabeled can of soup is Orange Soup.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="921">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0x16923480" />
     </children>
   </item>
   <item nodeId="node-0x16923480">
     <command xml:space="preserve">mix soupy mixture with chopped ingredients</command>
-    <result xml:space="preserve">You put all the ingredients together and now it is ready to be baked.
+    <result xml:space="preserve">You can&apos;t see any such thing.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="1987">YES</temporary>
     <children>
       <child nodeId="node-0x18070f20" />
     </children>
   </item>
   <item nodeId="node-0x18070f20">
     <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Soupy Mixture
+  Uncooked Mixture
+
+&gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="920">YES</temporary>
+    <temporary score="1987">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b972e00" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b972e00">
+    <command xml:space="preserve">put uncooked mixture into oven</command>
+    <result xml:space="preserve">(Oven)
+Oven is closed.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1987">YES</temporary>
+    <children>
+      <child nodeId="node-0x169c8fb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x169c8fb0">
+    <command xml:space="preserve">open oven</command>
+    <result xml:space="preserve">(Oven)
+You open Oven.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1987">YES</temporary>
+    <children>
+      <child nodeId="node-0x10a355f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x10a355f0">
+    <command xml:space="preserve">put uncooked mixture into oven</command>
+    <result xml:space="preserve">(Oven)
+You put Uncooked Mixture into Oven.
+
+The Oven isn&apos;t on! I need to turn it on before I can cook anything in there.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1987">YES</temporary>
+    <children>
+      <child nodeId="node-0x13d62120" />
+    </children>
+  </item>
+  <item nodeId="node-0x13d62120">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Uncooked Mixture
+  Soupy Mixture
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1987">YES</temporary>
+    <children>
+      <child nodeId="node-0x180eedc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x180eedc0">
+    <command xml:space="preserve">turn oven to 350</command>
+    <result xml:space="preserve">(Oven to that)
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1987">YES</temporary>
+    <children>
+      <child nodeId="node-0x1699b660" />
+    </children>
+  </item>
+  <item nodeId="node-0x1699b660">
+    <command xml:space="preserve">x oven</command>
+    <result xml:space="preserve">(Oven)
+A standard electric oven. It is fairly new, I only bought it six months ago. The oven controls is a simple knob that has different temperatures on it. 300, 350 and 400. 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1987">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b951b90" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b951b90">
+    <command xml:space="preserve">turn knob to 350</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1987">YES</temporary>
+    <children>
+      <child nodeId="node-0x10a34600" />
+    </children>
+  </item>
+  <item nodeId="node-0x10a34600">
+    <command xml:space="preserve">turn oven controls to 350</command>
+    <result xml:space="preserve">The oven heats up quickly, and you watch as the temperature rises to 350ºF. You can feel some of the heat radiating off of your face.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1987">YES</temporary>
+    <children>
+      <child nodeId="node-0x1852f960" />
+    </children>
+  </item>
+  <item nodeId="node-0x1852f960">
+    <command xml:space="preserve">put uncooked mixture in oven</command>
+    <result xml:space="preserve">(Oven)
+You put Uncooked Mixture into Oven.
+
+You carefully put the uncooked mixture into the heated oven. Then, you set the timer for an hour and decide to take a nap. As soon as the casserole is done, you should call Jennifer. 
+
+ You wake up an hour later. A delicous smell floats through out the house. Time to take the casserole out.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1987">YES</temporary>
+    <children>
+      <child nodeId="node-0x13d1c0c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x13d1c0c0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Soupy Mixture
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1987">YES</temporary>
+    <children>
+      <child nodeId="node-0x180633f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x180633f0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">You put all the ingredients together and now it is ready to be baked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1987">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b973540" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b973540">
+    <command xml:space="preserve">x oven</command>
+    <result xml:space="preserve">(Oven)
+A standard electric oven. It is fairly new, I only bought it six months ago. The oven controls is a simple knob that has different temperatures on it. 300, 350 and 400.  Now the oven is at a scorching 350ºF.
+
+In Oven is Margret&apos;s Casserole.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1987">YES</temporary>
+    <children>
+      <child nodeId="node-0x185040d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x185040d0">
+    <command xml:space="preserve">take margret&apos;s casserole</command>
+    <result xml:space="preserve">You carefully take the casserole out of the oven. It is still steaming, but it looks scrumptious.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1987">YES</temporary>
+    <children>
+      <child nodeId="node-0x1850bfb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1850bfb0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1987">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b98f9d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b98f9d0">
+    <command xml:space="preserve">take phone</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1987">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b97a970" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b97a970">
+    <command xml:space="preserve">take phone</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1987">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b916aa0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b916aa0">
+    <command xml:space="preserve">take telephone</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1987">YES</temporary>
+    <children>
+      <child nodeId="node-0x180e23e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x180e23e0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Bed Room
+This is where I sleep every night. My bed is right in front of me, the phone and my address book is on the nightstand to the left of the bed, and a desk lamp lights the room. The Kitchen is to the north.
+
+You can see Phone here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1987">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b9d8410" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b9d8410">
+    <command xml:space="preserve">take phone</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1987">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b99cdd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b99cdd0">
+    <command xml:space="preserve">call 424-8475</command>
+    <result xml:space="preserve">After a couple of rings, Jennifer picks up the phone.
+
+ &quot;Hi&quot; says Jennifer. 
+
+&quot;Hello&quot; you say. &quot;I have the casserole ready.&quot; 
+
+ &quot;Ok, great, I&apos;ll be right over. See you soon!&quot;
+
+
+
+    *** you win! ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1986">YES</temporary>
   </item>
   <item nodeId="node-0x138fe0">
     <command xml:space="preserve">s</command>

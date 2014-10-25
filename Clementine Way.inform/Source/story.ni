@@ -19,7 +19,7 @@ Turning it to is an action applying to one thing and one number.
 [From Cole Damon's code in Laboratory Escape]
 
 [Oven description]
-Oven is a closed container in my kitchen. It is undescribed. The description is "A standard electric oven. It is fairly new, I only bought it six months ago. The oven controls is a simple knob that has different temperatures on it. 300, 350 and 400. [if Oven Temp is 300]Now the oven is at a hot 300ºF.[end if][if Oven Temp is 350] Now the oven is at a scorching 350ºF.[end if][if Oven Temp is 400] Now the oven is at a blistering 400ºF[end if]"
+Oven is a closed openable container in my kitchen. It is undescribed. The description is "A standard electric oven. It is fairly new, I only bought it six months ago. The oven controls is a simple knob that has different temperatures on it. 300, 350 and 400. [if Oven Temp is 300]Now the oven is at a hot 300ºF.[end if][if Oven Temp is 350] Now the oven is at a scorching 350ºF.[end if][if Oven Temp is 400] Now the oven is at a blistering 400ºF[end if]"
 
 oven controls is a part of oven. It is undescribed. Oven controls can be turned to 300, 350 and 400.
 
@@ -46,11 +46,11 @@ Instead of taking the oven, say "Why in the world would I need to take the oven?
 [end oven description]
 
 [Start recipe storage]
-Recipe storage is a closed openable container in the kitchen. It is undescribed. The description is "It is a white wood locker that I keep my recipes in.[if Recipe storage is closed] It is closed.[end if][if Recipe storage is open]It is open. There are a lot of recipies in here, but nothing of interest at the moment.[end if][If Story Line is 2] There are a bunch of interesting recipes in here, but there is one that you had intended to make for Jennifer. Margret's Casserole Recipe.[end if]"
+Recipe storage is a closed openable container in the kitchen. It is undescribed. The description is "It is a white wood locker that I keep my recipes in.[if Recipe storage is closed] It is closed.[end if][if Recipe storage is open]It is open. There are a lot of recipies in here, but nothing of interest at the moment.[end if][If Story Line is 2] There are a bunch of interesting recipes in here, but there is one that you had intended to make for Jennifer. Ole Casserole Recipe.[end if]"
 
 [Margret's Casserole is a thing in recipe storage. The description is "This is a dish that Jennifer and I used to make when we were kids. It is still a good recipe, in fact, I made it a month ago, and it tasted great! But I accidentally ripped the paper when I made it last time. To make matters worse, I've completely forgotten how to make it. I can only make out some writing of the scraps. 'Soup'...'oven'. Not going to be much help, but it's all I got for now."][This code is for if I have time to make the pleyer find the parts of the recipe]
 
-Margret's Casserole Recipe is a thing inside recipe storage. The description is "This is a dish that Jennifer and I used to make when we were kids. It is still a good recipe, in fact, I made it a month ago, and it tasted great! This is the recipe: [paragraph break] Ingredients: bacon, onions, chicken, alfredo soup. [paragraph break] Directions: turn oven on to 350 ºF. Mix bacon with onion and then mix chicken and alfredo soup. Then, put into oven for an hour."
+Old Casserole recipe is a thing inside recipe storage. The description is "This is a dish that Jennifer and I used to make when we were kids. It is still a good recipe, in fact, I made it a month ago, and it tasted great! This is the recipe: [paragraph break] Ingredients: bacon, onions, chicken, alfredo soup. [paragraph break] Directions: turn oven on to 350 ºF. Mix bacon with onion and then mix chicken and alfredo soup. Then, put into oven for an hour."
 
 Understand "Mix [something] with [something]" as mixing it with.
 Mixing it with is an action applying to two things.
@@ -77,9 +77,23 @@ Instead of mixing Soupy Mixture with Chopped Ingredients:
 		Remove Chopped ingredients from play;
 		Move Uncooked mixture to player.
 		
+After taking margret's casserole for the first time:
+	Now Story Line is 3;
+	Say "You carefully take the casserole out of the oven. It is still steaming, but it looks scrumptious.".
+		
 [Instead of putting Uncooked mixture into the oven:
 	If oven temp is 350:
 		Say "good, now we have to wait for an hour."]
+		
+An every turn rule:
+	If Uncooked mixture is in the oven:
+		If Oven Temp is 350:
+			Say "You carefully put the uncooked mixture into the heated oven. Then, you set the timer for an hour and decide to take a nap. As soon as the casserole is done, you should call Jennifer. [Paragraph break] You wake up an hour later. A delicous smell floats through out the house. Time to take the casserole out.";
+			Remove uncooked mixture from play;
+			Move Margret's Casserole to oven;
+		Otherwise:
+			Say "The Oven isn't on! I need to turn it on before I can cook anything in there.";
+			Move Uncooked mixture to player.
 		
 
 [End recipe storage]
@@ -89,6 +103,8 @@ Chopped Ingredients is a thing. It is edible. It is nowhere. The description is 
 Soupy Mixture is a thing. It is edible. It is nowhere. The description is "Chicken that is mixed with soup. Looks tasty."
 
 Uncooked Mixture is a thing. It is edible. It is nowhere. The description is "All the ingredients are mixed and ready to be baked."
+
+Margret's Casserole is a thing. It is edible. It is nowhere. The description is "Margret's casserole is a dish that Jennifer and I made as kids. Smells wonderful!"
 
 Pantry is a closed openable container in the kitchen. It is undescribed. The description is "The pantry is where I store all the non-perisable food items.".
 
@@ -141,6 +157,9 @@ Instead of casting 424-8475:
 			Say "Alright, so I need to ask Jennifer about her plans for tonight. What should I ask about? Dinner? Movies? Shopping? You take a deep breath and dial the number.  After a couple rings, Jennifer's voice comes over the line. 'Hello?'";
 			Now call is 2;[This is just to show that player has the phone is is calling right now]
 			[Continue the action.]
+		If Story Line is 3:
+			Say "After a couple of rings, Jennifer picks up the phone.[Paragraph break] 'Hi' says Jennifer. [paragraph break]'Hello' you say. 'I have the casserole ready.' [paragraph break] 'Ok, great, I'll be right over. See you soon!'";
+			End the story finally saying "you win!".
 				
 [Instead of casting 424-8475 more than once:
 	Say "I don't want to annoy Jennifer with multiple calls, better not call her again."]
@@ -153,7 +172,8 @@ Casting end call is an action applying to nothing.
 Instead of casting end call:
 	Now call is 1;
 	Remove Jennifer from play;
-	Say "'Ok, I have to go now.' You say. 'Bye!' You press the end call button and put down the phone gently." 
+	Say "'Ok, I have to go now.' You say. 'Bye!' You press the end call button and put down the phone gently." ;
+	Move phone to location of the player.
 [Ending the Call]	
 
 
