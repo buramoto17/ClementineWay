@@ -1,6 +1,22 @@
 "Clementine Way" by Brent Uramoto
 
+When play begins:
+	Say "You survived the week! It is now Friday night, and you don't have many things to do. Maybe I should call Jennifer and see if she's doing anything right now."
+
 My Kitchen is a room. "This is where I cook my meals. It is a medium sized room with an oven and a refrigerator. The oven is in the far corner of the room, The refrigerator is on the right wall. There is a marble table in the middle of the room. My recipe locker is next to the refrigerator. The kitchen is lit by while florescent lights and a window that looks out into the yard. The Dining Room is to the west, the Bed Room is to the south, the Living room is to the east."
+
+[Code to disable take all from Ragnarok by Marissa Takebayashi]
+Rule for deciding whether all includes something: it does not.
+[Code for snide remark after take all from A Day for Spelling by Mary Kiang]
+[Code from Cole Damon]
+Rule for printing a parser error when the latest parser error is the nothing to do error: say "You hold out your hand, close your eyes, and consentrate. You will all objects to fly to you, but nothing happens." instead.
+
+To say exit list:
+	let place be location;
+	repeat with way running through directions:
+		let place be the room way from the location;
+		if place is a room, say " [way] ".
+		[Exit code from Cole Damon]
 
 [setting variables]
 Oven Temp is a number that varies. Oven Temp is 0.[remember to put a period at the end of statements like these]
@@ -19,7 +35,7 @@ Turning it to is an action applying to one thing and one number.
 [From Cole Damon's code in Laboratory Escape]
 
 [Oven description]
-Oven is a closed openable container in my kitchen. It is undescribed. The description is "A standard electric oven. It is fairly new, I only bought it six months ago. The oven controls is a simple knob that has different temperatures on it. 300, 350 and 400. [if Oven Temp is 300]Now the oven is at a hot 300ºF.[end if][if Oven Temp is 350] Now the oven is at a scorching 350ºF.[end if][if Oven Temp is 400] Now the oven is at a blistering 400ºF[end if]"
+Oven is a closed openable container in my kitchen. It is undescribed. The description is "A standard electric oven. It is fairly new, I only bought it six months ago. The oven controls has differetent temperatures on it. 300, 350 and 400. It can be set by TURNING oven controls to a temperature [if Oven Temp is 300]Now the oven is at a hot 300ºF.[end if][if Oven Temp is 350] Now the oven is at a scorching 350ºF.[end if][if Oven Temp is 400] Now the oven is at a blistering 400ºF[end if]"
 
 oven controls is a part of oven. It is undescribed. Oven controls can be turned to 300, 350 and 400.
 
@@ -46,7 +62,7 @@ Instead of taking the oven, say "Why in the world would I need to take the oven?
 [end oven description]
 
 [Start recipe storage]
-Recipe storage is a closed openable container in the kitchen. It is undescribed. The description is "It is a white wood locker that I keep my recipes in.[if Recipe storage is closed] It is closed.[end if][if Recipe storage is open]It is open. There are a lot of recipies in here, but nothing of interest at the moment.[end if][If Story Line is 2] There are a bunch of interesting recipes in here, but there is one that you had intended to make for Jennifer. Ole Casserole Recipe.[end if]"
+Recipe storage is a closed openable container in the kitchen. It is undescribed. The description is "It is a white wood storage container that I keep my recipes in.[if Recipe storage is closed] It is closed.[end if][if Recipe storage is open]It is open. There are a lot of recipies in here, but nothing of interest at the moment.[end if][If Story Line is 2] There are a bunch of interesting recipes in here, but there is one that you had intended to make for Jennifer. Ole Casserole Recipe.[end if]"
 
 [Margret's Casserole is a thing in recipe storage. The description is "This is a dish that Jennifer and I used to make when we were kids. It is still a good recipe, in fact, I made it a month ago, and it tasted great! But I accidentally ripped the paper when I made it last time. To make matters worse, I've completely forgotten how to make it. I can only make out some writing of the scraps. 'Soup'...'oven'. Not going to be much help, but it's all I got for now."][This code is for if I have time to make the pleyer find the parts of the recipe]
 
