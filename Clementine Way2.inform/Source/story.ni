@@ -35,6 +35,10 @@ Turning it to is an action applying to one thing and one number.
 [From Cole Damon's code in Laboratory Escape]
 
 [Oven description]
+Cigarette Pack is a closed openable container in the kitchen. The description is "I dont smoke, but I this was the only container I could use when the bag of M and M's busted open.".
+
+MnMs is a thing inside Cigarette Pack. It is edible. The description is "Colorful M and Ms that have a lot of sugar in them.".
+
 Oven is a closed openable container in my kitchen. It is undescribed. The description is "A standard electric oven. It is fairly new, I only bought it six months ago. The oven controls has differetent temperatures on it. 300, 350 and 400. It can be set by TURNING oven controls to a temperature [if Oven Temp is 300]Now the oven is at a hot 300ºF.[end if][if Oven Temp is 350] Now the oven is at a scorching 350ºF.[end if][if Oven Temp is 400] Now the oven is at a blistering 400ºF[end if]"
 
 oven controls is a part of oven. It is undescribed. Oven controls can be turned to 300, 350 and 400.
@@ -153,7 +157,7 @@ Phone is a thing in Bed Room. It is undescribed. The description is "A regular h
 [End of Bedroom]
 
 [Start of Living room]
-Living Room is east of Kitchen."This is the living room where I sit on the couch and watch TV. My address book is here on the coffee table. [if Clean is 1] It was a mess, but now it is very organized and clean. [end if] The Street is past the front door to the north."
+Living Room is east of Kitchen."This is the living room where I sit on the couch and watch TV. My address book is here on the coffee table. The Street is past the front door to the north."
 
 Coffee Table is a supporter in the Living Room. It is fixed in place. The description is "A simple glass coffee table. It always fogs up under anything that has a different temperature than the glass."
 
@@ -257,7 +261,7 @@ topic	reply	summary	turn stamp
 
 [Jennifer Call conversation end]
 	
-Address Book is a container in Living Room. It is fixed in place. It is undescribed. It is closed and openable. The description is "This is the address book that I keep next to my phone in case I want to call someone."[Open the address book that has multiple numbers in it. If I have time, I will make calling the other numbers something else.]
+Address Book is a container in Living Room. It is closed and openable. The description is "This is the address book that I keep next to my phone in case I want to call someone."[Open the address book that has multiple numbers in it. If I have time, I will make calling the other numbers something else.]
 
 [Start phone numbers]
 Jennifer's Number is a thing in Address Book. It is fixed in place. The description is "424-8475".
@@ -297,6 +301,52 @@ Jennifer's Key unlocks Jennifer's Door. Jennifer's Key is in Little Shed. The de
 
 [Start Jennifer's Living Room]
 Jennifer's Living Room is south of Jennifer's Door. "This is Jennifer's Living Room. I've only been over here once or twice. It is a fairly large room, but it has a cozy feeling to it. Jennifer's Porch is to the north, and Jennifer's Kitchen is to the south."[Need to add more description here]
+
+After entering Jennifer's Living room:
+	If Story Line is 4:
+		Say "You see Jennifer passed out on the rug. At first you think that she is just sleeping, but then you notice a bottle of insulin and a bottle of glucose next to her! Maybe I should ask her about if she is ok, about the isulin bottle or the glucose bottle?"
+
+[[paragraph break] "]
+
+Understand "if she is ok", "ok", "if she is alright", and "alright" as "[ok]"
+
+Instead of asking Jennifer about "[ok]":
+	If Story Line is 4:
+		Say "'Hey Jennifer, are you okay?!' You ask.[paragraph break] Jennifer groans. 'Thank goodness you came by. I am low on blood sugar and I ran out of glucose.' She says.".
+	
+Understand "the insulin bottle", "insulin" and "insulin bottle" as "[insulin]"
+
+Instead of asking Jennifer about "[insulin]":
+	If Story Line is 4:
+		Say "I use this insulin to bring down my blood sugar. I have some of it, but it's not the medicine I need right now.".
+		
+Bottle of insulin is a thing in Jennifer's living room. The description is "A half-full bottle of insulin. It is used by diabetics to lower their blood sugar. [If Story Line is 4]Jennifer doesn't need this right now.[end if]".
+
+Understand "Glucose", "the Glucose" and "Glucose bottle" as "[glucose]".
+
+Instead of asking Jennifer about "[glucose]":
+	If Story Line is 4:
+		Say "I use glucose to keep my blood sugar up. I just ran out, and I dont have anything sweet right now. Anything with sugar will help me to get my blood sugar back up.";
+		
+An every turn rule:
+	If player is carrying Cigarette Pack:
+		If Story Line is 4:
+			now Story Line is 5.
+			
+An every turn rule:
+	If player is carrying MnMs:
+		If Story Line is 4:
+			now Story Line is 5.
+			
+Instead of giving MnMs to Jennifer:
+	If Story Line is 5:
+		Say "Jennifer gladly takes the MnMs and eats them. After a few minutes, she sits up and thanks you. 'Thanks for coming over. I was in a tight spot. Did you find my key in the shed? I put a key in there for emergencies. So, are we going to have dinner?'[paragraph break] You lead Jennifer back to your house and serve Margret's Casserole for dinner.";
+		now Story Line is 6.
+
+Bottle of Glucose is a thing in Jennifer's Living Room. The description is "An empty bottle. The lable says that it contains glucose, but there is nothing inside the bottle."
+
+
+
 [End of Jennifer's Living Room]
 
 [Start Jennifer's Garden]
@@ -310,13 +360,14 @@ Instead of turning Turn Dial lock to 6512:
 	now Story Line is 4;
 	Say "with a satisfying click, the lock opens, and you pull open the doors of the shed. To your surprise, the shed is empty expept for a key that is dangling by a string in the middle of the shed.";
 	now Little Shed is unlocked;
-	now Little Shed is open.
+	now Little Shed is open;
+	move Jennifer to Jennifer's Living room.
 	
 	
 [End Jennifer's Garden]
 
 An every turn rule:
-	If Story Line is 5:
+	If Story Line is 6:
 		End the story finally saying "you win!".
 
 [task for next time-create stove and refrigerator. If have time, create description for player and rest of rooms for house. Refer to Inspire map for rooms.]

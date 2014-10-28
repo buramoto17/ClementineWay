@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x2e6380" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0xc577a10" />
+  <activeNode nodeId="node-0xde3f3f0" />
   <item nodeId="node-0x2e6380">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -16,10 +16,12 @@ Release 1 / Serial number 141028 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
 My Kitchen
 This is where I cook my meals. It is a medium sized room with an oven and a refrigerator. The oven is in the far corner of the room, The refrigerator is on the right wall. There is a marble table in the middle of the room. My recipe locker is next to the refrigerator. The kitchen is lit by while florescent lights and a window that looks out into the yard. The Dining Room is to the west, the Bed Room is to the south, the Living room is to the east.
 
+You can see Cigarette Pack (closed) here.
+
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="36">NO</temporary>
+    <changed>YES</changed>
+    <temporary score="107">NO</temporary>
     <children>
       <child nodeId="node-0x244dd0" />
       <child nodeId="node-0x2499b0" />
@@ -1229,16 +1231,168 @@ This is where I cook my meals everyday. It is a medium sized room with standard 
   <item nodeId="node-0x2423d0">
     <command xml:space="preserve">x oven</command>
     <result xml:space="preserve">(Oven)
-A standard eletric oven. It is fairly new, I only bought it six months ago. The oven controls is a simple knob that has different temeratures on it. 300, 350 and 400. 
+A standard electric oven. It is fairly new, I only bought it six months ago. The oven controls has differetent temperatures on it. 300, 350 and 400. It can be set by TURNING oven controls to a temperature 
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="39">YES</temporary>
+    <temporary score="107">YES</temporary>
     <children>
       <child nodeId="node-0x242280" />
       <child nodeId="node-0x242360" />
+      <child nodeId="node-0xde73580" />
     </children>
+  </item>
+  <item nodeId="node-0xde73580">
+    <command xml:space="preserve">xsotuh</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xf87b250" />
+    </children>
+  </item>
+  <item nodeId="node-0xf87b250">
+    <command xml:space="preserve">x south</command>
+    <result xml:space="preserve">You see nothing unexpected in that direction.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xf871a90" />
+    </children>
+  </item>
+  <item nodeId="node-0xf871a90">
+    <command xml:space="preserve"> jennifers house</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xf8d86f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf8d86f0">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+Living Room
+This is the living room where I sit on the couch and watch TV. My address book is here on the coffee table. The Street is past the front door to the north.
+
+You can see Coffee Table and Address Book (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xec97df0" />
+    </children>
+  </item>
+  <item nodeId="node-0xec97df0">
+    <command xml:space="preserve">street</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f89e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f89e0">
+    <command xml:space="preserve">The street</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xde21ab0" />
+    </children>
+  </item>
+  <item nodeId="node-0xde21ab0">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Clementine Way
+This is the street that runs past the front of my house. Good thing the street lights are on, otherwise, it would be pitch black. The sidewalk and asphalt are in good condition. Cool Autumn breezes make you shiver slightly. The Intersection by Jennifer&apos;s house is to the east, and my house is to the south.
+
+Where am I going? I haven&apos;t even contacted Jennifer yet.
+
+Living Room
+This is the living room where I sit on the couch and watch TV. My address book is here on the coffee table. The Street is past the front door to the north.
+
+You can see Coffee Table and Address Book (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xf88cd60" />
+    </children>
+  </item>
+  <item nodeId="node-0xf88cd60">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Clementine Way
+This is the street that runs past the front of my house. Good thing the street lights are on, otherwise, it would be pitch black. The sidewalk and asphalt are in good condition. Cool Autumn breezes make you shiver slightly. The Intersection by Jennifer&apos;s house is to the east, and my house is to the south.
+
+Where am I going? I haven&apos;t even contacted Jennifer yet.
+
+Living Room
+This is the living room where I sit on the couch and watch TV. My address book is here on the coffee table. The Street is past the front door to the north.
+
+You can see Coffee Table and Address Book (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xde584a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xde584a0">
+    <command xml:space="preserve">address book</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xde0ed40" />
+    </children>
+  </item>
+  <item nodeId="node-0xde0ed40">
+    <command xml:space="preserve">x adress book</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xde3f3f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xde3f3f0">
+    <command xml:space="preserve">x address book</command>
+    <result xml:space="preserve">This is the address book that I keep next to my phone in case I want to call someone.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
   </item>
   <item nodeId="node-0x242360">
     <command xml:space="preserve">turn oven controls to 300</command>
@@ -2271,7 +2425,7 @@ asdf
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="36">YES</temporary>
+    <temporary score="83">YES</temporary>
     <children>
       <child nodeId="node-0xc5ace40" />
     </children>
@@ -2280,14 +2434,14 @@ asdf
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Living Room
-This is the living room where I sit on the couch and watch TV. My address book is here on the coffee table.  The Street is past the front door to the north.
+This is the living room where I sit on the couch and watch TV. My address book is here on the coffee table. The Street is past the front door to the north.
 
-You can see Coffee Table here.
+You can see Coffee Table and Address Book (closed) here.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="36">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="83">YES</temporary>
     <children>
       <child nodeId="node-0xc5dccc0" />
     </children>
@@ -2301,14 +2455,14 @@ This is the street that runs past the front of my house. Good thing the street l
 Where am I going? I haven&apos;t even contacted Jennifer yet.
 
 Living Room
-This is the living room where I sit on the couch and watch TV. My address book is here on the coffee table.  The Street is past the front door to the north.
+This is the living room where I sit on the couch and watch TV. My address book is here on the coffee table. The Street is past the front door to the north.
 
-You can see Coffee Table here.
+You can see Coffee Table and Address Book (closed) here.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="36">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="83">YES</temporary>
     <children>
       <child nodeId="node-0xc577a10" />
     </children>
@@ -2319,8 +2473,225 @@ You can see Coffee Table here.
 
 &gt;</result>
     <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="83">YES</temporary>
+    <children>
+      <child nodeId="node-0x7039b90" />
+    </children>
+  </item>
+  <item nodeId="node-0x7039b90">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+My Kitchen
+This is where I cook my meals. It is a medium sized room with an oven and a refrigerator. The oven is in the far corner of the room, The refrigerator is on the right wall. There is a marble table in the middle of the room. My recipe locker is next to the refrigerator. The kitchen is lit by while florescent lights and a window that looks out into the yard. The Dining Room is to the west, the Bed Room is to the south, the Living room is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="83">YES</temporary>
+    <children>
+      <child nodeId="node-0xec7b990" />
+    </children>
+  </item>
+  <item nodeId="node-0xec7b990">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Bed Room
+This is where I sleep every night. My bed is right in front of me, the phone and my address book is on the nightstand to the left of the bed, and a desk lamp lights the room. The Kitchen is to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="83">YES</temporary>
+    <children>
+      <child nodeId="node-0xec60bb0" />
+    </children>
+  </item>
+  <item nodeId="node-0xec60bb0">
+    <command xml:space="preserve">take phone</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="83">YES</temporary>
+    <children>
+      <child nodeId="node-0xecd2100" />
+    </children>
+  </item>
+  <item nodeId="node-0xecd2100">
+    <command xml:space="preserve">424-4875</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="83">YES</temporary>
+    <children>
+      <child nodeId="node-0xde2e800" />
+    </children>
+  </item>
+  <item nodeId="node-0xde2e800">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+My Kitchen
+This is where I cook my meals. It is a medium sized room with an oven and a refrigerator. The oven is in the far corner of the room, The refrigerator is on the right wall. There is a marble table in the middle of the room. My recipe locker is next to the refrigerator. The kitchen is lit by while florescent lights and a window that looks out into the yard. The Dining Room is to the west, the Bed Room is to the south, the Living room is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="83">YES</temporary>
+    <children>
+      <child nodeId="node-0xde079f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xde079f0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Dining Room
+This is where meals are eaten. It is a small room consisting of a small wood table, 2 wood chairs, and a utensil cabinet. A glass chandelier casts a warm glow in the room. There is a window that looks out onto Clementine Way. The Kitchen is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="83">YES</temporary>
+    <children>
+      <child nodeId="node-0xdee5960" />
+    </children>
+  </item>
+  <item nodeId="node-0xdee5960">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+My Kitchen
+This is where I cook my meals. It is a medium sized room with an oven and a refrigerator. The oven is in the far corner of the room, The refrigerator is on the right wall. There is a marble table in the middle of the room. My recipe locker is next to the refrigerator. The kitchen is lit by while florescent lights and a window that looks out into the yard. The Dining Room is to the west, the Bed Room is to the south, the Living room is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="83">YES</temporary>
+    <children>
+      <child nodeId="node-0x9753e30" />
+    </children>
+  </item>
+  <item nodeId="node-0x9753e30">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Living Room
+This is the living room where I sit on the couch and watch TV. My address book is here on the coffee table. The Street is past the front door to the north.
+
+You can see Coffee Table and Address Book (closed) here.
+
+&gt;</result>
+    <played>YES</played>
     <changed>YES</changed>
-    <temporary score="35">YES</temporary>
+    <temporary score="83">YES</temporary>
+    <children>
+      <child nodeId="node-0x3670c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x3670c0">
+    <command xml:space="preserve">take adress book</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="83">YES</temporary>
+    <children>
+      <child nodeId="node-0xde25530" />
+    </children>
+  </item>
+  <item nodeId="node-0xde25530">
+    <command xml:space="preserve">take address book</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="83">YES</temporary>
+    <children>
+      <child nodeId="node-0xde374d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xde374d0">
+    <command xml:space="preserve">open address book</command>
+    <result xml:space="preserve">You open Address Book, revealing Jennifer&apos;s Number, Mitch&apos;s Number, Margret&apos;s Number and Steve&apos;s Number.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="83">YES</temporary>
+    <children>
+      <child nodeId="node-0xf863fe0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf863fe0">
+    <command xml:space="preserve">x jennifer&apos;s number</command>
+    <result xml:space="preserve">424-8475
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="83">YES</temporary>
+    <children>
+      <child nodeId="node-0xde55a30" />
+    </children>
+  </item>
+  <item nodeId="node-0xde55a30">
+    <command xml:space="preserve">call 424-8475</command>
+    <result xml:space="preserve">Alright, so I need to ask Jennifer about her plans for tonight. What should I ask about? Dinner? Movies? Shopping? You take a deep breath and dial the number.  After a couple rings, Jennifer&apos;s voice comes over the line. &quot;Hello?&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="83">YES</temporary>
+    <children>
+      <child nodeId="node-0xecb78d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xecb78d0">
+    <command xml:space="preserve">jump</command>
+    <result xml:space="preserve">You jump on the spot.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="83">YES</temporary>
+    <children>
+      <child nodeId="node-0xde398c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xde398c0">
+    <command xml:space="preserve">ask jennifer dinner</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="83">YES</temporary>
+    <children>
+      <child nodeId="node-0xde08770" />
+    </children>
+  </item>
+  <item nodeId="node-0xde08770">
+    <command xml:space="preserve">ask jennifer about if she is okay</command>
+    <result xml:space="preserve">There is no reply.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="83">YES</temporary>
+    <children>
+      <child nodeId="node-0x6f17aa0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6f17aa0">
+    <command xml:space="preserve">ask jennifer about if she is ok</command>
+    <result xml:space="preserve">no
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="82">YES</temporary>
   </item>
   <item nodeId="node-0x242830">
     <command xml:space="preserve">take oven controls</command>
