@@ -88,11 +88,11 @@ Instead of mixing Bacon with Onion:
 		Remove Bacon from play;
 		Move Chopped Ingredients to the player.
 		
-Instead of mixing Chicken with orange soup:
+Instead of mixing Chicken with White soup:
 	If Story Line is 2:
-		Say "You mix the chicken with the orange-colored soup until the chicken is fully mixed with the soup.";
+		Say "You mix the chicken with the white-colored soup until the chicken is fully mixed with the soup.";
 		Remove unlabeled can of soup from play;
-		Remove orange soup from play;
+		Remove white soup from play;
 		Remove Chicken from play;
 		Move Soupy Mixture to player.
 		
@@ -146,7 +146,7 @@ Marble table is a supporter in the kitchen. It is undescribed. It is fixed in pl
 
 Unlabeled can of soup is a closed openable container in the pantry. The description is "An unlabeled can of soup. The outside is made of the typical shiny corrugated tin. I wonder what's inside it.".
 
-Orange Soup is a thing. It is inside unlabeled can of soup. It is edible. The description is "A white, creamy soup. I wonder what it tastes like.".
+White Soup is a thing. It is inside unlabeled can of soup. It is edible. The description is "A white, creamy soup. I wonder what it tastes like.".
 
 [Start of Dining Room]
 Dining Room is west of the Kitchen. "This is where meals are eaten. It is a small room consisting of a small wood table, and 2 wood chairs. A glass chandelier casts a warm glow in the room. The Kitchen is to the east."
@@ -347,11 +347,12 @@ Jennifer's Key unlocks Jennifer's Door. Jennifer's Key is in Little Shed. The de
 
 
 [Start Jennifer's Living Room]
-Jennifer's Living Room is south of Jennifer's Door. "This is Jennifer's Living Room. I've only been over here once or twice. It is a fairly large room, but it has a cozy feeling to it. Jennifer's Porch is to the north, and Jennifer's Kitchen is to the south."[Need to add more description here]
+Jennifer's Living Room is south of Jennifer's Door. "This is Jennifer's Living Room. I've only been over here once or twice. It is a fairly large room, but it has a cozy feeling to it. Jennifer's Porch is to the north."[Need to add more description here]
 
-After entering Jennifer's Living room:
-	If Story Line is 4:
-		Say "You see Jennifer passed out on the rug. At first you think that she is just sleeping, but then you notice a bottle of insulin and a bottle of glucose next to her! Maybe I should ask her about if she is ok, about the insulin bottle or the glucose bottle?"
+An every turn rule:
+	If player is in Jennifer's Living room:
+		If Story Line is 4:
+			Say "You see Jennifer passed out on the rug. At first you think that she is just sleeping, but then you notice a bottle of insulin and a bottle of glucose next to her! Maybe I should ask her about if she is ok, about the insulin bottle or the glucose bottle?"
 
 [[paragraph break] "]
 
@@ -374,21 +375,22 @@ Understand "Glucose", "the Glucose" and "Glucose bottle" as "[glucose]".
 Instead of asking Jennifer about "[glucose]":
 	If Story Line is 4:
 		Say "I use glucose to keep my blood sugar up. I just ran out, and I don't have anything sweet right now. Anything with sugar will help me to get my blood sugar back up.";
+		now Story Line is 5.
 		
 An every turn rule:
 	If player is carrying Cigarette Pack:
-		If Story Line is 4:
-			now Story Line is 5.
+		If Story Line is 5:
+			now Story Line is 6.
 			
 An every turn rule:
 	If player is carrying MnMs:
-		If Story Line is 4:
-			now Story Line is 5.
+		If Story Line is 5:
+			now Story Line is 6.
 			
 Instead of giving MnMs to Jennifer:
-	If Story Line is 5:
+	If Story Line is 6:
 		Say "Jennifer gladly takes the MnMs and eats them. After a few minutes, she sits up and thanks you. 'Thanks for coming over. I was in a tight spot. Did you find my key in the shed? I put a key in there for emergencies. So, are we going to have dinner?'[paragraph break] You lead Jennifer back to your house and serve Margret's Casserole for dinner.";
-		now Story Line is 6.
+		now Story Line is 7.
 
 Bottle of Glucose is a thing in Jennifer's Living Room. The description is "An empty bottle. The label says that it contains glucose, but there is nothing inside the bottle."
 
@@ -414,11 +416,13 @@ Instead of turning Turn Dial lock to 6512:
 [End Jennifer's Garden]
 
 An every turn rule:
-	If Story Line is 6:
+	If Story Line is 7:
+		Move player to Dining Room;
+		Move Jennifer to Dining Room;
 		End the story finally saying "you win!".
 
 [task for next time-create stove and refrigerator. If have time, create description for player and rest of rooms for house. Refer to Inspire map for rooms.]
 
 [Shortest way to win]
 
-[e, open address book, x Jennifer's number, w, s, take phone, 424-8475, ask Jennifer about dinner, n, open refrigerator, take chicken, take bacon ]
+[e, open address book, x Jennifer's number, w, s, take phone, 424-8475, ask Jennifer about dinner, n, take cigarette pack open refrigerator, take chicken, take bacon, open pantry, take onion, take unlabeled can of soup, open unlabeled can of soup, mix bacon with onion, mix chicken with white soup, mix soupy mixture with chopped ingredients, turn oven controls to 350, open oven, put uncooked mixture in oven, take Margret's casserole, call 424-8475, e, n, e, s, e, turn turn dial lock to 6512, take key, w,  unlock Jennifer's door, open Jennifer's door, s, ask Jennifer about glucose, open cigarette pack, give MnMs to Jennifer]

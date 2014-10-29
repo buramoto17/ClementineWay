@@ -11199,7 +11199,7 @@ Object -> -> I142_unlabeled_can_of_soup ""
     with cap_short_name BC_205
     has mark_as_thing
     with IK2_Count 18
-    with IK2_Link I143_orange_soup
+    with IK2_Link I143_white_soup
     with IK5_Count 5
     with IK5_Link I137_refrigerator
     with KD_Count 5
@@ -11211,7 +11211,7 @@ Object -> -> I142_unlabeled_can_of_soup ""
     with article BC_209
 ;
 
-Object -> -> -> I143_orange_soup ""
+Object -> -> -> I143_white_soup ""
     class K2_thing
     with short_name BC_210
     with description BC_211
@@ -11223,7 +11223,7 @@ Object -> -> -> I143_orange_soup ""
     with IK2_Count 19
     with IK2_Link I137_refrigerator
     with KD_Count 2
-    with name 'orange' 'soup' 'things//p' 
+    with name 'white' 'soup' 'things//p' 
     with action_bitmap 0 0 0 0 0 0 
     with initial BC_213
     with list_together BC_214
@@ -12823,19 +12823,21 @@ Array ActionHappened --> 0 0 0 0 0 0;
 ! ----------------------------------------------------------------------------------------------------
 ! Rules in rulebook: Every turn (B8_every_turn)
 ! ----------------------------------------------------------------------------------------------------
-! Rule 1/7 ! An every turn rule:
+! Rule 1/8 ! An every turn rule:
 !   === equally specific with ===
-! Rule 2/7 ! An every turn rule:
+! Rule 2/8 ! An every turn rule:
 !   === equally specific with ===
-! Rule 3/7 ! An every turn rule:
+! Rule 3/8 ! An every turn rule:
 !   === equally specific with ===
-! Rule 4/7 ! An every turn rule:
+! Rule 4/8 ! An every turn rule:
 !   === equally specific with ===
-! Rule 5/7 ! An every turn rule:
+! Rule 5/8 ! An every turn rule:
 !   === equally specific with ===
-! Rule 6/7 ! An every turn rule:
+! Rule 6/8 ! An every turn rule:
 !   === equally specific with ===
-! Rule 7/7 ! An every turn rule:
+! Rule 7/8 ! An every turn rule:
+!   === equally specific with ===
+! Rule 8/8 ! An every turn rule:
 ! ----------------------------------------------------------------------------------------------------
 ! No specific request
 ! An every turn rule:
@@ -12923,14 +12925,32 @@ Array ActionHappened --> 0 0 0 0 0 0;
 ];
 ! No specific request
 ! An every turn rule:
+[ R_837 ;
+    if (debug_rules) DB_Rule(R_837, 837);
+    ! [1: if player is in jennifer's living room begin]
+    if (((I161_jennifer_s_living_room == ContainerOf(player)))){
+        ! [2: if story line is 4 begin]
+        if ((((Global_Vars-->11) == 4))){
+            ! [3: say ~You see Jennifer passed out on the rug. At first you think that she is just sleeping, but then you notice a bottle of insulin and a bottle of glucose next to her! Maybe I should ask her about if she is ok, about the insulin bottle or the glucose bottle?~]
+            say__p=1;ParaContent(); print "You see Jennifer passed out on the rug. At first you think that she is just sleeping, but then you notice a bottle of insulin and a bottle of glucose next to her! Maybe I should ask her about if she is ok, about the insulin bottle or the glucose bottle?"; new_line; .L_Say8; .L_SayX8;
+            ! [4: end if]
+            }
+
+        ! [5: end if]
+        }
+
+        rfalse;
+];
+! No specific request
+! An every turn rule:
 [ R_841 ;
     if (debug_rules) DB_Rule(R_841, 841);
     ! [1: if player is carrying cigarette pack begin]
     if (((player == CarrierOf(I126_cigarette_pack)))){
-        ! [2: if story line is 4 begin]
-        if ((((Global_Vars-->11) == 4))){
-            ! [3: now story line is 5]
-            (Global_Vars-->11) = 5;
+        ! [2: if story line is 5 begin]
+        if ((((Global_Vars-->11) == 5))){
+            ! [3: now story line is 6]
+            (Global_Vars-->11) = 6;
             ! [4: end if]
             }
 
@@ -12945,10 +12965,10 @@ Array ActionHappened --> 0 0 0 0 0 0;
     if (debug_rules) DB_Rule(R_842, 842);
     ! [1: if player is carrying mnms begin]
     if (((player == CarrierOf(I127_mnms)))){
-        ! [2: if story line is 4 begin]
-        if ((((Global_Vars-->11) == 4))){
-            ! [3: now story line is 5]
-            (Global_Vars-->11) = 5;
+        ! [2: if story line is 5 begin]
+        if ((((Global_Vars-->11) == 5))){
+            ! [3: now story line is 6]
+            (Global_Vars-->11) = 6;
             ! [4: end if]
             }
 
@@ -12961,11 +12981,15 @@ Array ActionHappened --> 0 0 0 0 0 0;
 ! An every turn rule:
 [ R_845 ;
     if (debug_rules) DB_Rule(R_845, 845);
-    ! [1: if story line is 6 begin]
-    if ((((Global_Vars-->11) == 6))){
-        ! [2: end the story finally saying ~you win!~]
+    ! [1: if story line is 7 begin]
+    if ((((Global_Vars-->11) == 7))){
+        ! [2: move player to dining room]
+        MoveObject(player, I144_dining_room, 0, false);
+        ! [3: move jennifer to dining room]
+        MoveObject(I125_jennifer, I144_dining_room, 0, false);
+        ! [4: end the story finally saying ~you win!~]
         deadflag=TX_L_121; story_complete=true;
-        ! [3: end if]
+        ! [5: end if]
         }
 
         rfalse;
@@ -13003,7 +13027,7 @@ Array ActionHappened --> 0 0 0 0 0 0;
 [ R_22 ;
     if (debug_rules) DB_Rule(R_22, 22);
     ! [1: if the current item from the multiple object list is not nothing , say ~[current item from the multiple object list]: [run paragraph on]~]
-    if (((~~((multiple_object_item == nothing))))) { say__p=1;ParaContent(); print (PrintShortName) multiple_object_item;ParaContent(); print ": ";ParaContent(); RunParagraphOn(); .L_Say8; .L_SayX8; }
+    if (((~~((multiple_object_item == nothing))))) { say__p=1;ParaContent(); print (PrintShortName) multiple_object_item;ParaContent(); print ": ";ParaContent(); RunParagraphOn(); .L_Say9; .L_SayX9; }
     rfalse;
 ];
 ! From the Standard Rules
@@ -13358,7 +13382,7 @@ Array ActionHappened --> 0 0 0 0 0 0;
 ! ----------------------------------------------------------------------------------------------------
 ! Rule 1/19 ! Instead of mixing Bacon with Onion:
 !   === equally specific with ===
-! Rule 2/19 ! Instead of mixing Chicken with orange soup:
+! Rule 2/19 ! Instead of mixing Chicken with White soup:
 !   === equally specific with ===
 ! Rule 3/19 ! Instead of mixing Soupy Mixture with Chopped Ingredients:
 !   === equally specific with ===
@@ -13403,7 +13427,7 @@ Array ActionHappened --> 0 0 0 0 0 0;
     ! [1: if story line is 2 begin]
     if ((((Global_Vars-->11) == 2))){
         ! [2: say ~You mix the bacon and onions until it is well spread out.~]
-        say__p=1;ParaContent(); print "You mix the bacon and onions until it is well spread out."; new_line; .L_Say9; .L_SayX9;
+        say__p=1;ParaContent(); print "You mix the bacon and onions until it is well spread out."; new_line; .L_Say10; .L_SayX10;
         ! [3: remove onion from play]
         RemoveFromPlay(I140_onion);
         ! [4: remove bacon from play]
@@ -13418,19 +13442,19 @@ Array ActionHappened --> 0 0 0 0 0 0;
         rfalse;
 ];
 ! No specific request
-! Instead of mixing Chicken with orange soup:
+! Instead of mixing Chicken with White soup:
 [ R_819 ;
-    if ((((action ==##A78_mixing_it_with) &&  (actor==player) && ((noun == I139_chicken) && (true)) && ((second == I143_orange_soup) && (true))))) { ! Runs only when pattern matches
+    if ((((action ==##A78_mixing_it_with) &&  (actor==player) && ((noun == I139_chicken) && (true)) && ((second == I143_white_soup) && (true))))) { ! Runs only when pattern matches
     self = noun;
     if (debug_rules) DB_Rule(R_819, 819);
     ! [1: if story line is 2 begin]
     if ((((Global_Vars-->11) == 2))){
-        ! [2: say ~You mix the chicken with the orange-colored soup until the chicken is fully mixed with the soup.~]
-        say__p=1;ParaContent(); print "You mix the chicken with the orange-colored soup until the chicken is fully mixed with the soup."; new_line; .L_Say10; .L_SayX10;
+        ! [2: say ~You mix the chicken with the white-colored soup until the chicken is fully mixed with the soup.~]
+        say__p=1;ParaContent(); print "You mix the chicken with the white-colored soup until the chicken is fully mixed with the soup."; new_line; .L_Say11; .L_SayX11;
         ! [3: remove unlabeled can of soup from play]
         RemoveFromPlay(I142_unlabeled_can_of_soup);
-        ! [4: remove orange soup from play]
-        RemoveFromPlay(I143_orange_soup);
+        ! [4: remove white soup from play]
+        RemoveFromPlay(I143_white_soup);
         ! [5: remove chicken from play]
         RemoveFromPlay(I139_chicken);
         ! [6: move soupy mixture to player]
@@ -13451,7 +13475,7 @@ Array ActionHappened --> 0 0 0 0 0 0;
     ! [1: if story line is 2 begin]
     if ((((Global_Vars-->11) == 2))){
         ! [2: say ~You put all the ingredients together and now it is ready to be baked.~]
-        say__p=1;ParaContent(); print "You put all the ingredients together and now it is ready to be baked."; new_line; .L_Say11; .L_SayX11;
+        say__p=1;ParaContent(); print "You put all the ingredients together and now it is ready to be baked."; new_line; .L_Say12; .L_SayX12;
         ! [3: remove soupy mixture from play]
         RemoveFromPlay(I133_soupy_mixture);
         ! [4: remove chopped ingredients from play]
@@ -13471,12 +13495,12 @@ Array ActionHappened --> 0 0 0 0 0 0;
     if ((((action ==##Give) &&  (actor==player) && ((noun == I127_mnms) && (true)) && ((second == I125_jennifer) && (true))))) { ! Runs only when pattern matches
     self = noun;
     if (debug_rules) DB_Rule(R_843, 843);
-    ! [1: if story line is 5 begin]
-    if ((((Global_Vars-->11) == 5))){
+    ! [1: if story line is 6 begin]
+    if ((((Global_Vars-->11) == 6))){
         ! [2: say ~Jennifer gladly takes the MnMs and eats them. After a few minutes, she sits up and thanks you. 'Thanks for coming over. I was in a tight spot. Did you find my key in the shed? I put a key in there for emergencies. So, are we going to have dinner?'[paragraph break] You lead Jennifer back to your house and serve Margret's Casserole for dinner.~]
-        say__p=1;ParaContent(); print "Jennifer gladly takes the MnMs and eats them. After a few minutes, she sits up and thanks you. ~Thanks for coming over. I was in a tight spot. Did you find my key in the shed? I put a key in there for emergencies. So, are we going to have dinner?~";ParaContent(); DivideParagraphPoint(); new_line;ParaContent(); print " You lead Jennifer back to your house and serve Margret's Casserole for dinner."; new_line; .L_Say12; .L_SayX12;
-        ! [3: now story line is 6]
-        (Global_Vars-->11) = 6;
+        say__p=1;ParaContent(); print "Jennifer gladly takes the MnMs and eats them. After a few minutes, she sits up and thanks you. ~Thanks for coming over. I was in a tight spot. Did you find my key in the shed? I put a key in there for emergencies. So, are we going to have dinner?~";ParaContent(); DivideParagraphPoint(); new_line;ParaContent(); print " You lead Jennifer back to your house and serve Margret's Casserole for dinner."; new_line; .L_Say13; .L_SayX13;
+        ! [3: now story line is 7]
+        (Global_Vars-->11) = 7;
         ! [4: end if]
         }
 
@@ -13494,7 +13518,7 @@ Array ActionHappened --> 0 0 0 0 0 0;
     (Global_Vars-->10) = 300;
     ! [2: say ~The oven starts to get warm, and after a few minutes, the temperature skyrockets to 300[unicode 186]F.~]
     say__p=1;ParaContent(); print "The oven starts to get warm, and after a few minutes, the temperature skyrockets to 300";ParaContent(); #ifdef TARGET_ZCODE; unicode_temp = 186; @print_unicode unicode_temp;
-    	#ifnot; unicode_temp = 186; @streamunichar unicode_temp; #endif;ParaContent(); print "F."; new_line; .L_Say13; .L_SayX13;
+    	#ifnot; unicode_temp = 186; @streamunichar unicode_temp; #endif;ParaContent(); print "F."; new_line; .L_Say14; .L_SayX14;
     RulebookFails(); rtrue;
     } else if (debug_rules > 1) DB_Rule(R_814, 814, 'action');
     rfalse;
@@ -13509,7 +13533,7 @@ Array ActionHappened --> 0 0 0 0 0 0;
     (Global_Vars-->10) = 350;
     ! [2: say ~The oven heats up quickly, and you watch as the temperature rises to 350[unicode 186]F. You can feel some of the heat radiating off of your face.~]
     say__p=1;ParaContent(); print "The oven heats up quickly, and you watch as the temperature rises to 350";ParaContent(); #ifdef TARGET_ZCODE; unicode_temp = 186; @print_unicode unicode_temp;
-    	#ifnot; unicode_temp = 186; @streamunichar unicode_temp; #endif;ParaContent(); print "F. You can feel some of the heat radiating off of your face."; new_line; .L_Say14; .L_SayX14;
+    	#ifnot; unicode_temp = 186; @streamunichar unicode_temp; #endif;ParaContent(); print "F. You can feel some of the heat radiating off of your face."; new_line; .L_Say15; .L_SayX15;
     RulebookFails(); rtrue;
     } else if (debug_rules > 1) DB_Rule(R_815, 815, 'action');
     rfalse;
@@ -13524,7 +13548,7 @@ Array ActionHappened --> 0 0 0 0 0 0;
     (Global_Vars-->10) = 400;
     ! [2: say ~The oven temperature soars until it reaches 400[unicode 186]F. Even standing a few feet away from it, you can feel the heat bouncing off your face.~]
     say__p=1;ParaContent(); print "The oven temperature soars until it reaches 400";ParaContent(); #ifdef TARGET_ZCODE; unicode_temp = 186; @print_unicode unicode_temp;
-    	#ifnot; unicode_temp = 186; @streamunichar unicode_temp; #endif;ParaContent(); print "F. Even standing a few feet away from it, you can feel the heat bouncing off your face."; new_line; .L_Say15; .L_SayX15;
+    	#ifnot; unicode_temp = 186; @streamunichar unicode_temp; #endif;ParaContent(); print "F. Even standing a few feet away from it, you can feel the heat bouncing off your face."; new_line; .L_Say16; .L_SayX16;
     RulebookFails(); rtrue;
     } else if (debug_rules > 1) DB_Rule(R_816, 816, 'action');
     rfalse;
@@ -13538,14 +13562,14 @@ Array ActionHappened --> 0 0 0 0 0 0;
     ! [1: if story line is 1 begin]
     if ((((Global_Vars-->11) == 1))){
         ! [2: say ~'Hmm... Sure.' Says Jennifer. 'Oh! Remember that old recipe that we used to make as teens? What was it called? Umm...  Margret's Casserole!' [paragraph break] 'Yes,' you say. 'I think I still have that recipe in my recipe drawer.' [paragraph break] 'Ok, cool' responds Jennifer. I still have a lot of work to do, so could you call me back when you have it ready?' [paragraph break] 'Sure,' you say. 'I'll call you later.'~]
-        say__p=1;ParaContent(); print "~Hmm... Sure.~ Says Jennifer. ~Oh! Remember that old recipe that we used to make as teens? What was it called? Umm...  Margret's Casserole!~ ";ParaContent(); DivideParagraphPoint(); new_line;ParaContent(); print " ~Yes,~ you say. ~I think I still have that recipe in my recipe drawer.~ ";ParaContent(); DivideParagraphPoint(); new_line;ParaContent(); print " ~Ok, cool~ responds Jennifer. I still have a lot of work to do, so could you call me back when you have it ready?~ ";ParaContent(); DivideParagraphPoint(); new_line;ParaContent(); print " ~Sure,~ you say. ~I'll call you later.~"; new_line; .L_Say16; .L_SayX16;
+        say__p=1;ParaContent(); print "~Hmm... Sure.~ Says Jennifer. ~Oh! Remember that old recipe that we used to make as teens? What was it called? Umm...  Margret's Casserole!~ ";ParaContent(); DivideParagraphPoint(); new_line;ParaContent(); print " ~Yes,~ you say. ~I think I still have that recipe in my recipe drawer.~ ";ParaContent(); DivideParagraphPoint(); new_line;ParaContent(); print " ~Ok, cool~ responds Jennifer. I still have a lot of work to do, so could you call me back when you have it ready?~ ";ParaContent(); DivideParagraphPoint(); new_line;ParaContent(); print " ~Sure,~ you say. ~I'll call you later.~"; new_line; .L_Say17; .L_SayX17;
         ! [3: now story line is 2]
         (Global_Vars-->11) = 2;
         ! [4: otherwise]
         } else {
 
         ! [5: say ~I already asked Jennifer about dinner, and she said yes. No need to ask her again.~]
-        say__p=1;ParaContent(); print "I already asked Jennifer about dinner, and she said yes. No need to ask her again."; new_line; .L_Say17; .L_SayX17;
+        say__p=1;ParaContent(); print "I already asked Jennifer about dinner, and she said yes. No need to ask her again."; new_line; .L_Say18; .L_SayX18;
         ! [6: end if]
         }
 
@@ -13562,7 +13586,7 @@ Array ActionHappened --> 0 0 0 0 0 0;
     ! [1: if story line is 1 begin]
     if ((((Global_Vars-->11) == 1))){
         ! [2: say ~Um, I don't think I have any plans for tonight. Why? Do you want to do something?~]
-        say__p=1;ParaContent(); print "Um, I don't think I have any plans for tonight. Why? Do you want to do something?"; new_line; .L_Say18; .L_SayX18;
+        say__p=1;ParaContent(); print "Um, I don't think I have any plans for tonight. Why? Do you want to do something?"; new_line; .L_Say19; .L_SayX19;
         ! [3: end if]
         }
 
@@ -13579,7 +13603,7 @@ Array ActionHappened --> 0 0 0 0 0 0;
     ! [1: if story line is 4 begin]
     if ((((Global_Vars-->11) == 4))){
         ! [2: say ~'Hey Jennifer, are you okay?!' You ask.[paragraph break] Jennifer groans. 'Thank goodness you came by. I am low on blood sugar and I ran out of glucose.' She says.~]
-        say__p=1;ParaContent(); print "~Hey Jennifer, are you okay?!~ You ask.";ParaContent(); DivideParagraphPoint(); new_line;ParaContent(); print " Jennifer groans. ~Thank goodness you came by. I am low on blood sugar and I ran out of glucose.~ She says."; new_line; .L_Say19; .L_SayX19;
+        say__p=1;ParaContent(); print "~Hey Jennifer, are you okay?!~ You ask.";ParaContent(); DivideParagraphPoint(); new_line;ParaContent(); print " Jennifer groans. ~Thank goodness you came by. I am low on blood sugar and I ran out of glucose.~ She says."; new_line; .L_Say20; .L_SayX20;
         ! [3: end if]
         }
 
@@ -13596,7 +13620,7 @@ Array ActionHappened --> 0 0 0 0 0 0;
     ! [1: if story line is 4 begin]
     if ((((Global_Vars-->11) == 4))){
         ! [2: say ~I use this insulin to bring down my blood sugar. I have some of it, but it's not the medicine I need right now.~]
-        say__p=1;ParaContent(); print "I use this insulin to bring down my blood sugar. I have some of it, but it's not the medicine I need right now."; new_line; .L_Say20; .L_SayX20;
+        say__p=1;ParaContent(); print "I use this insulin to bring down my blood sugar. I have some of it, but it's not the medicine I need right now."; new_line; .L_Say21; .L_SayX21;
         ! [3: end if]
         }
 
@@ -13613,8 +13637,10 @@ Array ActionHappened --> 0 0 0 0 0 0;
     ! [1: if story line is 4 begin]
     if ((((Global_Vars-->11) == 4))){
         ! [2: say ~I use glucose to keep my blood sugar up. I just ran out, and I don't have anything sweet right now. Anything with sugar will help me to get my blood sugar back up.~]
-        say__p=1;ParaContent(); print "I use glucose to keep my blood sugar up. I just ran out, and I don't have anything sweet right now. Anything with sugar will help me to get my blood sugar back up."; new_line; .L_Say21; .L_SayX21;
-        ! [3: end if]
+        say__p=1;ParaContent(); print "I use glucose to keep my blood sugar up. I just ran out, and I don't have anything sweet right now. Anything with sugar will help me to get my blood sugar back up."; new_line; .L_Say22; .L_SayX22;
+        ! [3: now story line is 5]
+        (Global_Vars-->11) = 5;
+        ! [4: end if]
         }
 
         RulebookFails(); rtrue;
@@ -13630,7 +13656,7 @@ Array ActionHappened --> 0 0 0 0 0 0;
     ! [1: now story line is 4]
     (Global_Vars-->11) = 4;
     ! [2: say ~with a satisfying click, the lock opens, and you pull open the doors of the shed. To your surprise, the shed is empty except for a key that is dangling by a string in the middle of the shed.~]
-    say__p=1;ParaContent(); print "with a satisfying click, the lock opens, and you pull open the doors of the shed. To your surprise, the shed is empty except for a key that is dangling by a string in the middle of the shed."; new_line; .L_Say22; .L_SayX22;
+    say__p=1;ParaContent(); print "with a satisfying click, the lock opens, and you pull open the doors of the shed. To your surprise, the shed is empty except for a key that is dangling by a string in the middle of the shed."; new_line; .L_Say23; .L_SayX23;
     ! [3: now little shed is unlocked]
     (Adj_78_t2_v10(I163_little_shed));
     ! [4: now little shed is open]
@@ -13648,7 +13674,7 @@ Array ActionHappened --> 0 0 0 0 0 0;
     self = noun;
     if (debug_rules) DB_Rule(R_817, 817);
     ! [1: say ~Why in the world would I need to take the oven? It must weigh a ton! Besides, I need to cook the dish in there, so I shouldn't move it.~]
-    say__p=1;ParaContent(); print "Why in the world would I need to take the oven? It must weigh a ton! Besides, I need to cook the dish in there, so I shouldn't move it."; new_line; .L_Say23; .L_SayX23;
+    say__p=1;ParaContent(); print "Why in the world would I need to take the oven? It must weigh a ton! Besides, I need to cook the dish in there, so I shouldn't move it."; new_line; .L_Say24; .L_SayX24;
     RulebookFails(); rtrue;
     } else if (debug_rules > 1) DB_Rule(R_817, 817, 'action');
     rfalse;
@@ -13664,7 +13690,7 @@ Array ActionHappened --> 0 0 0 0 0 0;
     ! [2: remove jennifer from play]
     RemoveFromPlay(I125_jennifer);
     ! [3: say ~'Ok, I have to go now.' You say. 'Bye!' You press the end call button and put down the phone gently.~]
-    say__p=1;ParaContent(); print "~Ok, I have to go now.~ You say. ~Bye!~ You press the end call button and put down the phone gently."; new_line; .L_Say24; .L_SayX24;
+    say__p=1;ParaContent(); print "~Ok, I have to go now.~ You say. ~Bye!~ You press the end call button and put down the phone gently."; new_line; .L_Say25; .L_SayX25;
     ! [4: move phone to location of the player]
     MoveObject(I149_phone, LocationOf(player), 0, false);
     RulebookFails(); rtrue;
@@ -13682,7 +13708,7 @@ Array ActionHappened --> 0 0 0 0 0 0;
         ! [2: if story line is 1 begin]
         if ((((Global_Vars-->11) == 1))){
             ! [3: say ~Alright, so I need to ask Jennifer about her plans for tonight. What should I ask about? Dinner? Movies? Shopping? You take a deep breath and dial the number.  After a couple rings, Jennifer's voice comes over the line. 'Hello?'~]
-            say__p=1;ParaContent(); print "Alright, so I need to ask Jennifer about her plans for tonight. What should I ask about? Dinner? Movies? Shopping? You take a deep breath and dial the number.  After a couple rings, Jennifer's voice comes over the line. ~Hello?~"; new_line; .L_Say25; .L_SayX25;
+            say__p=1;ParaContent(); print "Alright, so I need to ask Jennifer about her plans for tonight. What should I ask about? Dinner? Movies? Shopping? You take a deep breath and dial the number.  After a couple rings, Jennifer's voice comes over the line. ~Hello?~"; new_line; .L_Say26; .L_SayX26;
             ! [4: now call is 2]
             (Global_Vars-->13) = 2;
             ! [5: end if]
@@ -13692,16 +13718,16 @@ Array ActionHappened --> 0 0 0 0 0 0;
         if ((((Global_Vars-->11) == 2))){
             ! [7: say ~[If Margret's Casserole is nowhere]I haven't finished making the casserole yet! Jennifer asked me to make it first, then call her.[End if][If Margret's Casserole is in oven] I probably should take the casserole out of the oven first.~]
             say__p=1;
-            	if (~~((((LocationOf(I135_margret_s_casserole) == nothing))))) jump L_Say26;ParaContent(); print "I haven't finished making the casserole yet! Jennifer asked me to make it first, then call her."; new_line;
-            	.L_Say26; .L_SayX26;
-            	if (~~((((I128_oven == ContainerOf(I135_margret_s_casserole)))))) jump L_Say27;ParaContent(); print " I probably should take the casserole out of the oven first."; new_line; .L_Say27; .L_SayX27;
+            	if (~~((((LocationOf(I135_margret_s_casserole) == nothing))))) jump L_Say27;ParaContent(); print "I haven't finished making the casserole yet! Jennifer asked me to make it first, then call her."; new_line;
+            	.L_Say27; .L_SayX27;
+            	if (~~((((I128_oven == ContainerOf(I135_margret_s_casserole)))))) jump L_Say28;ParaContent(); print " I probably should take the casserole out of the oven first."; new_line; .L_Say28; .L_SayX28;
             ! [8: end if]
             }
 
         ! [9: if story line is 3 begin]
         if ((((Global_Vars-->11) == 3))){
             ! [10: say ~The phone rings and rings until the answering machine picks up. That seems suspicious. I called her only an hour ago. Maybe I should go check on her.~]
-            say__p=1;ParaContent(); print "The phone rings and rings until the answering machine picks up. That seems suspicious. I called her only an hour ago. Maybe I should go check on her."; new_line; .L_Say28; .L_SayX28;
+            say__p=1;ParaContent(); print "The phone rings and rings until the answering machine picks up. That seems suspicious. I called her only an hour ago. Maybe I should go check on her."; new_line; .L_Say29; .L_SayX29;
             ! [11: now story line is 4]
             (Global_Vars-->11) = 4;
             ! [12: end if]
@@ -13713,7 +13739,7 @@ Array ActionHappened --> 0 0 0 0 0 0;
     ! [14: if player is not carrying phone begin]
     if (((~~((player == CarrierOf(I149_phone)))))){
         ! [15: say ~I don't have anything to call with!~]
-        say__p=1;ParaContent(); print "I don't have anything to call with!"; new_line; .L_Say29; .L_SayX29;
+        say__p=1;ParaContent(); print "I don't have anything to call with!"; new_line; .L_Say30; .L_SayX30;
         ! [16: end if]
         }
 
@@ -13732,7 +13758,7 @@ Array ActionHappened --> 0 0 0 0 0 0;
         ! [2: if player is carrying phone begin]
         if (((player == CarrierOf(I149_phone)))){
             ! [3: say ~Mitch picks up the phone. [paragraph break] 'Hey man, what's up?' He asks. [paragraph break] 'Nothing much' you say. 'Want to go do something tonight?' [paragraph break] 'Sure' He says. [paragraph break] You come back from a long fun night, but you feel like something is still missing.~]
-            say__p=1;ParaContent(); print "Mitch picks up the phone. ";ParaContent(); DivideParagraphPoint(); new_line;ParaContent(); print " ~Hey man, what's up?~ He asks. ";ParaContent(); DivideParagraphPoint(); new_line;ParaContent(); print " ~Nothing much~ you say. ~Want to go do something tonight?~ ";ParaContent(); DivideParagraphPoint(); new_line;ParaContent(); print " ~Sure~ He says. ";ParaContent(); DivideParagraphPoint(); new_line;ParaContent(); print " You come back from a long fun night, but you feel like something is still missing."; new_line; .L_Say30; .L_SayX30;
+            say__p=1;ParaContent(); print "Mitch picks up the phone. ";ParaContent(); DivideParagraphPoint(); new_line;ParaContent(); print " ~Hey man, what's up?~ He asks. ";ParaContent(); DivideParagraphPoint(); new_line;ParaContent(); print " ~Nothing much~ you say. ~Want to go do something tonight?~ ";ParaContent(); DivideParagraphPoint(); new_line;ParaContent(); print " ~Sure~ He says. ";ParaContent(); DivideParagraphPoint(); new_line;ParaContent(); print " You come back from a long fun night, but you feel like something is still missing."; new_line; .L_Say31; .L_SayX31;
             ! [4: end the story finally saying ~ Maybe there was someone else that you wanted to spend the night with?~]
             deadflag=TX_L_122; story_complete=true;
             ! [5: end if]
@@ -13741,7 +13767,7 @@ Array ActionHappened --> 0 0 0 0 0 0;
         ! [6: if player is not carrying phone begin]
         if (((~~((player == CarrierOf(I149_phone)))))){
             ! [7: say ~I don't have anything to call with!~]
-            say__p=1;ParaContent(); print "I don't have anything to call with!"; new_line; .L_Say31; .L_SayX31;
+            say__p=1;ParaContent(); print "I don't have anything to call with!"; new_line; .L_Say32; .L_SayX32;
             ! [8: end if]
             }
 
@@ -13763,7 +13789,7 @@ Array ActionHappened --> 0 0 0 0 0 0;
         ! [2: if player is carrying phone begin]
         if (((player == CarrierOf(I149_phone)))){
             ! [3: say ~Page picks up the phone. [paragraph break] 'Hiya! what's up?' She asks. [paragraph break] 'Nothing much' you say. 'Want to go do something tonight?' [paragraph break] 'Definitely!' She replies. [paragraph break] You come back from a long fun night, but you feel like something is still missing.~]
-            say__p=1;ParaContent(); print "Page picks up the phone. ";ParaContent(); DivideParagraphPoint(); new_line;ParaContent(); print " ~Hiya! what's up?~ She asks. ";ParaContent(); DivideParagraphPoint(); new_line;ParaContent(); print " ~Nothing much~ you say. ~Want to go do something tonight?~ ";ParaContent(); DivideParagraphPoint(); new_line;ParaContent(); print " ~Definitely!~ She replies. ";ParaContent(); DivideParagraphPoint(); new_line;ParaContent(); print " You come back from a long fun night, but you feel like something is still missing."; new_line; .L_Say32; .L_SayX32;
+            say__p=1;ParaContent(); print "Page picks up the phone. ";ParaContent(); DivideParagraphPoint(); new_line;ParaContent(); print " ~Hiya! what's up?~ She asks. ";ParaContent(); DivideParagraphPoint(); new_line;ParaContent(); print " ~Nothing much~ you say. ~Want to go do something tonight?~ ";ParaContent(); DivideParagraphPoint(); new_line;ParaContent(); print " ~Definitely!~ She replies. ";ParaContent(); DivideParagraphPoint(); new_line;ParaContent(); print " You come back from a long fun night, but you feel like something is still missing."; new_line; .L_Say33; .L_SayX33;
             ! [4: end the story finally saying ~ Maybe there was someone else that you wanted to spend the night with?~]
             deadflag=TX_L_122; story_complete=true;
             ! [5: end if]
@@ -13772,7 +13798,7 @@ Array ActionHappened --> 0 0 0 0 0 0;
         ! [6: if player is not carrying phone begin]
         if (((~~((player == CarrierOf(I149_phone)))))){
             ! [7: say ~I don't have anything to call with!~]
-            say__p=1;ParaContent(); print "I don't have anything to call with!"; new_line; .L_Say33; .L_SayX33;
+            say__p=1;ParaContent(); print "I don't have anything to call with!"; new_line; .L_Say34; .L_SayX34;
             ! [8: end if]
             }
 
@@ -13794,7 +13820,7 @@ Array ActionHappened --> 0 0 0 0 0 0;
         ! [2: if player is carrying phone begin]
         if (((player == CarrierOf(I149_phone)))){
             ! [3: say ~Steve picks up the phone. [paragraph break] 'Hey! what's up?' He asks. [paragraph break] 'Nothing much' you say. 'Want to go do something tonight?' [paragraph break] 'Why not?' He says. [paragraph break] You come back from a long fun night, but you feel like something is still missing.~]
-            say__p=1;ParaContent(); print "Steve picks up the phone. ";ParaContent(); DivideParagraphPoint(); new_line;ParaContent(); print " ~Hey! what's up?~ He asks. ";ParaContent(); DivideParagraphPoint(); new_line;ParaContent(); print " ~Nothing much~ you say. ~Want to go do something tonight?~ ";ParaContent(); DivideParagraphPoint(); new_line;ParaContent(); print " ~Why not?~ He says. ";ParaContent(); DivideParagraphPoint(); new_line;ParaContent(); print " You come back from a long fun night, but you feel like something is still missing."; new_line; .L_Say34; .L_SayX34;
+            say__p=1;ParaContent(); print "Steve picks up the phone. ";ParaContent(); DivideParagraphPoint(); new_line;ParaContent(); print " ~Hey! what's up?~ He asks. ";ParaContent(); DivideParagraphPoint(); new_line;ParaContent(); print " ~Nothing much~ you say. ~Want to go do something tonight?~ ";ParaContent(); DivideParagraphPoint(); new_line;ParaContent(); print " ~Why not?~ He says. ";ParaContent(); DivideParagraphPoint(); new_line;ParaContent(); print " You come back from a long fun night, but you feel like something is still missing."; new_line; .L_Say35; .L_SayX35;
             ! [4: end the story finally saying ~ Maybe there was someone else that you wanted to spend the night with?~]
             deadflag=TX_L_122; story_complete=true;
             ! [5: end if]
@@ -13803,7 +13829,7 @@ Array ActionHappened --> 0 0 0 0 0 0;
         ! [6: if player is not carrying phone begin]
         if (((~~((player == CarrierOf(I149_phone)))))){
             ! [7: say ~I don't have anything to call with!~]
-            say__p=1;ParaContent(); print "I don't have anything to call with!"; new_line; .L_Say35; .L_SayX35;
+            say__p=1;ParaContent(); print "I don't have anything to call with!"; new_line; .L_Say36; .L_SayX36;
             ! [8: end if]
             }
 
@@ -13819,17 +13845,15 @@ Array ActionHappened --> 0 0 0 0 0 0;
 ! ----------------------------------------------------------------------------------------------------
 ! Rules in rulebook: After (B23_after)
 ! ----------------------------------------------------------------------------------------------------
-! Rule 1/6 ! After taking Margret's casserole for the first time:
+! Rule 1/5 ! After taking Margret's casserole for the first time:
 !   === equally specific with ===
-! Rule 2/6 ! After examining Jennifer's Number for the first time:
+! Rule 2/5 ! After examining Jennifer's Number for the first time:
 !   === equally specific with ===
-! Rule 3/6 ! After examining Mitch's Number for the first time:
+! Rule 3/5 ! After examining Mitch's Number for the first time:
 !   === equally specific with ===
-! Rule 4/6 ! After examining Page's number for the first time:
+! Rule 4/5 ! After examining Page's number for the first time:
 !   === equally specific with ===
-! Rule 5/6 ! After examining Steve's number for the first time:
-!   >>> I - Number of aspects constrained >>>
-! Rule 6/6 ! After entering Jennifer's Living room:
+! Rule 5/5 ! After examining Steve's number for the first time:
 ! ----------------------------------------------------------------------------------------------------
 ! No specific request
 ! After taking Margret's casserole for the first time:
@@ -13840,7 +13864,7 @@ Array ActionHappened --> 0 0 0 0 0 0;
     ! [1: now story line is 3]
     (Global_Vars-->11) = 3;
     ! [2: say ~You carefully take the casserole out of the oven. It is still steaming, but it looks scrumptious.~]
-    say__p=1;ParaContent(); print "You carefully take the casserole out of the oven. It is still steaming, but it looks scrumptious."; new_line; .L_Say36; .L_SayX36;
+    say__p=1;ParaContent(); print "You carefully take the casserole out of the oven. It is still steaming, but it looks scrumptious."; new_line; .L_Say37; .L_SayX37;
     RulebookSucceeds(); rtrue;
     } else if (debug_rules > 1) DB_Rule(R_821, 821, 'action');
     rfalse;
@@ -13892,23 +13916,6 @@ Array ActionHappened --> 0 0 0 0 0 0;
     RulebookSucceeds(); rtrue;
     } else if (debug_rules > 1) DB_Rule(R_831, 831, 'action');
     rfalse;
-];
-! No specific request
-! After entering Jennifer's Living room:
-[ R_837 ;
-    if ((((action ==##Enter) &&  (actor==player) && ((noun == I161_jennifer_s_living_room) && (true))))) { ! Runs only when pattern matches
-    self = noun;
-    if (debug_rules) DB_Rule(R_837, 837);
-    ! [1: if story line is 4 begin]
-    if ((((Global_Vars-->11) == 4))){
-        ! [2: say ~You see Jennifer passed out on the rug. At first you think that she is just sleeping, but then you notice a bottle of insulin and a bottle of glucose next to her! Maybe I should ask her about if she is ok, about the insulin bottle or the glucose bottle?~]
-        say__p=1;ParaContent(); print "You see Jennifer passed out on the rug. At first you think that she is just sleeping, but then you notice a bottle of insulin and a bottle of glucose next to her! Maybe I should ask her about if she is ok, about the insulin bottle or the glucose bottle?"; new_line; .L_Say37; .L_SayX37;
-        ! [3: end if]
-        }
-
-        RulebookSucceeds(); rtrue;
-        } else if (debug_rules > 1) DB_Rule(R_837, 837, 'action');
-        rfalse;
 ];
 ! ----------------------------------------------------------------------------------------------------
 
@@ -23605,6 +23612,14 @@ Constant B7_when_scene_ends = EMPTY_RULEBOOK;
     latest_rule_result-->0 = 0;
     if (original_deadflag ~= deadflag) return 0;
     if (say__p) RulebookParBreak(forbid_breaks);
+    rv = R_837();
+    if (rv) {
+        if (rv == 2) return reason_the_action_failed;
+        return R_837;
+    }
+    latest_rule_result-->0 = 0;
+    if (original_deadflag ~= deadflag) return 0;
+    if (say__p) RulebookParBreak(forbid_breaks);
     rv = R_841();
     if (rv) {
         if (rv == 2) return reason_the_action_failed;
@@ -23627,7 +23642,7 @@ Constant B7_when_scene_ends = EMPTY_RULEBOOK;
         return R_845;
     }
     latest_rule_result-->0 = 0;
-    return 0; ! 7 rule(s)
+    return 0; ! 8 rule(s)
 ];
 [ B9_action_processing 
     forbid_breaks ! Implied call parameter
@@ -24197,19 +24212,7 @@ Constant B22_carry_out = EMPTY_RULEBOOK;
     } else {
         if (say__p) RulebookParBreak(forbid_breaks);
     }
-    if (action == ##Enter) {
-        if (original_deadflag ~= deadflag) return 0;
-        if (say__p) RulebookParBreak(forbid_breaks);
-        rv = R_837();
-        if (rv) {
-            if (rv == 2) return reason_the_action_failed;
-            return R_837;
-        }
-        latest_rule_result-->0 = 0;
-    } else {
-        if (say__p) RulebookParBreak(forbid_breaks);
-    }
-    return 0; ! 6 rule(s)
+    return 0; ! 5 rule(s)
 ];
 Constant B24_report = EMPTY_RULEBOOK;
 [ B25_does_the_player_mean 
@@ -31977,7 +31980,7 @@ Array RulebookNames -->
         if (R == R_816) { print "Instead of turning oven controls to 400"; return; } ! rule 351
         if (R == R_817) { print "Instead of taking the oven"; return; } ! rule 352
         if (R == R_818) { print "Instead of mixing Bacon with Onion"; return; } ! rule 353
-        if (R == R_819) { print "Instead of mixing Chicken with orange soup"; return; } ! rule 354
+        if (R == R_819) { print "Instead of mixing Chicken with White soup"; return; } ! rule 354
         if (R == R_820) { print "Instead of mixing Soupy Mixture with Chopped Ingredients"; return; } ! rule 355
         if (R == R_821) { print "After taking Margret's casserole for the first time"; return; } ! rule 356
         if (R == R_822) { print "An every turn rule"; return; } ! rule 357
@@ -31995,7 +31998,7 @@ Array RulebookNames -->
         if (R == R_834) { print "Instead of casting 424-9485"; return; } ! rule 369
         if (R == R_835) { print "Instead of casting 424-7778"; return; } ! rule 370
         if (R == R_836) { print "An every turn rule"; return; } ! rule 371
-        if (R == R_837) { print "After entering Jennifer's Living room"; return; } ! rule 372
+        if (R == R_837) { print "An every turn rule"; return; } ! rule 372
         if (R == R_838) { print "Instead of asking Jennifer about ~[ok]~"; return; } ! rule 373
         if (R == R_839) { print "Instead of asking Jennifer about ~[insulin]~"; return; } ! rule 374
         if (R == R_840) { print "Instead of asking Jennifer about ~[glucose]~"; return; } ! rule 375
@@ -50249,7 +50252,6 @@ Constant TX_PS_38 = "MnMs";
 Constant TX_PS_34 = "My Kitchen";
 Constant TX_PS_42 = "Old Casserole recipe";
 Constant TX_PS_45 = "Onion";
-Constant TX_PS_49 = "Orange Soup";
 Constant TX_PS_61 = "Oven controls";
 Constant TX_PS_40 = "Oven";
 Constant TX_PS_93 = "Page's Number";
@@ -50265,7 +50267,7 @@ Constant TX_PS_64 = "Soupy Mixture";
 Constant TX_PS_95 = "Steve's Number";
 Constant TX_PS_44 = "The pantry is where I store all the non-perishable food items.";
 Constant TX_PS_109 = "This is Jennifer's Garden. There is a little shed here that looks like it holds all sorts of stuff. The garden consits of a small flower bed off to the left and a vegetable patch to the right.";
-Constant TX_PS_104 = "This is Jennifer's Living Room. I've only been over here once or twice. It is a fairly large room, but it has a cozy feeling to it. Jennifer's Porch is to the north, and Jennifer's Kitchen is to the south.";
+Constant TX_PS_104 = "This is Jennifer's Living Room. I've only been over here once or twice. It is a fairly large room, but it has a cozy feeling to it. Jennifer's Porch is to the north.";
 Constant TX_PS_99 = "This is a well-lit intersection.  Clementine Way and Walnut street meet here in a T. Only a stop sign controls traffic in the intersection. The cool air feels nice on my face. Jennifer's house is to the south.";
 Constant TX_PS_88 = "This is the address book that I keep next to my phone in case I want to call someone.";
 Constant TX_PS_84 = "This is the living room where I sit on the couch and watch TV. My address book is here on the coffee table. The Street is past the front door to the north.";
@@ -50277,6 +50279,7 @@ Constant TX_PS_113 = "Turn Dial Lock";
 Constant TX_PS_120 = "UNDO the last command";
 Constant TX_PS_66 = "Uncooked Mixture";
 Constant TX_PS_47 = "Unlabeled can of soup";
+Constant TX_PS_49 = "White Soup";
 Constant TX_PS_75 = "Wood Chairs";
 Constant TX_PS_33 = "Yourself";
 Constant TX_PS_9 = "animals";
