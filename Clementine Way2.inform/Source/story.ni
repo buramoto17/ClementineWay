@@ -11,6 +11,8 @@ Rule for deciding whether all includes something: it does not.
 [Code from Cole Damon]
 Rule for printing a parser error when the latest parser error is the nothing to do error: say "You hold out your hand, close your eyes, and consentrate. You will all objects to fly to you, but nothing happens." instead.
 
+The description of the player is "I am dressed in casual sports wear. I have a dark blu shirt and black shorts. Nice enough to have a casual dinner."
+
 To say exit list:
 	let place be location;
 	repeat with way running through directions:

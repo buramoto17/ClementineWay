@@ -40136,7 +40136,7 @@ Verb meta 'tree'
                     ((
                         ((((((formal_par1 ofclass K1_room) && (formal_par1 ofclass K1_room))))) && ((
                         formal_rv = MapConnection(formal_par1,formal_par0)) | 1)
-                        )|| (ArgumentTypeFailed(17))
+                        )|| (ArgumentTypeFailed(19))
 
                     ))
                 +
@@ -49901,7 +49901,6 @@ Constant TX_PS_67 = "All the ingredients are mixed and ready to be baked.";
 Constant TX_PS_3 = "An Interactive Fiction";
 Constant TX_PS_105 = "An empty bottle. The lable says that it contains glucose, but there is nothing inside the bottle.";
 Constant TX_PS_48 = "An unlabeled can of soup. The outside is made of the typical shiny corrugated tin. I wonder what's inside it.";
-Constant TX_PS_32 = "As good-looking as ever.";
 Constant TX_PS_53 = "Bacon";
 Constant TX_PS_76 = "Bed Room";
 Constant TX_PS_104 = "Bottle of Glucose";
@@ -49919,6 +49918,7 @@ Constant TX_PS_70 = "Dining Room";
 Constant TX_PS_74 = "Dining table";
 Constant TX_PS_113 = "Fiction";
 Constant TX_PS_63 = "Finely mixed Bacon and onions. Looks delicous.";
+Constant TX_PS_32 = "I am dressed in casual sports wear. I have a dark blu shirt and black shorts. Nice enough to have a casual dinner.";
 Constant TX_PS_98 = "I am now standing in front of Jennifer's door. She has a white medium-sized house. The porch is made of red plastic. The intersection is to the north, and Jennifer's door is to the south.";
 Constant TX_PS_37 = "I dont smoke, but I this was the only container I could use when the bag of M and M's busted open.";
 Constant TX_PS_95 = "Intersection";

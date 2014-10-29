@@ -1,0 +1,4271 @@
+<?xml version="1.0"?>
+<Skein rootNode="node-0x2e6380" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Zoom</generator>
+  <activeNode nodeId="node-0x1933b530" />
+  <item nodeId="node-0x2e6380">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+You survived the week! It is now Friday night, and you don&apos;t have many things to do. Maybe I should call Jennifer and see if she&apos;s doing anything right now. If she&apos;s not, then I&apos;ll ask if she wants to have dinner with me.
+
+Clementine Way
+An Interactive Fiction by Brent Uramoto
+Release 1 / Serial number 141028 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+
+My Kitchen
+This is where I cook my meals. It is a medium sized room with an oven and a refrigerator. The oven is in the far corner of the room, the refrigerator is on the right wall. There is a marble table in the middle of the room. My recipe locker is next to the refrigerator. The Dining Room is to the west, the Bed Room is to the south, the Living room is to the east.
+
+You can see Cigarette Pack (closed), Pantry (closed) and Refrigerator (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="384">NO</temporary>
+    <children>
+      <child nodeId="node-0x244dd0" />
+      <child nodeId="node-0x2499b0" />
+      <child nodeId="node-0x2427c0" />
+      <child nodeId="node-0x242830" />
+      <child nodeId="node-0x36a580" />
+      <child nodeId="node-0x246f80" />
+      <child nodeId="node-0x244eb0" />
+      <child nodeId="node-0x2475a0" />
+      <child nodeId="node-0x2423d0" />
+      <child nodeId="node-0x242440" />
+      <child nodeId="node-0x1933b530" />
+      <child nodeId="node-0x245230" />
+      <child nodeId="node-0x244d60" />
+    </children>
+  </item>
+  <item nodeId="node-0x244d60">
+    <command xml:space="preserve">x window</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x244cf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x244cf0">
+    <command xml:space="preserve">x oven</command>
+    <result xml:space="preserve">(Oven)
+A standard electric oven. It is fairly new, I only bought it six months ago. The oven controls is a simple knob that has different temperatures on it. 300, 350 and 400. 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x244c80" />
+    </children>
+  </item>
+  <item nodeId="node-0x244c80">
+    <command xml:space="preserve">turn knob</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x244c10" />
+    </children>
+  </item>
+  <item nodeId="node-0x244c10">
+    <command xml:space="preserve">turn  oven</command>
+    <result xml:space="preserve">(Oven)
+Nothing obvious happens.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x244ba0" />
+    </children>
+  </item>
+  <item nodeId="node-0x244ba0">
+    <command xml:space="preserve">turn oven to 300</command>
+    <result xml:space="preserve">(Oven to that)
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x244b30" />
+    </children>
+  </item>
+  <item nodeId="node-0x244b30">
+    <command xml:space="preserve">turn oven controles</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x244ac0" />
+    </children>
+  </item>
+  <item nodeId="node-0x244ac0">
+    <command xml:space="preserve">turn oven controls to 300</command>
+    <result xml:space="preserve">The oven starts to get warm, and after a few minutes, the temperature skyrockets to 300ºF.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x244a50" />
+    </children>
+  </item>
+  <item nodeId="node-0x244a50">
+    <command xml:space="preserve">x refrigerator</command>
+    <result xml:space="preserve">A plain white refrigerator. I use it to store all my perishable food.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x2449e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2449e0">
+    <command xml:space="preserve">open refrigerator</command>
+    <result xml:space="preserve">You open Refrigerator, revealing Bacon and Chicken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x244970" />
+    </children>
+  </item>
+  <item nodeId="node-0x244970">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">You hold out your hand, close your eyes, and consentrate. You will all objects to fly to you, but nothing happens.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x244900" />
+    </children>
+  </item>
+  <item nodeId="node-0x244900">
+    <command xml:space="preserve">x bacon</command>
+    <result xml:space="preserve">Mmmmm.... Bacon!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x244890" />
+    </children>
+  </item>
+  <item nodeId="node-0x244890">
+    <command xml:space="preserve">x chicken</command>
+    <result xml:space="preserve">Cut up chicken. Perfect for making the casserole.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x244820" />
+    </children>
+  </item>
+  <item nodeId="node-0x244820">
+    <command xml:space="preserve">x table</command>
+    <result xml:space="preserve">A black and white marble table. It&apos;s been here as long as my house was here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x2447b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2447b0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">My Kitchen
+This is where I cook my meals. It is a medium sized room with an oven and a refrigerator. The oven is in the far corner of the room, The refrigerator is on the right wall. There is a marble table in the middle of the room. My recipe locker is next to the refrigerator. The kitchen is lit by while florescent lights and a window that looks out into the yard. The Dining Room is to the west, the Bed Room is to the south, the Living room is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x244740" />
+    </children>
+  </item>
+  <item nodeId="node-0x244740">
+    <command xml:space="preserve">x locker</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x2446d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2446d0">
+    <command xml:space="preserve">x recipe locker</command>
+    <result xml:space="preserve">I only understood you as far as wanting to examine Recipe storage.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x244660" />
+    </children>
+  </item>
+  <item nodeId="node-0x244660">
+    <command xml:space="preserve">x my recipe locker</command>
+    <result xml:space="preserve">I only understood you as far as wanting to examine Recipe storage.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x2445f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2445f0">
+    <command xml:space="preserve">x recipe locker</command>
+    <result xml:space="preserve">I only understood you as far as wanting to examine Recipe storage.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x244580" />
+    </children>
+  </item>
+  <item nodeId="node-0x244580">
+    <command xml:space="preserve">x recipe storage</command>
+    <result xml:space="preserve">It is a white wood locker that I keep my recipes in. It is closed.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x244510" />
+    </children>
+  </item>
+  <item nodeId="node-0x244510">
+    <command xml:space="preserve">open storage</command>
+    <result xml:space="preserve">You open Recipe storage, revealing Old Casserole recipe.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x2444a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2444a0">
+    <command xml:space="preserve">x recipe</command>
+    <result xml:space="preserve">(Old Casserole recipe)
+This is a dish that Jennifer and I used to make when we were kids. It is still a good recipe, in fact, I made it a month ago, and it tasted great! This is the recipe: 
+
+ Ingredients: bacon, onions, chicken, alfredo soup. 
+
+ Directions: turn oven on to 350 ºF. Mix bacon with onion and then mix chicken and alfredo soup. Then, put into oven for an hour.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x244430" />
+    </children>
+  </item>
+  <item nodeId="node-0x244430">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying nothing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x2443c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2443c0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">My Kitchen
+This is where I cook my meals. It is a medium sized room with an oven and a refrigerator. The oven is in the far corner of the room, The refrigerator is on the right wall. There is a marble table in the middle of the room. My recipe locker is next to the refrigerator. The kitchen is lit by while florescent lights and a window that looks out into the yard. The Dining Room is to the west, the Bed Room is to the south, the Living room is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x244350" />
+    </children>
+  </item>
+  <item nodeId="node-0x244350">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Bed Room
+This is where I sleep every night. My bed is right in front of me, the phone and my address book is on the nightstand to the left of the bed, and a desk lamp lights the room. The Kitchen is to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x2442e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2442e0">
+    <command xml:space="preserve">x book</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x244270" />
+    </children>
+  </item>
+  <item nodeId="node-0x244270">
+    <command xml:space="preserve">turn on lamp</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x244200" />
+    </children>
+  </item>
+  <item nodeId="node-0x244200">
+    <command xml:space="preserve">take lamp</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x244190" />
+    </children>
+  </item>
+  <item nodeId="node-0x244190">
+    <command xml:space="preserve">x phone</command>
+    <result xml:space="preserve">A regular house phone. I don&apos;t use it that often, maybe four times a week. It has a dial pad to put in numbers.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x244120" />
+    </children>
+  </item>
+  <item nodeId="node-0x244120">
+    <command xml:space="preserve">x address book</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x2440b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2440b0">
+    <command xml:space="preserve">take phone</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x244040" />
+    </children>
+  </item>
+  <item nodeId="node-0x244040">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+My Kitchen
+This is where I cook my meals. It is a medium sized room with an oven and a refrigerator. The oven is in the far corner of the room, The refrigerator is on the right wall. There is a marble table in the middle of the room. My recipe locker is next to the refrigerator. The kitchen is lit by while florescent lights and a window that looks out into the yard. The Dining Room is to the west, the Bed Room is to the south, the Living room is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x243fd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x243fd0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Dining Room
+This is where meals are eaten. It is a small room consisting of a small wood table, 2 wood chairs, and a utensil cabinet. A glass chandelier casts a warm glow in the room. There is a window that looks out onto Clementine Way. The Kitchen is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x243f60" />
+    </children>
+  </item>
+  <item nodeId="node-0x243f60">
+    <command xml:space="preserve">open cabinet</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x243ef0" />
+    </children>
+  </item>
+  <item nodeId="node-0x243ef0">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">You hold out your hand, close your eyes, and consentrate. You will all objects to fly to you, but nothing happens.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x243e80" />
+    </children>
+  </item>
+  <item nodeId="node-0x243e80">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+My Kitchen
+This is where I cook my meals. It is a medium sized room with an oven and a refrigerator. The oven is in the far corner of the room, The refrigerator is on the right wall. There is a marble table in the middle of the room. My recipe locker is next to the refrigerator. The kitchen is lit by while florescent lights and a window that looks out into the yard. The Dining Room is to the west, the Bed Room is to the south, the Living room is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x243e10" />
+    </children>
+  </item>
+  <item nodeId="node-0x243e10">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Living Room
+This is the living room where I sit on the couch and watch TV. My address book is here on the coffee table.  The Street is past the front door to the north.
+
+You can see Coffee Table here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x243da0" />
+    </children>
+  </item>
+  <item nodeId="node-0x243da0">
+    <command xml:space="preserve">stand on coffee table</command>
+    <result xml:space="preserve">That&apos;s not something you can stand on.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x243d30" />
+    </children>
+  </item>
+  <item nodeId="node-0x243d30">
+    <command xml:space="preserve">x address book</command>
+    <result xml:space="preserve">This is the address book that I keep next to my phone in case I want to call someone.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x243cc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x243cc0">
+    <command xml:space="preserve">open address book</command>
+    <result xml:space="preserve">You open Address Book, revealing Jennifer&apos;s Number, Mitch&apos;s Number, Margret&apos;s Number and Steve&apos;s Number.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x243c50" />
+    </children>
+  </item>
+  <item nodeId="node-0x243c50">
+    <command xml:space="preserve">x jennifer</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x243be0" />
+    </children>
+  </item>
+  <item nodeId="node-0x243be0">
+    <command xml:space="preserve">x jennifer&apos;s number</command>
+    <result xml:space="preserve">424-8475
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x243b70" />
+    </children>
+  </item>
+  <item nodeId="node-0x243b70">
+    <command xml:space="preserve">x mitch&apos;s number</command>
+    <result xml:space="preserve">424-5332
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x243b00" />
+    </children>
+  </item>
+  <item nodeId="node-0x243b00">
+    <command xml:space="preserve">call 4245332</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x243a90" />
+    </children>
+  </item>
+  <item nodeId="node-0x243a90">
+    <command xml:space="preserve">call 424-8475</command>
+    <result xml:space="preserve">Alright, so I need to ask Jennifer about her plans for tonight. What should I ask about? Dinner? Movies? Shopping? You take a deep breath and dial the number.  After a couple rings, Jennifer&apos;s voice comes over the line. &quot;Hello?&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x243a20" />
+    </children>
+  </item>
+  <item nodeId="node-0x243a20">
+    <command xml:space="preserve">hi</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x2439b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2439b0">
+    <command xml:space="preserve">ask about movies</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x243940" />
+    </children>
+  </item>
+  <item nodeId="node-0x243940">
+    <command xml:space="preserve">ask Jennifer about movies</command>
+    <result xml:space="preserve">There is no reply.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x2438d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2438d0">
+    <command xml:space="preserve">ask jennifer about shopping</command>
+    <result xml:space="preserve">There is no reply.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x243860" />
+    </children>
+  </item>
+  <item nodeId="node-0x243860">
+    <command xml:space="preserve">ask jennifer about plans</command>
+    <result xml:space="preserve">Um, I dont think I have any plans for tonight. Why? Do you want to do something?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x2437f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2437f0">
+    <command xml:space="preserve">ask jennifer about dinner</command>
+    <result xml:space="preserve">&quot;Hmm... Sure.&quot; Says Jennifer. &quot;Oh! Remember that old recipie that we used to make as teens? What was it called? Umm...  Margret&apos;s Casserole!&quot; 
+
+ &quot;Yes,&quot; you say. &quot;I think I still have that recipe in my recipe drawer.&quot; 
+
+ &quot;Ok, cool&quot; responds Jennifer. I still have a lot of work to do, so could you call me back when you have it ready?&quot; 
+
+ &quot;Sure,&quot; you say. &quot;I&apos;ll call you later.&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x243780" />
+    </children>
+  </item>
+  <item nodeId="node-0x243780">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x243710" />
+    </children>
+  </item>
+  <item nodeId="node-0x243710">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+My Kitchen
+This is where I cook my meals. It is a medium sized room with an oven and a refrigerator. The oven is in the far corner of the room, The refrigerator is on the right wall. There is a marble table in the middle of the room. My recipe locker is next to the refrigerator. The kitchen is lit by while florescent lights and a window that looks out into the yard. The Dining Room is to the west, the Bed Room is to the south, the Living room is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x2436a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2436a0">
+    <command xml:space="preserve">end call</command>
+    <result xml:space="preserve">&quot;Ok, I have to go now.&quot; You say. &quot;Bye!&quot; You press the end call button and put down the phone gently.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x243630" />
+    </children>
+  </item>
+  <item nodeId="node-0x243630">
+    <command xml:space="preserve">x recipe</command>
+    <result xml:space="preserve">(Old Casserole recipe)
+This is a dish that Jennifer and I used to make when we were kids. It is still a good recipe, in fact, I made it a month ago, and it tasted great! This is the recipe: 
+
+ Ingredients: bacon, onions, chicken, alfredo soup. 
+
+ Directions: turn oven on to 350 ºF. Mix bacon with onion and then mix chicken and alfredo soup. Then, put into oven for an hour.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x2435c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2435c0">
+    <command xml:space="preserve">take recipe</command>
+    <result xml:space="preserve">(Old Casserole recipe)
+Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x243550" />
+    </children>
+  </item>
+  <item nodeId="node-0x243550">
+    <command xml:space="preserve">x pantry</command>
+    <result xml:space="preserve">The pantry is where I store all the non-perisable food items.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x2434e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2434e0">
+    <command xml:space="preserve">open pantry</command>
+    <result xml:space="preserve">You open Pantry, revealing Onion and Unlabeled can of soup.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x243470" />
+    </children>
+  </item>
+  <item nodeId="node-0x243470">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">You hold out your hand, close your eyes, and consentrate. You will all objects to fly to you, but nothing happens.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x243400" />
+    </children>
+  </item>
+  <item nodeId="node-0x243400">
+    <command xml:space="preserve">turn oven controls to 350</command>
+    <result xml:space="preserve">The oven heats up quickly, and you watch as the temperature rises to 350ºF. You can feel some of the heat radiating off of your face.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x243390" />
+    </children>
+  </item>
+  <item nodeId="node-0x243390">
+    <command xml:space="preserve">mix bacon with onion</command>
+    <result xml:space="preserve">You mix the bacon and onions until it is well spread out.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x243320" />
+    </children>
+  </item>
+  <item nodeId="node-0x243320">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Chopped Ingredients
+  Old Casserole recipe
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x2432b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2432b0">
+    <command xml:space="preserve">x can</command>
+    <result xml:space="preserve">An unlabeled can of soup. The outside is made of the typical shiny corrugated tin. I wonder what&apos;s inside it.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x243240" />
+    </children>
+  </item>
+  <item nodeId="node-0x243240">
+    <command xml:space="preserve">mix chicken and alfredo soup</command>
+    <result xml:space="preserve">You can&apos;t use multiple objects with that verb.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x2431d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2431d0">
+    <command xml:space="preserve">open can</command>
+    <result xml:space="preserve">You open Unlabeled can of soup, revealing Orange Soup.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x243160" />
+    </children>
+  </item>
+  <item nodeId="node-0x243160">
+    <command xml:space="preserve">x soup</command>
+    <result xml:space="preserve">Which do you mean, Unlabeled can of soup or Orange Soup?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x2430f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2430f0">
+    <command xml:space="preserve">mix chicken and soup</command>
+    <result xml:space="preserve">You can&apos;t use multiple objects with that verb.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x243080" />
+    </children>
+  </item>
+  <item nodeId="node-0x243080">
+    <command xml:space="preserve">mix chicken with soup</command>
+    <result xml:space="preserve">Which do you mean, Unlabeled can of soup or Orange Soup?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x243010" />
+    </children>
+  </item>
+  <item nodeId="node-0x243010">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Chopped Ingredients
+  Old Casserole recipe
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x242fa0" />
+    </children>
+  </item>
+  <item nodeId="node-0x242fa0">
+    <command xml:space="preserve">mix chicken with orange soup</command>
+    <result xml:space="preserve">You mix the chicken with the orange-colored soup until the chicken is fully mixed with the soup.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x242f30" />
+    </children>
+  </item>
+  <item nodeId="node-0x242f30">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Soupy Mixture
+  Chopped Ingredients
+  Old Casserole recipe
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x242ec0" />
+    </children>
+  </item>
+  <item nodeId="node-0x242ec0">
+    <command xml:space="preserve">x recipe</command>
+    <result xml:space="preserve">(Old Casserole recipe)
+This is a dish that Jennifer and I used to make when we were kids. It is still a good recipe, in fact, I made it a month ago, and it tasted great! This is the recipe: 
+
+ Ingredients: bacon, onions, chicken, alfredo soup. 
+
+ Directions: turn oven on to 350 ºF. Mix bacon with onion and then mix chicken and alfredo soup. Then, put into oven for an hour.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x242e50" />
+    </children>
+  </item>
+  <item nodeId="node-0x242e50">
+    <command xml:space="preserve">mix mixture with ingredients</command>
+    <result xml:space="preserve">You put all the ingredients together and now it is ready to be baked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x242de0" />
+    </children>
+  </item>
+  <item nodeId="node-0x242de0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Uncooked Mixture
+  Old Casserole recipe
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x242d70" />
+    </children>
+  </item>
+  <item nodeId="node-0x242d70">
+    <command xml:space="preserve">put mixture in oven</command>
+    <result xml:space="preserve">(Oven)
+Oven is closed.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x242d00" />
+    </children>
+  </item>
+  <item nodeId="node-0x242d00">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x242c90" />
+    </children>
+  </item>
+  <item nodeId="node-0x242c90">
+    <command xml:space="preserve">open oven</command>
+    <result xml:space="preserve">(Oven)
+You open Oven.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x242c20" />
+    </children>
+  </item>
+  <item nodeId="node-0x242c20">
+    <command xml:space="preserve">put mixture in oven</command>
+    <result xml:space="preserve">(Oven)
+You put Uncooked Mixture into Oven.
+
+You carefully put the uncooked mixture into the heated oven. Then, you set the timer for an hour and decide to take a nap. As soon as the casserole is done, you should call Jennifer. 
+
+ You wake up an hour later. A delicous smell floats through out the house. Time to take the casserole out.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x242bb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x242bb0">
+    <command xml:space="preserve">call 424-8475</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x242b40" />
+    </children>
+  </item>
+  <item nodeId="node-0x242b40">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x242ad0" />
+    </children>
+  </item>
+  <item nodeId="node-0x242ad0">
+    <command xml:space="preserve">take casserole out</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x242a60" />
+    </children>
+  </item>
+  <item nodeId="node-0x242a60">
+    <command xml:space="preserve">take casserole out of oven</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x2429f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2429f0">
+    <command xml:space="preserve">open oven</command>
+    <result xml:space="preserve">(Oven)
+That&apos;s already open.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x242980" />
+    </children>
+  </item>
+  <item nodeId="node-0x242980">
+    <command xml:space="preserve">x oven</command>
+    <result xml:space="preserve">(Oven)
+A standard electric oven. It is fairly new, I only bought it six months ago. The oven controls is a simple knob that has different temperatures on it. 300, 350 and 400.  Now the oven is at a scorching 350ºF.
+
+In Oven is Margret&apos;s Casserole.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x242910" />
+    </children>
+  </item>
+  <item nodeId="node-0x242910">
+    <command xml:space="preserve">take casserole</command>
+    <result xml:space="preserve">(Margret&apos;s Casserole)
+You carefully take the casserole out of the oven. It is still steaming, but it looks scrumptious.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2243">YES</temporary>
+    <children>
+      <child nodeId="node-0x2428a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2428a0">
+    <command xml:space="preserve">call 424-8475</command>
+    <result xml:space="preserve">After a couple of rings, Jennifer picks up the phone.
+
+ &quot;Hi&quot; says Jennifer. 
+
+&quot;Hello&quot; you say. &quot;I have the casserole ready.&quot; 
+
+ &quot;Ok, great, I&apos;ll be right over. See you soon!&quot;
+
+
+
+    *** you win! ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2242">YES</temporary>
+  </item>
+  <item nodeId="node-0x245230">
+    <command xml:space="preserve">x recipe storage</command>
+    <result xml:space="preserve">It is a white wood locker that I keep my recipes in. It is closed.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="47">YES</temporary>
+    <children>
+      <child nodeId="node-0x2451c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2451c0">
+    <command xml:space="preserve">open</command>
+    <result xml:space="preserve">(Unlabled can of soup)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="47">YES</temporary>
+    <children>
+      <child nodeId="node-0x245150" />
+    </children>
+  </item>
+  <item nodeId="node-0x245150">
+    <command xml:space="preserve">open recipe storage</command>
+    <result xml:space="preserve">You open Recipe storage, revealing Old recipe.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="47">YES</temporary>
+    <children>
+      <child nodeId="node-0x2450e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2450e0">
+    <command xml:space="preserve">open recipe storage</command>
+    <result xml:space="preserve">That&apos;s already open.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="47">YES</temporary>
+    <children>
+      <child nodeId="node-0x245070" />
+    </children>
+  </item>
+  <item nodeId="node-0x245070">
+    <command xml:space="preserve">x recipe storage</command>
+    <result xml:space="preserve">It is a white wood locker that I keep my recipes in.It is open. There are a bunch of interesting recpies in here, but ther is one that you had intended to make for Jennifer.
+
+In Recipe storage is Old recipe.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="47">YES</temporary>
+    <children>
+      <child nodeId="node-0x245000" />
+    </children>
+  </item>
+  <item nodeId="node-0x245000">
+    <command xml:space="preserve">take old recipe</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="47">YES</temporary>
+    <children>
+      <child nodeId="node-0x244f90" />
+    </children>
+  </item>
+  <item nodeId="node-0x244f90">
+    <command xml:space="preserve">x old recipe</command>
+    <result xml:space="preserve">This is a dish that Jennifer and I used to make when we were kids. It is still a good recipe, in fact, I made it a month ago, and it tasted great! But I accidentally ripped the paper when I made it last time. To make matters worse, I&apos;ve completely forgotten how to make it. I can only make out some writing of the scraps. &quot;Soup&quot;...&quot;oven&quot;...&quot;smokey&quot;...&quot;M and Ms&quot;. Not going to be much help, but it&apos;s all I got for now.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="47">YES</temporary>
+    <children>
+      <child nodeId="node-0x244f20" />
+    </children>
+  </item>
+  <item nodeId="node-0x244f20">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">My Kitchen
+This is where I cook my meals everyday. It is a medium sized room with standard kitchen appliances. The oven is in the far corner of the room, and the stove is to your right, and a smoke vent is above it. The refrigerator is on the right wall. There is a marble table in the middle of the room. My recipe locker is next to the refridgerator. The kitchen is lit by while fourecent lights and a window that looks out into the yard.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="46">YES</temporary>
+  </item>
+  <item nodeId="node-0x1933b530">
+    <command xml:space="preserve">open refrigerator</command>
+    <result xml:space="preserve">You open Refrigerator, revealing Bacon and Chicken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="383">YES</temporary>
+  </item>
+  <item nodeId="node-0x242440">
+    <command xml:space="preserve">l</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="109">YES</temporary>
+  </item>
+  <item nodeId="node-0x2423d0">
+    <command xml:space="preserve">x oven</command>
+    <result xml:space="preserve">(Oven)
+A standard electric oven. It is fairly new, I only bought it six months ago. The oven controls has differetent temperatures on it. 300, 350 and 400. It can be set by TURNING oven controls to a temperature 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="382">YES</temporary>
+    <children>
+      <child nodeId="node-0x242280" />
+      <child nodeId="node-0x242360" />
+      <child nodeId="node-0xde73580" />
+    </children>
+  </item>
+  <item nodeId="node-0xde73580">
+    <command xml:space="preserve">xsotuh</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="382">YES</temporary>
+    <children>
+      <child nodeId="node-0xf87b250" />
+    </children>
+  </item>
+  <item nodeId="node-0xf87b250">
+    <command xml:space="preserve">x south</command>
+    <result xml:space="preserve">You see nothing unexpected in that direction.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="382">YES</temporary>
+    <children>
+      <child nodeId="node-0xf871a90" />
+    </children>
+  </item>
+  <item nodeId="node-0xf871a90">
+    <command xml:space="preserve"> jennifers house</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="382">YES</temporary>
+    <children>
+      <child nodeId="node-0xf8d86f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf8d86f0">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+Living Room
+This is the living room where I sit on the couch and watch TV. My address book is here on the coffee table. The Street is past the front door to the north.
+
+You can see Coffee Table and Address Book (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="382">YES</temporary>
+    <children>
+      <child nodeId="node-0xec97df0" />
+    </children>
+  </item>
+  <item nodeId="node-0xec97df0">
+    <command xml:space="preserve">street</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="382">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f89e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f89e0">
+    <command xml:space="preserve">The street</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="382">YES</temporary>
+    <children>
+      <child nodeId="node-0xde21ab0" />
+    </children>
+  </item>
+  <item nodeId="node-0xde21ab0">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Clementine Way
+This is the street that runs past the front of my house. Good thing the street lights are on, otherwise, it would be pitch black. The sidewalk and asphalt are in good condition. Cool Autumn breezes make you shiver slightly. The Intersection by Jennifer&apos;s house is to the east, and my house is to the south.
+
+Where am I going? I haven&apos;t even contacted anybody yet.
+
+Living Room
+This is the living room where I sit on the couch and watch TV. My address book is here on the coffee table. The Street is past the front door to the north.
+
+You can see Coffee Table and Address Book (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="382">YES</temporary>
+    <children>
+      <child nodeId="node-0xf88cd60" />
+    </children>
+  </item>
+  <item nodeId="node-0xf88cd60">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Clementine Way
+This is the street that runs past the front of my house. Good thing the street lights are on, otherwise, it would be pitch black. The sidewalk and asphalt are in good condition. Cool Autumn breezes make you shiver slightly. The Intersection by Jennifer&apos;s house is to the east, and my house is to the south.
+
+Where am I going? I haven&apos;t even contacted anybody yet.
+
+Living Room
+This is the living room where I sit on the couch and watch TV. My address book is here on the coffee table. The Street is past the front door to the north.
+
+You can see Coffee Table and Address Book (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="382">YES</temporary>
+    <children>
+      <child nodeId="node-0xde584a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xde584a0">
+    <command xml:space="preserve">address book</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="382">YES</temporary>
+    <children>
+      <child nodeId="node-0xde0ed40" />
+    </children>
+  </item>
+  <item nodeId="node-0xde0ed40">
+    <command xml:space="preserve">x adress book</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="382">YES</temporary>
+    <children>
+      <child nodeId="node-0xde3f3f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xde3f3f0">
+    <command xml:space="preserve">x address book</command>
+    <result xml:space="preserve">This is the address book that I keep next to my phone in case I want to call someone.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="382">YES</temporary>
+    <children>
+      <child nodeId="node-0x15674100" />
+    </children>
+  </item>
+  <item nodeId="node-0x15674100">
+    <command xml:space="preserve">x me</command>
+    <result xml:space="preserve">I am dressed in casual sports wear. I have a dark blu shirt and black shorts. Nice enough to have a casual dinner.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="382">YES</temporary>
+    <children>
+      <child nodeId="node-0x189e4500" />
+    </children>
+  </item>
+  <item nodeId="node-0x189e4500">
+    <command xml:space="preserve">open address book</command>
+    <result xml:space="preserve">You open Address Book, revealing Jennifer&apos;s Number, Mitch&apos;s Number, Page&apos;s Number and Steve&apos;s Number.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="382">YES</temporary>
+    <children>
+      <child nodeId="node-0x189688a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x189688a0">
+    <command xml:space="preserve">x mitch&apos;s number</command>
+    <result xml:space="preserve">424-5332
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="382">YES</temporary>
+    <children>
+      <child nodeId="node-0x15612b90" />
+    </children>
+  </item>
+  <item nodeId="node-0x15612b90">
+    <command xml:space="preserve">call 424-5332</command>
+    <result xml:space="preserve">I dont have anything to call with!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="382">YES</temporary>
+    <children>
+      <child nodeId="node-0xf8c72c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf8c72c0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying nothing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="382">YES</temporary>
+    <children>
+      <child nodeId="node-0x189c9d40" />
+    </children>
+  </item>
+  <item nodeId="node-0x189c9d40">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+My Kitchen
+This is where I cook my meals. It is a medium sized room with an oven and a refrigerator. The oven is in the far corner of the room, The refrigerator is on the right wall. There is a marble table in the middle of the room. My recipe locker is next to the refrigerator. The kitchen is lit by while florescent lights and a window that looks out into the yard. The Dining Room is to the west, the Bed Room is to the south, the Living room is to the east.
+
+You can see Cigarette Pack (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="382">YES</temporary>
+    <children>
+      <child nodeId="node-0xf8945d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf8945d0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Bed Room
+This is where I sleep every night. My bed is right in front of me, the phone and my address book is on the nightstand to the left of the bed, and a desk lamp lights the room. The Kitchen is to the north.
+
+You can see Phone here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="382">YES</temporary>
+    <children>
+      <child nodeId="node-0x1897bfb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1897bfb0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="382">YES</temporary>
+    <children>
+      <child nodeId="node-0x18971f40" />
+    </children>
+  </item>
+  <item nodeId="node-0x18971f40">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="382">YES</temporary>
+    <children>
+      <child nodeId="node-0x18948600" />
+    </children>
+  </item>
+  <item nodeId="node-0x18948600">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="382">YES</temporary>
+    <children>
+      <child nodeId="node-0x18978fe0" />
+    </children>
+  </item>
+  <item nodeId="node-0x18978fe0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="382">YES</temporary>
+    <children>
+      <child nodeId="node-0x18949160" />
+    </children>
+  </item>
+  <item nodeId="node-0x18949160">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="382">YES</temporary>
+    <children>
+      <child nodeId="node-0x15672ec0" />
+    </children>
+  </item>
+  <item nodeId="node-0x15672ec0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="382">YES</temporary>
+    <children>
+      <child nodeId="node-0x15627bf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x15627bf0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="382">YES</temporary>
+    <children>
+      <child nodeId="node-0x156c2f20" />
+    </children>
+  </item>
+  <item nodeId="node-0x156c2f20">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="382">YES</temporary>
+    <children>
+      <child nodeId="node-0x189d4120" />
+    </children>
+  </item>
+  <item nodeId="node-0x189d4120">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="382">YES</temporary>
+    <children>
+      <child nodeId="node-0x156af440" />
+    </children>
+  </item>
+  <item nodeId="node-0x156af440">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="382">YES</temporary>
+    <children>
+      <child nodeId="node-0x156a36c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x156a36c0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="382">YES</temporary>
+    <children>
+      <child nodeId="node-0x9774980" />
+    </children>
+  </item>
+  <item nodeId="node-0x9774980">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="382">YES</temporary>
+    <children>
+      <child nodeId="node-0x156adff0" />
+    </children>
+  </item>
+  <item nodeId="node-0x156adff0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="382">YES</temporary>
+    <children>
+      <child nodeId="node-0x18949600" />
+    </children>
+  </item>
+  <item nodeId="node-0x18949600">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="382">YES</temporary>
+    <children>
+      <child nodeId="node-0x6f0fda0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6f0fda0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="382">YES</temporary>
+    <children>
+      <child nodeId="node-0x256160" />
+    </children>
+  </item>
+  <item nodeId="node-0x256160">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="382">YES</temporary>
+    <children>
+      <child nodeId="node-0xf8b8c20" />
+    </children>
+  </item>
+  <item nodeId="node-0xf8b8c20">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="382">YES</temporary>
+    <children>
+      <child nodeId="node-0x15691b10" />
+    </children>
+  </item>
+  <item nodeId="node-0x15691b10">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Bed Room
+This is where I sleep every night. My bed is right in front of me, the phone and my address book is on the nightstand to the left of the bed, and a desk lamp lights the room. The Kitchen is to the north.
+
+You can see Phone here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="382">YES</temporary>
+    <children>
+      <child nodeId="node-0x189234c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x189234c0">
+    <command xml:space="preserve">take phone</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="382">YES</temporary>
+    <children>
+      <child nodeId="node-0x18991500" />
+    </children>
+  </item>
+  <item nodeId="node-0x18991500">
+    <command xml:space="preserve">call 424-5332</command>
+    <result xml:space="preserve">Mitch picks up the phone. 
+
+ &quot;Hey man, what&apos;s up?&quot; He asks. 
+
+ &quot;Nothing much&quot; You say. &quot;Want to go do something tonight?&quot; 
+
+ &quot;Sure&quot; He says. 
+
+ You come back from a long fun night, but you feel like something is still missing.
+
+
+
+    ***  Maybe there was someone else that you wanted to spend the night with? ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="381">YES</temporary>
+  </item>
+  <item nodeId="node-0x242360">
+    <command xml:space="preserve">turn oven controls to 300</command>
+    <result xml:space="preserve">The oven is starting to get warm.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="12">YES</temporary>
+    <children>
+      <child nodeId="node-0x2422f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2422f0">
+    <command xml:space="preserve">x oven</command>
+    <result xml:space="preserve">(Oven)
+A standard eletric oven. It is fairly new, I only bought it six months ago. The oven controls is a simple knob that has different temeratures on it. 300, 350 and 400. 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="11">YES</temporary>
+  </item>
+  <item nodeId="node-0x242280">
+    <command xml:space="preserve">turn controls to 300</command>
+    <result xml:space="preserve">The oven starts to get warm, and after a few minutes, the temperature skyrockets to 300ºF.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x242210" />
+    </children>
+  </item>
+  <item nodeId="node-0x242210">
+    <command xml:space="preserve">x oven</command>
+    <result xml:space="preserve">(Oven)
+A standard eletric oven. It is fairly new, I only bought it six months ago. The oven controls is a simple knob that has different temeratures on it. 300, 350 and 400. Now the oven is at a hot 300ºF.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x2421a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2421a0">
+    <command xml:space="preserve">turn controls to 400</command>
+    <result xml:space="preserve">The oven temperature soars until it reaches 400ºF. Even standing a few feet away from it, you can feel the heat bouncing off your face.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x242130" />
+    </children>
+  </item>
+  <item nodeId="node-0x242130">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x2420c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2420c0">
+    <command xml:space="preserve">turn oven controls to 400</command>
+    <result xml:space="preserve">The oven temperature soars until it reaches 400ºF. Even standing a few feet away from it, you can feel the heat bouncing off your face.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x242050" />
+    </children>
+  </item>
+  <item nodeId="node-0x242050">
+    <command xml:space="preserve">x oven</command>
+    <result xml:space="preserve">(Oven)
+A standard eletric oven. It is fairly new, I only bought it six months ago. The oven controls is a simple knob that has different temeratures on it. 300, 350 and 400.  Now the oven is at a searing 400ºF
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="38">YES</temporary>
+  </item>
+  <item nodeId="node-0x2475a0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Bed Room
+This is where I sleep every night. My bed is right in front of me, the phone and my address book is on the nightstand to the left of the bed, and a desk lamp lights the room. The Kitchen is to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0x247290" />
+      <child nodeId="node-0x247530" />
+    </children>
+  </item>
+  <item nodeId="node-0x247530">
+    <command xml:space="preserve">x adress book</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="42">YES</temporary>
+    <children>
+      <child nodeId="node-0x2474c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2474c0">
+    <command xml:space="preserve">open adress book</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="42">YES</temporary>
+    <children>
+      <child nodeId="node-0x247450" />
+    </children>
+  </item>
+  <item nodeId="node-0x247450">
+    <command xml:space="preserve">x jennifer&apos;s number</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="42">YES</temporary>
+    <children>
+      <child nodeId="node-0x2473e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2473e0">
+    <command xml:space="preserve">424-8475</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="42">YES</temporary>
+    <children>
+      <child nodeId="node-0x247370" />
+    </children>
+  </item>
+  <item nodeId="node-0x247370">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Bed Room
+This is where I sleep every night. My bed is right in front of me, the phone and my address book is on the nightstand to the left of the bed, and a desk lamp lights the room. The Kitchen is to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="42">YES</temporary>
+    <children>
+      <child nodeId="node-0x247300" />
+    </children>
+  </item>
+  <item nodeId="node-0x247300">
+    <command xml:space="preserve">take phone</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="41">YES</temporary>
+  </item>
+  <item nodeId="node-0x247290">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0x247220" />
+    </children>
+  </item>
+  <item nodeId="node-0x247220">
+    <command xml:space="preserve">take phone</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0x2471b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2471b0">
+    <command xml:space="preserve">424-8475</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0x247140" />
+    </children>
+  </item>
+  <item nodeId="node-0x247140">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0x2470d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2470d0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0x247060" />
+    </children>
+  </item>
+  <item nodeId="node-0x247060">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+My Kitchen
+This is where I cook my meals. It is a medium sized room with an oven and a refrigerator. The oven is in the far corner of the room, The refrigerator is on the right wall. There is a marble table in the middle of the room. My recipe locker is next to the refrigerator. The kitchen is lit by while florescent lights and a window that looks out into the yard. The Dining Room is to the west, the Bed Room is to the south, the Living room is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0x246ff0" />
+    </children>
+  </item>
+  <item nodeId="node-0x246ff0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="106">YES</temporary>
+  </item>
+  <item nodeId="node-0x244eb0">
+    <command xml:space="preserve">x recipe locker</command>
+    <result xml:space="preserve">I only understood you as far as wanting to examine Recipe storage.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="11">YES</temporary>
+    <children>
+      <child nodeId="node-0x244e40" />
+    </children>
+  </item>
+  <item nodeId="node-0x244e40">
+    <command xml:space="preserve">x recipe storage</command>
+    <result xml:space="preserve">It is a white wood locker that I keep my recipes in. It is closed.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+  </item>
+  <item nodeId="node-0x246f80">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying nothing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="136">YES</temporary>
+    <children>
+      <child nodeId="node-0x246e30" />
+      <child nodeId="node-0x246f10" />
+    </children>
+  </item>
+  <item nodeId="node-0x246f10">
+    <command xml:space="preserve">rules on</command>
+    <result xml:space="preserve">Rules tracing now switched on. Type &quot;rules off&quot; to switch it off again, or &quot;rules all&quot; to include even rules which do not apply.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="134">YES</temporary>
+    <children>
+      <child nodeId="node-0x246ea0" />
+    </children>
+  </item>
+  <item nodeId="node-0x246ea0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">[Rule &quot;declare everything initially unmentioned rule&quot; applies.]
+[Rule &quot;determine visibility ceiling rule&quot; applies.]
+[Rule &quot;announce items from multiple object lists rule&quot; applies.]
+[Rule &quot;set pronouns from items from multiple object lists rule&quot; applies.]
+[Rule &quot;before stage rule&quot; applies.]
+[Rule &quot;instead stage rule&quot; applies.]
+[Rule &quot;Instead of looking&quot; applies.]
+asdf
+[Rule &quot;A first turn sequence rule&quot; applies.]
+[Rule &quot;every turn stage rule&quot; applies.]
+[Rule &quot;An every turn rule&quot; applies.]
+[Rule &quot;An every turn rule&quot; applies.]
+[Rule &quot;A last turn sequence rule&quot; applies.]
+[Rule &quot;notify score changes rule&quot; applies.]
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="133">YES</temporary>
+  </item>
+  <item nodeId="node-0x246e30">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Instead of looking rule triggered
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="135">YES</temporary>
+    <children>
+      <child nodeId="node-0x246dc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x246dc0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x246d50" />
+    </children>
+  </item>
+  <item nodeId="node-0x246d50">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x246ce0" />
+    </children>
+  </item>
+  <item nodeId="node-0x246ce0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x246c70" />
+    </children>
+  </item>
+  <item nodeId="node-0x246c70">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x246c00" />
+    </children>
+  </item>
+  <item nodeId="node-0x246c00">
+    <command xml:space="preserve">l&apos;l</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x246b90" />
+    </children>
+  </item>
+  <item nodeId="node-0x246b90">
+    <command xml:space="preserve">ll</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x246b20" />
+    </children>
+  </item>
+  <item nodeId="node-0x246b20">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x246ab0" />
+    </children>
+  </item>
+  <item nodeId="node-0x246ab0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x246a40" />
+    </children>
+  </item>
+  <item nodeId="node-0x246a40">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x2469d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2469d0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x246960" />
+    </children>
+  </item>
+  <item nodeId="node-0x246960">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x2468f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2468f0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x246880" />
+    </children>
+  </item>
+  <item nodeId="node-0x246880">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x246810" />
+    </children>
+  </item>
+  <item nodeId="node-0x246810">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x2467a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2467a0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x246730" />
+    </children>
+  </item>
+  <item nodeId="node-0x246730">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x2466c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2466c0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x246650" />
+    </children>
+  </item>
+  <item nodeId="node-0x246650">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x2465e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2465e0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x246570" />
+    </children>
+  </item>
+  <item nodeId="node-0x246570">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x246500" />
+    </children>
+  </item>
+  <item nodeId="node-0x246500">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x246490" />
+    </children>
+  </item>
+  <item nodeId="node-0x246490">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x246420" />
+    </children>
+  </item>
+  <item nodeId="node-0x246420">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x2463b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2463b0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x246340" />
+    </children>
+  </item>
+  <item nodeId="node-0x246340">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x2462d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2462d0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x246260" />
+    </children>
+  </item>
+  <item nodeId="node-0x246260">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x2461f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2461f0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x246180" />
+    </children>
+  </item>
+  <item nodeId="node-0x246180">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x246110" />
+    </children>
+  </item>
+  <item nodeId="node-0x246110">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x2460a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2460a0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x246030" />
+    </children>
+  </item>
+  <item nodeId="node-0x246030">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x245fc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x245fc0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x245f50" />
+    </children>
+  </item>
+  <item nodeId="node-0x245f50">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x245ee0" />
+    </children>
+  </item>
+  <item nodeId="node-0x245ee0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x245e70" />
+    </children>
+  </item>
+  <item nodeId="node-0x245e70">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x245e00" />
+    </children>
+  </item>
+  <item nodeId="node-0x245e00">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x245d90" />
+    </children>
+  </item>
+  <item nodeId="node-0x245d90">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x245d20" />
+    </children>
+  </item>
+  <item nodeId="node-0x245d20">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x245cb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x245cb0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x245c40" />
+    </children>
+  </item>
+  <item nodeId="node-0x245c40">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x245bd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x245bd0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x245b60" />
+    </children>
+  </item>
+  <item nodeId="node-0x245b60">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x245af0" />
+    </children>
+  </item>
+  <item nodeId="node-0x245af0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x245a80" />
+    </children>
+  </item>
+  <item nodeId="node-0x245a80">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x245a10" />
+    </children>
+  </item>
+  <item nodeId="node-0x245a10">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x2459a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2459a0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x245930" />
+    </children>
+  </item>
+  <item nodeId="node-0x245930">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x2458c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2458c0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x245850" />
+    </children>
+  </item>
+  <item nodeId="node-0x245850">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x2457e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2457e0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x245770" />
+    </children>
+  </item>
+  <item nodeId="node-0x245770">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x245700" />
+    </children>
+  </item>
+  <item nodeId="node-0x245700">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x245690" />
+    </children>
+  </item>
+  <item nodeId="node-0x245690">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x245620" />
+    </children>
+  </item>
+  <item nodeId="node-0x245620">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x2455b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2455b0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x245540" />
+    </children>
+  </item>
+  <item nodeId="node-0x245540">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x2454d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2454d0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x245460" />
+    </children>
+  </item>
+  <item nodeId="node-0x245460">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x2453f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2453f0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x245380" />
+    </children>
+  </item>
+  <item nodeId="node-0x245380">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x245310" />
+    </children>
+  </item>
+  <item nodeId="node-0x245310">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x2452a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2452a0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">asdf
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="130">YES</temporary>
+  </item>
+  <item nodeId="node-0x36a580">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">You hold out your hand, close your eyes, and consentrate. You will all objects to fly to you, but nothing happens.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="83">YES</temporary>
+    <children>
+      <child nodeId="node-0xc5ace40" />
+    </children>
+  </item>
+  <item nodeId="node-0xc5ace40">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Living Room
+This is the living room where I sit on the couch and watch TV. My address book is here on the coffee table. The Street is past the front door to the north.
+
+You can see Coffee Table and Address Book (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="83">YES</temporary>
+    <children>
+      <child nodeId="node-0xc5dccc0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc5dccc0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Clementine Way
+This is the street that runs past the front of my house. Good thing the street lights are on, otherwise, it would be pitch black. The sidewalk and asphalt are in good condition. Cool Autumn breezes make you shiver slightly. The Intersection by Jennifer&apos;s house is to the east, and my house is to the south.
+
+Where am I going? I haven&apos;t even contacted Jennifer yet.
+
+Living Room
+This is the living room where I sit on the couch and watch TV. My address book is here on the coffee table. The Street is past the front door to the north.
+
+You can see Coffee Table and Address Book (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="83">YES</temporary>
+    <children>
+      <child nodeId="node-0xc577a10" />
+    </children>
+  </item>
+  <item nodeId="node-0xc577a10">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="83">YES</temporary>
+    <children>
+      <child nodeId="node-0x7039b90" />
+    </children>
+  </item>
+  <item nodeId="node-0x7039b90">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+My Kitchen
+This is where I cook my meals. It is a medium sized room with an oven and a refrigerator. The oven is in the far corner of the room, The refrigerator is on the right wall. There is a marble table in the middle of the room. My recipe locker is next to the refrigerator. The kitchen is lit by while florescent lights and a window that looks out into the yard. The Dining Room is to the west, the Bed Room is to the south, the Living room is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="83">YES</temporary>
+    <children>
+      <child nodeId="node-0xec7b990" />
+    </children>
+  </item>
+  <item nodeId="node-0xec7b990">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Bed Room
+This is where I sleep every night. My bed is right in front of me, the phone and my address book is on the nightstand to the left of the bed, and a desk lamp lights the room. The Kitchen is to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="83">YES</temporary>
+    <children>
+      <child nodeId="node-0xec60bb0" />
+    </children>
+  </item>
+  <item nodeId="node-0xec60bb0">
+    <command xml:space="preserve">take phone</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="83">YES</temporary>
+    <children>
+      <child nodeId="node-0xecd2100" />
+    </children>
+  </item>
+  <item nodeId="node-0xecd2100">
+    <command xml:space="preserve">424-4875</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="83">YES</temporary>
+    <children>
+      <child nodeId="node-0xde2e800" />
+    </children>
+  </item>
+  <item nodeId="node-0xde2e800">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+My Kitchen
+This is where I cook my meals. It is a medium sized room with an oven and a refrigerator. The oven is in the far corner of the room, The refrigerator is on the right wall. There is a marble table in the middle of the room. My recipe locker is next to the refrigerator. The kitchen is lit by while florescent lights and a window that looks out into the yard. The Dining Room is to the west, the Bed Room is to the south, the Living room is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="83">YES</temporary>
+    <children>
+      <child nodeId="node-0xde079f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xde079f0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Dining Room
+This is where meals are eaten. It is a small room consisting of a small wood table, 2 wood chairs, and a utensil cabinet. A glass chandelier casts a warm glow in the room. There is a window that looks out onto Clementine Way. The Kitchen is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="83">YES</temporary>
+    <children>
+      <child nodeId="node-0xdee5960" />
+    </children>
+  </item>
+  <item nodeId="node-0xdee5960">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+My Kitchen
+This is where I cook my meals. It is a medium sized room with an oven and a refrigerator. The oven is in the far corner of the room, The refrigerator is on the right wall. There is a marble table in the middle of the room. My recipe locker is next to the refrigerator. The kitchen is lit by while florescent lights and a window that looks out into the yard. The Dining Room is to the west, the Bed Room is to the south, the Living room is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="83">YES</temporary>
+    <children>
+      <child nodeId="node-0x9753e30" />
+    </children>
+  </item>
+  <item nodeId="node-0x9753e30">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Living Room
+This is the living room where I sit on the couch and watch TV. My address book is here on the coffee table. The Street is past the front door to the north.
+
+You can see Coffee Table and Address Book (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="83">YES</temporary>
+    <children>
+      <child nodeId="node-0x3670c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x3670c0">
+    <command xml:space="preserve">take adress book</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="83">YES</temporary>
+    <children>
+      <child nodeId="node-0xde25530" />
+    </children>
+  </item>
+  <item nodeId="node-0xde25530">
+    <command xml:space="preserve">take address book</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="83">YES</temporary>
+    <children>
+      <child nodeId="node-0xde374d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xde374d0">
+    <command xml:space="preserve">open address book</command>
+    <result xml:space="preserve">You open Address Book, revealing Jennifer&apos;s Number, Mitch&apos;s Number, Margret&apos;s Number and Steve&apos;s Number.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="83">YES</temporary>
+    <children>
+      <child nodeId="node-0xf863fe0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf863fe0">
+    <command xml:space="preserve">x jennifer&apos;s number</command>
+    <result xml:space="preserve">424-8475
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="83">YES</temporary>
+    <children>
+      <child nodeId="node-0xde55a30" />
+    </children>
+  </item>
+  <item nodeId="node-0xde55a30">
+    <command xml:space="preserve">call 424-8475</command>
+    <result xml:space="preserve">Alright, so I need to ask Jennifer about her plans for tonight. What should I ask about? Dinner? Movies? Shopping? You take a deep breath and dial the number.  After a couple rings, Jennifer&apos;s voice comes over the line. &quot;Hello?&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="83">YES</temporary>
+    <children>
+      <child nodeId="node-0xecb78d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xecb78d0">
+    <command xml:space="preserve">jump</command>
+    <result xml:space="preserve">You jump on the spot.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="83">YES</temporary>
+    <children>
+      <child nodeId="node-0xde398c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xde398c0">
+    <command xml:space="preserve">ask jennifer dinner</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="83">YES</temporary>
+    <children>
+      <child nodeId="node-0xde08770" />
+    </children>
+  </item>
+  <item nodeId="node-0xde08770">
+    <command xml:space="preserve">ask jennifer about if she is okay</command>
+    <result xml:space="preserve">There is no reply.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="83">YES</temporary>
+    <children>
+      <child nodeId="node-0x6f17aa0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6f17aa0">
+    <command xml:space="preserve">ask jennifer about if she is ok</command>
+    <result xml:space="preserve">no
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="82">YES</temporary>
+  </item>
+  <item nodeId="node-0x242830">
+    <command xml:space="preserve">take oven controls</command>
+    <result xml:space="preserve">That seems to be a part of Oven.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1">YES</temporary>
+  </item>
+  <item nodeId="node-0x2427c0">
+    <command xml:space="preserve">hello</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="9">YES</temporary>
+    <children>
+      <child nodeId="node-0x242750" />
+    </children>
+  </item>
+  <item nodeId="node-0x242750">
+    <command xml:space="preserve">x me</command>
+    <result xml:space="preserve">As good-looking as ever.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="9">YES</temporary>
+    <children>
+      <child nodeId="node-0x2426e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2426e0">
+    <command xml:space="preserve">xme</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="9">YES</temporary>
+    <children>
+      <child nodeId="node-0x242670" />
+    </children>
+  </item>
+  <item nodeId="node-0x242670">
+    <command xml:space="preserve">x me</command>
+    <result xml:space="preserve">As good-looking as ever.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="9">YES</temporary>
+    <children>
+      <child nodeId="node-0x242600" />
+    </children>
+  </item>
+  <item nodeId="node-0x242600">
+    <command xml:space="preserve">x me</command>
+    <result xml:space="preserve">As good-looking as ever.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="9">YES</temporary>
+    <children>
+      <child nodeId="node-0x242590" />
+    </children>
+  </item>
+  <item nodeId="node-0x242590">
+    <command xml:space="preserve">yes</command>
+    <result xml:space="preserve">That was a rhetorical question.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="9">YES</temporary>
+    <children>
+      <child nodeId="node-0x242520" />
+    </children>
+  </item>
+  <item nodeId="node-0x242520">
+    <command xml:space="preserve">are you there?</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="9">YES</temporary>
+    <children>
+      <child nodeId="node-0x2424b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2424b0">
+    <command xml:space="preserve">no</command>
+    <result xml:space="preserve">That was a rhetorical question.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="8">YES</temporary>
+  </item>
+  <item nodeId="node-0x2499b0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Dining Room
+This is where meals are eaten. It is a small room consisting of a small wood table, 2 wood chairs, and a utensil cabinet. A glass chandelier casts a warm glow in the room. There is a window that looks out onto Clementine Way. The Kitchen is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x249a20" />
+    </children>
+  </item>
+  <item nodeId="node-0x249a20">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+My Kitchen
+This is where I cook my meals. It is a medium sized room with an oven and a refrigerator. The oven is in the far corner of the room, The refrigerator is on the right wall. There is a marble table in the middle of the room. My recipe locker is next to the refrigerator. The kitchen is lit by while florescent lights and a window that looks out into the yard. The Dining Room is to the west, the Bed Room is to the south, the Living room is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x249a90" />
+    </children>
+  </item>
+  <item nodeId="node-0x249a90">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Living Room
+This is the living room where I sit on the couch and watch TV. My address book is here on the coffee table.  The Street is past the front door to the north.
+
+You can see Coffee Table here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x249b40" />
+    </children>
+  </item>
+  <item nodeId="node-0x249b40">
+    <command xml:space="preserve">take table</command>
+    <result xml:space="preserve">That&apos;s fixed in place.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x249960" />
+    </children>
+  </item>
+  <item nodeId="node-0x249960">
+    <command xml:space="preserve">open adress book</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x249910" />
+    </children>
+  </item>
+  <item nodeId="node-0x249910">
+    <command xml:space="preserve">open book</command>
+    <result xml:space="preserve">You open Address Book, revealing Jennifer&apos;s Number, Mitch&apos;s Number, Margret&apos;s Number and Steve&apos;s Number.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x249820" />
+    </children>
+  </item>
+  <item nodeId="node-0x249820">
+    <command xml:space="preserve">x Jennifer&apos;s number</command>
+    <result xml:space="preserve">424-8475
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x2497d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2497d0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+My Kitchen
+This is where I cook my meals. It is a medium sized room with an oven and a refrigerator. The oven is in the far corner of the room, The refrigerator is on the right wall. There is a marble table in the middle of the room. My recipe locker is next to the refrigerator. The kitchen is lit by while florescent lights and a window that looks out into the yard. The Dining Room is to the west, the Bed Room is to the south, the Living room is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x249780" />
+    </children>
+  </item>
+  <item nodeId="node-0x249780">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Bed Room
+This is where I sleep every night. My bed is right in front of me, the phone and my address book is on the nightstand to the left of the bed, and a desk lamp lights the room. The Kitchen is to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x249710" />
+    </children>
+  </item>
+  <item nodeId="node-0x249710">
+    <command xml:space="preserve">take phone</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x2496a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2496a0">
+    <command xml:space="preserve">call 424-8475</command>
+    <result xml:space="preserve">Alright, so I need to ask Jennifer about her plans for tonight. What should I ask about? Dinner? Movies? Shopping? You take a deep breath and dial the number.  After a couple rings, Jennifer&apos;s voice comes over the line. &quot;Hello?&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x249570" />
+    </children>
+  </item>
+  <item nodeId="node-0x249570">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Bed Room
+This is where I sleep every night. My bed is right in front of me, the phone and my address book is on the nightstand to the left of the bed, and a desk lamp lights the room. The Kitchen is to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x249520" />
+    </children>
+  </item>
+  <item nodeId="node-0x249520">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Bed Room
+This is where I sleep every night. My bed is right in front of me, the phone and my address book is on the nightstand to the left of the bed, and a desk lamp lights the room. The Kitchen is to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x2494d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2494d0">
+    <command xml:space="preserve">424-8475</command>
+    <result xml:space="preserve">Alright, so I need to ask Jennifer about her plans for tonight. What should I ask about? Dinner? Movies? Shopping? You take a deep breath and dial the number.  After a couple rings, Jennifer&apos;s voice comes over the line. &quot;Hello?&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x249480" />
+    </children>
+  </item>
+  <item nodeId="node-0x249480">
+    <command xml:space="preserve">ask Jennifer about me</command>
+    <result xml:space="preserve">There is no reply.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x249430" />
+    </children>
+  </item>
+  <item nodeId="node-0x249430">
+    <command xml:space="preserve">ask Jennifer about black tonight</command>
+    <result xml:space="preserve">There is no reply.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x2493c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2493c0">
+    <command xml:space="preserve">ask Jennifer about plans tonight</command>
+    <result xml:space="preserve">Um, I dont think I have any plans for tonight. Why? Do you want to do something?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x249350" />
+    </children>
+  </item>
+  <item nodeId="node-0x249350">
+    <command xml:space="preserve">ask jennifer about dinner</command>
+    <result xml:space="preserve">&quot;Hmm... Sure.&quot; Says Jennifer. &quot;Oh! Remember that old recipie that we used to make as teens? What was it called? Umm...  Margret&apos;s Casserole!&quot; 
+
+ &quot;Yes,&quot; you say. &quot;I think I still have that recipe in my recipe drawer.&quot; 
+
+ &quot;Ok, cool&quot; responds Jennifer. I still have a lot of work to do, so could you call me back when you have it ready?&quot; 
+
+ &quot;Sure,&quot; you say. &quot;I&apos;ll call you later.&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x2492e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2492e0">
+    <command xml:space="preserve">ask Jennifer about a dinner</command>
+    <result xml:space="preserve">I already asked Jennifer about dinner, and she said yes. No need to ask her again.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x249620" />
+    </children>
+  </item>
+  <item nodeId="node-0x249620">
+    <command xml:space="preserve">ask Jennifer about dinner</command>
+    <result xml:space="preserve">I already asked Jennifer about dinner, and she said yes. No need to ask her again.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x2495c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2495c0">
+    <command xml:space="preserve">story line</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x2490d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2490d0">
+    <command xml:space="preserve">ask Jennifer about dinner</command>
+    <result xml:space="preserve">I already asked Jennifer about dinner, and she said yes. No need to ask her again.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x249060" />
+    </children>
+  </item>
+  <item nodeId="node-0x249060">
+    <command xml:space="preserve">hang up</command>
+    <result xml:space="preserve">&quot;Ok, I have to go now.&quot; You say. &quot;Bye!&quot; You press the end call button and put down the phone gently.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x248ff0" />
+    </children>
+  </item>
+  <item nodeId="node-0x248ff0">
+    <command xml:space="preserve">ask Jennifer about dinner</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x248f80" />
+    </children>
+  </item>
+  <item nodeId="node-0x248f80">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+My Kitchen
+This is where I cook my meals. It is a medium sized room with an oven and a refrigerator. The oven is in the far corner of the room, The refrigerator is on the right wall. There is a marble table in the middle of the room. My recipe locker is next to the refrigerator. The kitchen is lit by while florescent lights and a window that looks out into the yard. The Dining Room is to the west, the Bed Room is to the south, the Living room is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x248f10" />
+    </children>
+  </item>
+  <item nodeId="node-0x248f10">
+    <command xml:space="preserve">open pantry</command>
+    <result xml:space="preserve">You open Pantry, revealing Onion and Unlabeled can of soup.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x248ea0" />
+    </children>
+  </item>
+  <item nodeId="node-0x248ea0">
+    <command xml:space="preserve">take onion</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x248e30" />
+    </children>
+  </item>
+  <item nodeId="node-0x248e30">
+    <command xml:space="preserve">open refridgerator</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x248dc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x248dc0">
+    <command xml:space="preserve">open refrigerator</command>
+    <result xml:space="preserve">You open Refrigerator, revealing Bacon and Chicken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x248d50" />
+    </children>
+  </item>
+  <item nodeId="node-0x248d50">
+    <command xml:space="preserve">take bacon</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x248ce0" />
+    </children>
+  </item>
+  <item nodeId="node-0x248ce0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Bacon
+  Onion
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x248c70" />
+    </children>
+  </item>
+  <item nodeId="node-0x248c70">
+    <command xml:space="preserve">mix bacon and onion</command>
+    <result xml:space="preserve">You can&apos;t use multiple objects with that verb.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x249210" />
+    </children>
+  </item>
+  <item nodeId="node-0x249210">
+    <command xml:space="preserve">mix bacon with onion</command>
+    <result xml:space="preserve">You mix the bacon and onions until it is well spread out.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x249160" />
+    </children>
+  </item>
+  <item nodeId="node-0x249160">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Chopped Ingredients
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x2491b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2491b0">
+    <command xml:space="preserve">take chicken</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x2489c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2489c0">
+    <command xml:space="preserve">take unlabled can of soup</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x248950" />
+    </children>
+  </item>
+  <item nodeId="node-0x248950">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">My Kitchen
+This is where I cook my meals. It is a medium sized room with an oven and a refrigerator. The oven is in the far corner of the room, The refrigerator is on the right wall. There is a marble table in the middle of the room. My recipe locker is next to the refrigerator. The kitchen is lit by while florescent lights and a window that looks out into the yard. The Dining Room is to the west, the Bed Room is to the south, the Living room is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x2488e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2488e0">
+    <command xml:space="preserve">x pantry</command>
+    <result xml:space="preserve">The pantry is where I store all the non-perisable food items.
+
+In Pantry is Unlabeled can of soup.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x248870" />
+    </children>
+  </item>
+  <item nodeId="node-0x248870">
+    <command xml:space="preserve">take unlabled can of soup</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x248800" />
+    </children>
+  </item>
+  <item nodeId="node-0x248800">
+    <command xml:space="preserve">take Unlabeled can of soup</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x248790" />
+    </children>
+  </item>
+  <item nodeId="node-0x248790">
+    <command xml:space="preserve">open soup</command>
+    <result xml:space="preserve">You open Unlabeled can of soup, revealing Orange Soup.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x248720" />
+    </children>
+  </item>
+  <item nodeId="node-0x248720">
+    <command xml:space="preserve">x soupp</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x2486b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2486b0">
+    <command xml:space="preserve">x soup</command>
+    <result xml:space="preserve">(Unlabeled can of soup)
+An unlabeled can of soup. The outside is made of the typical shiny corrugated tin. I wonder what&apos;s inside it.
+
+In Unlabeled can of soup is Orange Soup.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x248640" />
+    </children>
+  </item>
+  <item nodeId="node-0x248640">
+    <command xml:space="preserve">x orange soup</command>
+    <result xml:space="preserve">An orange-colored soup. I wonder what it tastes like.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x2485d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2485d0">
+    <command xml:space="preserve">x unlabeled can of soup</command>
+    <result xml:space="preserve">An unlabeled can of soup. The outside is made of the typical shiny corrugated tin. I wonder what&apos;s inside it.
+
+In Unlabeled can of soup is Orange Soup.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x248560" />
+    </children>
+  </item>
+  <item nodeId="node-0x248560">
+    <command xml:space="preserve">take orange soup</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x2484f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2484f0">
+    <command xml:space="preserve">mix orange soup with chicken</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x248480" />
+    </children>
+  </item>
+  <item nodeId="node-0x248480">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Orange Soup
+  Unlabeled can of soup (open but empty)
+  Chicken
+  Chopped Ingredients
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x248410" />
+    </children>
+  </item>
+  <item nodeId="node-0x248410">
+    <command xml:space="preserve">mix chicken with orange soup</command>
+    <result xml:space="preserve">You mix the chicken with the orange-colored soup until the chicken is fully mixed with the soup.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x2483a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2483a0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Soupy Mixture
+  Chopped Ingredients
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x248330" />
+    </children>
+  </item>
+  <item nodeId="node-0x248330">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Soupy Mixture
+  Chopped Ingredients
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x2482c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2482c0">
+    <command xml:space="preserve">take old recipe</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x248a10" />
+    </children>
+  </item>
+  <item nodeId="node-0x248a10">
+    <command xml:space="preserve">take old recipe</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x248a80" />
+    </children>
+  </item>
+  <item nodeId="node-0x248a80">
+    <command xml:space="preserve">take Margret&apos;s casserole</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x248af0" />
+    </children>
+  </item>
+  <item nodeId="node-0x248af0">
+    <command xml:space="preserve">x recipe sorage</command>
+    <result xml:space="preserve">I only understood you as far as wanting to examine Recipe storage.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x248b60" />
+    </children>
+  </item>
+  <item nodeId="node-0x248b60">
+    <command xml:space="preserve">x recipe storage</command>
+    <result xml:space="preserve">It is a white wood locker that I keep my recipes in. It is closed. There are a bunch of interesting recipes in here, but there is one that you had intended to make for Jennifer. Ole Casserole Recipe.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x248bd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x248bd0">
+    <command xml:space="preserve">take margret&apos;s casserole recipe</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x248250" />
+    </children>
+  </item>
+  <item nodeId="node-0x248250">
+    <command xml:space="preserve">take margret&apos;s casserole recipe</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x2481e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2481e0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Soupy Mixture
+  Chopped Ingredients
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x248170" />
+    </children>
+  </item>
+  <item nodeId="node-0x248170">
+    <command xml:space="preserve">open recipe storage</command>
+    <result xml:space="preserve">You open Recipe storage, revealing Old Casserole recipe.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x248100" />
+    </children>
+  </item>
+  <item nodeId="node-0x248100">
+    <command xml:space="preserve">take Margret&apos;s casserole recipe</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x248090" />
+    </children>
+  </item>
+  <item nodeId="node-0x248090">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Soupy Mixture
+  Chopped Ingredients
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x248020" />
+    </children>
+  </item>
+  <item nodeId="node-0x248020">
+    <command xml:space="preserve">mix chopped ingredients with soupy mixture</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x247fb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x247fb0">
+    <command xml:space="preserve">mis soupy mixture with chopped ingredients</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x247f40" />
+    </children>
+  </item>
+  <item nodeId="node-0x247f40">
+    <command xml:space="preserve">mix soupy mixture with chopped ingredients</command>
+    <result xml:space="preserve">You put all the ingredients together and now it is ready to be baked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x247ed0" />
+    </children>
+  </item>
+  <item nodeId="node-0x247ed0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Uncooked Mixture
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x247e60" />
+    </children>
+  </item>
+  <item nodeId="node-0x247e60">
+    <command xml:space="preserve">put uncooked mixture into oven</command>
+    <result xml:space="preserve">(Oven)
+Oven is closed.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x247df0" />
+    </children>
+  </item>
+  <item nodeId="node-0x247df0">
+    <command xml:space="preserve">open oven</command>
+    <result xml:space="preserve">(Oven)
+You open Oven.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x247d80" />
+    </children>
+  </item>
+  <item nodeId="node-0x247d80">
+    <command xml:space="preserve">put uncooked mixture into oven</command>
+    <result xml:space="preserve">(Oven)
+You put Uncooked Mixture into Oven.
+
+The Oven isn&apos;t on! I need to turn it on before I can cook anything in there.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x247d10" />
+    </children>
+  </item>
+  <item nodeId="node-0x247d10">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Uncooked Mixture
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x247ca0" />
+    </children>
+  </item>
+  <item nodeId="node-0x247ca0">
+    <command xml:space="preserve">turn oven to 350</command>
+    <result xml:space="preserve">(Oven to that)
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x247c30" />
+    </children>
+  </item>
+  <item nodeId="node-0x247c30">
+    <command xml:space="preserve">x oven</command>
+    <result xml:space="preserve">(Oven)
+A standard electric oven. It is fairly new, I only bought it six months ago. The oven controls is a simple knob that has different temperatures on it. 300, 350 and 400. 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x247bc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x247bc0">
+    <command xml:space="preserve">turn knob to 350</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x247b50" />
+    </children>
+  </item>
+  <item nodeId="node-0x247b50">
+    <command xml:space="preserve">turn oven controls to 350</command>
+    <result xml:space="preserve">The oven heats up quickly, and you watch as the temperature rises to 350ºF. You can feel some of the heat radiating off of your face.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x247ae0" />
+    </children>
+  </item>
+  <item nodeId="node-0x247ae0">
+    <command xml:space="preserve">put uncooked mixture in oven</command>
+    <result xml:space="preserve">(Oven)
+You put Uncooked Mixture into Oven.
+
+You carefully put the uncooked mixture into the heated oven. Then, you set the timer for an hour and decide to take a nap. As soon as the casserole is done, you should call Jennifer. 
+
+ You wake up an hour later. A delicous smell floats through out the house. Time to take the casserole out.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x247a70" />
+    </children>
+  </item>
+  <item nodeId="node-0x247a70">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying nothing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x247a00" />
+    </children>
+  </item>
+  <item nodeId="node-0x247a00">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">My Kitchen
+This is where I cook my meals. It is a medium sized room with an oven and a refrigerator. The oven is in the far corner of the room, The refrigerator is on the right wall. There is a marble table in the middle of the room. My recipe locker is next to the refrigerator. The kitchen is lit by while florescent lights and a window that looks out into the yard. The Dining Room is to the west, the Bed Room is to the south, the Living room is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x247990" />
+    </children>
+  </item>
+  <item nodeId="node-0x247990">
+    <command xml:space="preserve">x oven</command>
+    <result xml:space="preserve">(Oven)
+A standard electric oven. It is fairly new, I only bought it six months ago. The oven controls is a simple knob that has different temperatures on it. 300, 350 and 400.  Now the oven is at a scorching 350ºF.
+
+In Oven is Margret&apos;s Casserole.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x247920" />
+    </children>
+  </item>
+  <item nodeId="node-0x247920">
+    <command xml:space="preserve">take margret&apos;s casserole</command>
+    <result xml:space="preserve">You carefully take the casserole out of the oven. It is still steaming, but it looks scrumptious.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x2478b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2478b0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">My Kitchen
+This is where I cook my meals. It is a medium sized room with an oven and a refrigerator. The oven is in the far corner of the room, The refrigerator is on the right wall. There is a marble table in the middle of the room. My recipe locker is next to the refrigerator. The kitchen is lit by while florescent lights and a window that looks out into the yard. The Dining Room is to the west, the Bed Room is to the south, the Living room is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x247840" />
+    </children>
+  </item>
+  <item nodeId="node-0x247840">
+    <command xml:space="preserve">take phone</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x2477d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2477d0">
+    <command xml:space="preserve">take phone</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x247760" />
+    </children>
+  </item>
+  <item nodeId="node-0x247760">
+    <command xml:space="preserve">take telephone</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x2476f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2476f0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Bed Room
+This is where I sleep every night. My bed is right in front of me, the phone and my address book is on the nightstand to the left of the bed, and a desk lamp lights the room. The Kitchen is to the north.
+
+You can see Phone here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x247680" />
+    </children>
+  </item>
+  <item nodeId="node-0x247680">
+    <command xml:space="preserve">take phone</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2073">YES</temporary>
+    <children>
+      <child nodeId="node-0x247610" />
+    </children>
+  </item>
+  <item nodeId="node-0x247610">
+    <command xml:space="preserve">call 424-8475</command>
+    <result xml:space="preserve">After a couple of rings, Jennifer picks up the phone.
+
+ &quot;Hi&quot; says Jennifer. 
+
+&quot;Hello&quot; you say. &quot;I have the casserole ready.&quot; 
+
+ &quot;Ok, great, I&apos;ll be right over. See you soon!&quot;
+
+
+
+    *** you win! ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="2072">YES</temporary>
+  </item>
+  <item nodeId="node-0x244dd0">
+    <command xml:space="preserve">turn oven controls to 200</command>
+    <result xml:space="preserve">The oven is starting to get warm.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2">YES</temporary>
+  </item>
+</Skein>

@@ -20,8 +20,8 @@ You can see Cigarette Pack (closed) here.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="107">NO</temporary>
+    <changed>NO</changed>
+    <temporary score="119">NO</temporary>
     <children>
       <child nodeId="node-0x244dd0" />
       <child nodeId="node-0x2499b0" />
@@ -1236,7 +1236,7 @@ A standard electric oven. It is fairly new, I only bought it six months ago. The
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="107">YES</temporary>
+    <temporary score="119">YES</temporary>
     <children>
       <child nodeId="node-0x242280" />
       <child nodeId="node-0x242360" />
@@ -1250,7 +1250,7 @@ A standard electric oven. It is fairly new, I only bought it six months ago. The
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="107">YES</temporary>
+    <temporary score="119">YES</temporary>
     <children>
       <child nodeId="node-0xf87b250" />
     </children>
@@ -1262,7 +1262,7 @@ A standard electric oven. It is fairly new, I only bought it six months ago. The
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="107">YES</temporary>
+    <temporary score="119">YES</temporary>
     <children>
       <child nodeId="node-0xf871a90" />
     </children>
@@ -1274,7 +1274,7 @@ A standard electric oven. It is fairly new, I only bought it six months ago. The
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="107">YES</temporary>
+    <temporary score="119">YES</temporary>
     <children>
       <child nodeId="node-0xf8d86f0" />
     </children>
@@ -1290,7 +1290,7 @@ You can see Coffee Table and Address Book (closed) here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="107">YES</temporary>
+    <temporary score="119">YES</temporary>
     <children>
       <child nodeId="node-0xec97df0" />
     </children>
@@ -1302,7 +1302,7 @@ You can see Coffee Table and Address Book (closed) here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="107">YES</temporary>
+    <temporary score="119">YES</temporary>
     <children>
       <child nodeId="node-0x4f89e0" />
     </children>
@@ -1314,7 +1314,7 @@ You can see Coffee Table and Address Book (closed) here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="107">YES</temporary>
+    <temporary score="119">YES</temporary>
     <children>
       <child nodeId="node-0xde21ab0" />
     </children>
@@ -1335,7 +1335,7 @@ You can see Coffee Table and Address Book (closed) here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="107">YES</temporary>
+    <temporary score="119">YES</temporary>
     <children>
       <child nodeId="node-0xf88cd60" />
     </children>
@@ -1356,7 +1356,7 @@ You can see Coffee Table and Address Book (closed) here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="107">YES</temporary>
+    <temporary score="119">YES</temporary>
     <children>
       <child nodeId="node-0xde584a0" />
     </children>
@@ -1368,7 +1368,7 @@ You can see Coffee Table and Address Book (closed) here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="107">YES</temporary>
+    <temporary score="119">YES</temporary>
     <children>
       <child nodeId="node-0xde0ed40" />
     </children>
@@ -1380,7 +1380,7 @@ You can see Coffee Table and Address Book (closed) here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="107">YES</temporary>
+    <temporary score="119">YES</temporary>
     <children>
       <child nodeId="node-0xde3f3f0" />
     </children>
@@ -1392,7 +1392,7 @@ You can see Coffee Table and Address Book (closed) here.
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="106">YES</temporary>
+    <temporary score="118">YES</temporary>
   </item>
   <item nodeId="node-0x242360">
     <command xml:space="preserve">turn oven controls to 300</command>
