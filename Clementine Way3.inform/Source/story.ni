@@ -76,7 +76,7 @@ Recipe storage is a closed openable container in the kitchen. It is undescribed.
 
 [Margret's Casserole is a thing in recipe storage. The description is "This is a dish that Jennifer and I used to make when we were kids. It is still a good recipe, in fact, I made it a month ago, and it tasted great! But I accidentally ripped the paper when I made it last time. To make matters worse, I've completely forgotten how to make it. I can only make out some writing of the scraps. 'Soup'...'oven'. Not going to be much help, but it's all I got for now."][This code is for if I have time to make the player find the parts of the recipe]
 
-Old Casserole recipe is a thing inside recipe storage. The description is "This is a dish that Jennifer and I used to make when we were kids. It is still a good recipe, in fact, I made it a month ago, and it tasted great! This is the recipe: [paragraph break] Ingredients: bacon, onions, chicken, Alfredo soup. [paragraph break] Directions: turn oven on to 350 ºF. Mix bacon with onion and then mix chicken and Alfredo soup. Then, put into oven for an hour."
+Old Casserole recipe is a thing inside recipe storage. The description is "This is a dish that Jennifer and I used to make when we were kids. It is still a good recipe, in fact, I made it a month ago, and it tasted great! This is the recipe: [paragraph break] Ingredients: bacon, onions, chicken, Alfredo soup. [paragraph break] Directions: turn oven on to 350 ºF. Mix bacon with onion and then mix chicken and white soup. Then, mix bacon and onion combination with chicken and soup combination. Then, put into oven for an hour."
 
 Understand "Mix [something] with [something]" as mixing it with.
 Mixing it with is an action applying to two things.

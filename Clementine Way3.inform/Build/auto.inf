@@ -42822,10 +42822,10 @@ Array TX_R_387 --> CONSTANT_PACKED_TEXT_STORAGE TX_R_387_R;
     rtrue;
 ];
 [ R_TX_S_134 ;
-    #ifdef DEBUG; if (suppress_text_substitution) { print "~This is a dish that Jennifer and I used to make when we were kids. It is still a good recipe, in fact, I made it a month ago, and it tasted great! This is the recipe: [paragraph break] Ingredients: bacon, onions, chicken, Alfredo soup. [paragraph break] Directions: turn oven on to 350 [unicode 186]F. Mix bacon with onion and then mix chicken and Alfredo soup. Then, put into oven for an hour.~"; rtrue; }
+    #ifdef DEBUG; if (suppress_text_substitution) { print "~This is a dish that Jennifer and I used to make when we were kids. It is still a good recipe, in fact, I made it a month ago, and it tasted great! This is the recipe: [paragraph break] Ingredients: bacon, onions, chicken, Alfredo soup. [paragraph break] Directions: turn oven on to 350 [unicode 186]F. Mix bacon with onion and then mix chicken and white soup. Then, mix bacon and onion combination with chicken and soup combination. Then, put into oven for an hour.~"; rtrue; }
     #endif; ! DEBUG
     say__p=1;ParaContent(); print "This is a dish that Jennifer and I used to make when we were kids. It is still a good recipe, in fact, I made it a month ago, and it tasted great! This is the recipe: ";ParaContent(); DivideParagraphPoint(); new_line;ParaContent(); print " Ingredients: bacon, onions, chicken, Alfredo soup. ";ParaContent(); DivideParagraphPoint(); new_line;ParaContent(); print " Directions: turn oven on to 350 ";ParaContent(); #ifdef TARGET_ZCODE; unicode_temp = 186; @print_unicode unicode_temp;
-    	#ifnot; unicode_temp = 186; @streamunichar unicode_temp; #endif;ParaContent(); print "F. Mix bacon with onion and then mix chicken and Alfredo soup. Then, put into oven for an hour."; .L_Say507; .L_SayX505;
+    	#ifnot; unicode_temp = 186; @streamunichar unicode_temp; #endif;ParaContent(); print "F. Mix bacon with onion and then mix chicken and white soup. Then, mix bacon and onion combination with chicken and soup combination. Then, put into oven for an hour."; .L_Say507; .L_SayX505;
     rtrue;
 ];
 [ R_TX_S_135 ;
