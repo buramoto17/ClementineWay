@@ -154,6 +154,10 @@ Unlabeled can of soup is a closed openable container in the pantry. The descript
 
 White Soup is a thing. It is inside unlabeled can of soup. It is edible. The description is "A white, creamy soup. I wonder what it tastes like.".
 
+
+Instead of eating:
+	Say "I souldn't eat the ingredients; I'll need it to cook!".
+
 [Start of Dining Room]
 Dining Room is west of the Kitchen. "This is where meals are eaten. It is a small room consisting of a small wood table, and 2 wood chairs. A glass chandelier casts a warm glow in the room. The Kitchen is to the east."
 
@@ -217,7 +221,7 @@ An every turn rule:
 [Jennifer Call conversation start]
 Instead of asking Jennifer about "[dinner]":
 	If Story Line is 1:
-		Say "'Hmm... Sure.' Says Jennifer. 'Oh! Remember that old recipe that we used to make as teens? What was it called? Umm...  Margret's Casserole!' [paragraph break] 'Yes,' you say. 'I think I still have that recipe in my recipe drawer.' [paragraph break] 'Ok, cool' responds Jennifer. I still have a lot of work to do, so could you call me back when you have it ready?' [paragraph break] 'Sure,' you say. 'I'll call you later.'";
+		Say "'Hmm... Sure.' Says Jennifer. 'Oh! Remember that old recipe that we used to make as teens? What was it called? Umm...  Margret's Casserole!' [paragraph break] 'Yes,' you say. 'I think I still have that recipe in my recipe drawer. I'll start making it right away.' [paragraph break] 'Ok, cool' responds Jennifer. I still have a lot of work to do, so could you call me back when you have it ready?' [paragraph break] 'Sure,' you say. 'I'll call you later.'";
 		Now Story Line is 2;
 	Otherwise:
 		Say "I already asked Jennifer about dinner, and she said yes. No need to ask her again.".
